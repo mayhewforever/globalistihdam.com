@@ -10,3 +10,108 @@ Investment hero — Istanbul waterfront: Adem Kömürcü / Pexels.
 https://www.pexels.com/photo/panoramic-view-of-istanbul-skyline-across-bosphorus-36835126/
 Licensed under the Pexels License: https://www.pexels.com/license/
 Optimised local file: investment-istanbul.jpg
+
+
+COUNTRY PHOTOGRAPHS — 29 September 2026
+
+country-united-arab-emirates.jpg
+Photo: Piotr Chrobot · Dubai
+Source: https://unsplash.com/photos/dubai-skyline-at-low-sun-6oUsyeYXgTg
+License: https://unsplash.com/license
+Changes: Resized proportionally and recompressed to JPEG quality 85; no cropping, compositing, recolouring or generated content.
+
+country-saudi-arabia.jpg
+Photo: B.alotaby · Riyadh
+Source: https://commons.wikimedia.org/wiki/File:Riyadh_Skyline.jpg
+License: https://creativecommons.org/licenses/by-sa/4.0/
+Changes: Resized proportionally and recompressed to JPEG quality 85; no cropping, compositing, recolouring or generated content.
+
+country-qatar.jpg
+Photo: Zairon · Doha
+Source: https://commons.wikimedia.org/wiki/File:Doha_Dhow_Harbour_Skyline_View_at_Night_01.jpg
+License: https://creativecommons.org/licenses/by/4.0/
+Changes: Resized proportionally and recompressed to JPEG quality 85; no cropping, compositing, recolouring or generated content.
+
+country-bahrain.jpg
+Photo: Charles-Adrien Fournier · Manama
+Source: https://unsplash.com/photos/city-buildings-beside-body-of-water-under-blue-sky-lDxs85UO7lU
+License: https://unsplash.com/license
+Changes: Resized proportionally and recompressed to JPEG quality 85; no cropping, compositing, recolouring or generated content.
+
+country-oman.jpg
+Photo: Izeberg007 · Muscat
+Source: https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_coastline_of_Muttrah.jpg
+License: https://creativecommons.org/publicdomain/zero/1.0/
+Changes: Resized proportionally and recompressed to JPEG quality 85; no cropping, compositing, recolouring or generated content.
+
+country-kuwait.jpg
+Photo: Zairon · Kuwait City
+Source: https://commons.wikimedia.org/wiki/File:Kuwait_City_Skyline_1.jpg
+License: https://creativecommons.org/licenses/by/4.0/
+Changes: Resized proportionally and recompressed to JPEG quality 85; no cropping, compositing, recolouring or generated content.
+
+country-azerbaijan.jpg
+Photo: Zulfugar Karimov · Baku
+Source: https://unsplash.com/photos/baku-azerbaijans-skyline-with-its-iconic-flame-towers-jGYf5ojb1xk
+License: https://unsplash.com/license
+Changes: Resized proportionally and recompressed to JPEG quality 85; no cropping, compositing, recolouring or generated content.
+
+country-north-cyprus.jpg
+Photo: CthreeA Cyprus · Kyrenia
+Source: https://commons.wikimedia.org/wiki/File:Kyrenia_Harbour_(27735388841).jpg
+License: https://creativecommons.org/licenses/by/2.0/
+Changes: Resized proportionally and recompressed to JPEG quality 85; no cropping, compositing, recolouring or generated content.
+
+country-china.jpg
+Photo: Alejo Meza · Shanghai
+Source: https://unsplash.com/photos/shanghai-china-H23f-2byY_E
+License: https://unsplash.com/license
+Changes: Resized proportionally and recompressed to JPEG quality 85; no cropping, compositing, recolouring or generated content.
+
+country-germany.jpg
+Photo: detait · Berlin
+Source: https://www.pexels.com/photo/the-brandenburg-gate-in-berlin-germany-25053929/
+License: https://www.pexels.com/license/
+Changes: Resized/recompressed. Netherlands image cropped to landscape.
+
+country-united-kingdom.jpg
+Photo: Johannes Plenio · London
+Source: https://www.pexels.com/photo/tower-bridge-beside-calm-body-of-water-at-daytime-1227808/
+License: https://www.pexels.com/license/
+Changes: Resized/recompressed. Netherlands image cropped to landscape.
+
+country-france.jpg
+Photo: Maximilian Orlowsky · Paris
+Source: https://www.pexels.com/photo/aerial-view-of-paris-with-eiffel-tower-30133212/
+License: https://www.pexels.com/license/
+Changes: Resized/recompressed. Netherlands image cropped to landscape.
+
+country-netherlands.jpg
+Photo: Matheus Bertelli · Amsterdam
+Source: https://www.pexels.com/photo/water-canal-in-a-city-18999308/
+License: https://www.pexels.com/license/
+Changes: Resized/recompressed. Netherlands image cropped to landscape.
+
+country-ireland.jpg
+Photo: Selim Karadayı · Dublin
+Source: https://www.pexels.com/photo/dublin-28377925/
+License: https://www.pexels.com/license/
+Changes: Resized/recompressed. Netherlands image cropped to landscape.
+
+country-spain.jpg
+Photo: Travel Photographer · Madrid
+Source: https://www.pexels.com/photo/gran-via-in-madrid-on-a-sunny-day-35417806/
+License: https://www.pexels.com/license/
+Changes: Resized/recompressed. Netherlands image cropped to landscape.
+
+country-usa.jpg
+Photo: Trev W. Adams · New York
+Source: https://www.pexels.com/photo/new-york-city-skyline-12589406/
+License: https://www.pexels.com/license/
+Changes: Resized/recompressed. Netherlands image cropped to landscape.
+
+country-canada.jpg
+Photo: alex ohan · Toronto
+Source: https://www.pexels.com/photo/the-toronto-skyline-11819103/
+License: https://www.pexels.com/license/
+Changes: Resized/recompressed. Netherlands image cropped to landscape.

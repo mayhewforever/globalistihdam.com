@@ -1,4 +1,4 @@
-# Global İstihdam — Temporary preview
+# Globalistihdam Recruitment&Investment Agency — Temporary preview
 
 Bilingual static website preview. Public marketing pages only; no application records, credentials or server code are included. Application and administration links open the separate access-controlled portal.
 
