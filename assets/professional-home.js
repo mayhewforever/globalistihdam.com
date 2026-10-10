@@ -23,12 +23,12 @@
       servicesIntro: 'İnsan kaynağından eğitime, pazara girişten yeni teknolojilere. İhtiyacınıza uygun hizmet alanını keşfedin.',
       about: 'Globalistihdam’ı tanıyın',
       services: [
-        ['İstihdam ve insan kaynakları', 'İşverenlerin personel ihtiyaçlarını ve adayların deneyimlerini sektörün beklentileriyle birlikte değerlendiren danışmanlık.', 'İŞVERENLER & ADAYLAR', 'İstihdam hizmetlerini keşfedin'],
-        ['Uluslararası eğitim', 'Ülke, üniversite ve program seçeneklerini keşfedin. Akademik hedeflerinize uygun bir başvuru planı hazırlayın.', 'ÖĞRENCİLER & ÜNİVERSİTELER', 'Eğitim seçeneklerini keşfedin'],
-        ['Yatırım ve pazara giriş', 'Yeni bir pazarı anlamak, iş bağlantılarını değerlendirmek ve sonraki adımları belirlemek için danışmanlık alanlarımızı inceleyin.', 'GİRİŞİMCİLER & İŞLETMELER', 'Yatırım danışmanlığını keşfedin'],
-        ['İnsansı robotlar', 'İnsansı robotik çözümlerin kullanım alanlarını keşfedin. Kurumunuzun uygulama ve iş birliği ihtiyaçlarını paylaşın.', 'TEKNOLOJİ & İŞ BİRLİĞİ', 'Robotik çözümleri keşfedin']
+        ['İstihdam', 'İşverenlerin personel ihtiyaçlarını ve adayların deneyimlerini sektörün beklentileriyle birlikte değerlendiren danışmanlık.', 'İŞVERENLER & ADAYLAR', 'İstihdam hizmetlerini keşfedin'],
+        ['Uluslararası Eğitim', 'Ülke, üniversite ve program seçeneklerini keşfedin. Akademik hedeflerinize uygun bir başvuru planı hazırlayın.', 'ÖĞRENCİLER & ÜNİVERSİTELER', 'Eğitim seçeneklerini keşfedin'],
+        ['Yatırım Danışmanlığı', 'Yeni bir pazarı anlamak, iş bağlantılarını değerlendirmek ve sonraki adımları belirlemek için danışmanlık alanlarımızı inceleyin.', 'GİRİŞİMCİLER & İŞLETMELER', 'Yatırım danışmanlığını keşfedin'],
+        ['İnsansı Robotlar', 'İnsansı robotik çözümlerin kullanım alanlarını keşfedin. Kurumunuzun uygulama ve iş birliği ihtiyaçlarını paylaşın.', 'TEKNOLOJİ & İŞ BİRLİĞİ', 'Robotik çözümleri keşfedin']
       ],
-      studyLabel: 'ULUSLARARASI EĞİTİM',
+      studyLabel: 'Uluslararası Eğitim',
       studyTitle: 'Eğitim Ülkeleri',
       studyIntro: 'Nerede okumak istediğiniz kadar, neyi başarmak istediğiniz de önemli. Üniversiteleri, eğitim bölgelerini ve başvuru hazırlığına ilişkin bilgileri bir arada inceleyin.',
       studyPhoto: 'Kampüste birlikte ders çalışan üniversite öğrencileri',
@@ -45,7 +45,7 @@
         ['Üretim ve mühendislik', 'Teknik yetkinlik ve üretim', 'Üretim ve mühendislik sektörünü temsil eden çalışma alanı']
       ],
       moreSectors: ['Enerji', 'Eğitim ve dil hizmetleri', 'Bakım ve destek'],
-      investmentLabel: 'YATIRIM & İŞ DANIŞMANLIĞI',
+      investmentLabel: 'Yatırım Danışmanlığı',
       investmentTitle: 'Yatırım Danışmanlığı',
       investmentIntro: 'Türkiye ve uluslararası pazarlar için iş geliştirme, bağlantı kurma ve pazara giriş başlıklarını keşfedin.',
       investmentCta: 'Pazarları ve hizmetleri inceleyin',
@@ -87,12 +87,12 @@
       servicesIntro: 'From workforce needs and education to market entry and emerging technology. Find the service that fits your plans.',
       about: 'Get to know Globalistihdam',
       services: [
-        ['Recruitment & workforce', 'Consultancy that considers employers’ staffing needs and candidates’ experience alongside the requirements of their industry.', 'EMPLOYERS & CANDIDATES', 'Explore recruitment services'],
-        ['International education', 'Discover countries, universities and programme options. Start preparing an application plan around your academic ambitions.', 'STUDENTS & UNIVERSITIES', 'Explore education options'],
-        ['Investment & market entry', 'Explore our advisory areas to understand a new market, consider business connections and identify your next steps.', 'ENTREPRENEURS & BUSINESSES', 'Explore investment advisory'],
-        ['Humanoid robotics', 'Discover potential applications for humanoid robotics. Share your organisation’s implementation and cooperation requirements.', 'TECHNOLOGY & COOPERATION', 'Explore robotics solutions']
+        ['Recruitment', 'Consultancy that considers employers’ staffing needs and candidates’ experience alongside the requirements of their industry.', 'EMPLOYERS & CANDIDATES', 'Explore recruitment services'],
+        ['International Education', 'Discover countries, universities and programme options. Start preparing an application plan around your academic ambitions.', 'STUDENTS & UNIVERSITIES', 'Explore education options'],
+        ['Investment Advisory', 'Explore our advisory areas to understand a new market, consider business connections and identify your next steps.', 'ENTREPRENEURS & BUSINESSES', 'Explore investment advisory'],
+        ['Humanoid Robotics', 'Discover potential applications for humanoid robotics. Share your organisation’s implementation and cooperation requirements.', 'TECHNOLOGY & COOPERATION', 'Explore robotics solutions']
       ],
-      studyLabel: 'INTERNATIONAL EDUCATION',
+      studyLabel: 'International Education',
       studyTitle: 'Study Destinations',
       studyIntro: 'What you want to achieve matters as much as where you want to study. Explore universities, destinations and application preparation in one place.',
       studyPhoto: 'University students studying together on campus',
@@ -109,7 +109,7 @@
         ['Manufacturing & engineering', 'Technical skills and production', 'A working environment illustrating manufacturing and engineering']
       ],
       moreSectors: ['Energy', 'Education & language services', 'Care & support'],
-      investmentLabel: 'INVESTMENT & BUSINESS ADVISORY',
+      investmentLabel: 'Investment Advisory',
       investmentTitle: 'Investment Advisory',
       investmentIntro: 'Explore business development, relationship building and market entry topics for Türkiye and international markets.',
       investmentCta: 'Explore markets and services',

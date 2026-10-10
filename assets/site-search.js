@@ -16,6 +16,18 @@
   const normalise = value => value.toLocaleLowerCase('tr-TR').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ı/g, 'i');
   const isTurkish = () => runtime.language() === 'tr';
   const text = (tr, en) => isTurkish() ? tr : en;
+  function searchHref(value) {
+    if (typeof value !== 'string' || !value.startsWith('/')) return null;
+    try {
+      const decoded = decodeURIComponent(value);
+      if (decoded.startsWith('//') || /[\\\u0000-\u0020\u007f]/.test(value + decoded)) return null;
+      if (decoded.split(/[?#]/, 1)[0].split('/').some(segment => segment === '.' || segment === '..')) return null;
+      const href = runtime.url(value);
+      const resolved = new URL(href, location.href);
+      if (resolved.origin !== location.origin || !resolved.pathname.startsWith(runtime.base)) return null;
+      return href;
+    } catch (_) { return null; }
+  }
   function labelUI() {
     const labels = [
       ['#gi-search-title', text('Ne arıyorsunuz?', 'What are you looking for?')],
@@ -56,6 +68,7 @@
       if (current !== request || !dialog.open) return;
       const terms = normalise(input.value.trim()).split(/\s+/).filter(Boolean);
       const matches = index[runtime.language()].filter(entry => {
+        if (!entry || typeof entry.title !== 'string' || typeof entry.description !== 'string' || !searchHref(entry.path)) return false;
         const haystack = normalise(entry.title + ' ' + entry.description);
         return terms.every(term => haystack.includes(term));
       }).sort((a, b) => {
@@ -64,10 +77,12 @@
       });
       results.replaceChildren();
       for (const entry of matches.slice(0, 12)) {
+        const href = searchHref(entry.path);
+        if (!href) continue;
         const row = document.createElement('li');
         const link = document.createElement('a');
         link.className = 'gi-search-result';
-        link.href = runtime.url(entry.path);
+        link.href = href;
         const title = document.createElement('strong'); title.textContent = entry.title;
         const description = document.createElement('span'); description.textContent = entry.description;
         link.append(title, description); row.appendChild(link); results.appendChild(row);

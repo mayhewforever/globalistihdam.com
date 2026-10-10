@@ -8,6 +8,7 @@
   --gi-line: #d9dfdc;
   --gi-gold: #b49b65;
   --gi-gold-light: #d8c797;
+  --gi-section-title-size: clamp(2rem, 3.1vw, 3.15rem);
   --gi-font: "Inter", "Aptos", "Segoe UI", Arial, sans-serif;
 }
 html { scroll-padding-top: 115px; }
@@ -502,4 +503,32 @@ body { margin: 0; background: var(--gi-white); }
   .gi-home .gi-sectors, .gi-home .gi-contact { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
   .gi-home .gi-hero-grid { padding-top: 10px; }
   .gi-home .gi-service, .gi-home .gi-sector, .gi-home .gi-steps li { break-inside: avoid; }
+}
+
+/* One responsive type scale for section headings; hero and card titles retain their hierarchy. */
+.public-root :is(
+  .gi-title, .pro-section-heading h2, .pro-editorial-copy h2,
+  .pro-investment-band h2, .home-insight-band h2, .pro-contact-band h2,
+  .advisory-section-head h2, .advisory-turkiye h2, .advisory-cta h2,
+  .edu-section-heading h2, .edu-feature-banner h2, .edu-country-support h2,
+  .investment-feature h2, .investment-contact h2, .investment-focus h2,
+  .investment-guide-section > h2, .sector-cta h2, .section-head h2,
+  .prose > h2, .band h2, .education-promo h2, .study-planner h2,
+  .education-pathways h2, .final-feature h2, .investment-home-band h2,
+  .insight-heading h2, .route-intro h2, .work-feature h2, .faq > h2,
+  .contact-info > h2, .edu-pathways h2
+),
+.public-root .gi-home.pro-home :is(
+  .gi-title, .pro-section-heading h2, .pro-editorial-copy h2,
+  .pro-investment-band h2, .home-insight-band h2, .pro-contact-band h2
+) {
+  font-family: var(--gi-font);
+  font-size: var(--gi-section-title-size) !important;
+  font-weight: 500 !important;
+  line-height: 1.15 !important;
+  letter-spacing: -.035em !important;
+  font-style: normal;
+  text-transform: none;
+  text-wrap: balance;
+  margin: 0 0 24px;
 }

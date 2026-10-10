@@ -9,7 +9,7 @@ const professionalHome=await fs.readFile(root+'/assets/professional-home.js','ut
 const searchUI=await fs.readFile(root+'/assets/site-search.js','utf8');
 let checks=0;
 const pause=()=>new Promise(r=>setTimeout(r,60));
-async function open(path,{storage,search=''}={}) {
+async function open(path,{storage,search='',searchIndex,socialData}={}) {
  const win=new Window({url:'https://example.test'+path+search,settings:{disableJavaScriptFileLoading:true,disableCSSFileLoading:true,enableJavaScriptEvaluation:true,suppressInsecureJavaScriptEnvironmentWarning:true}});
  const errors=[]; const requests=[];
  // Happy DOM incorrectly emits hashchange for replaceState; native browsers do not.
@@ -18,7 +18,7 @@ async function open(path,{storage,search=''}={}) {
  win.history.replaceState=(...args)=>{silentURL=new URL(args[2],win.location.href).href;return replaceState(...args)};
  win.addEventListener('hashchange',event=>{if(event.newURL===silentURL){silentURL=undefined;event.stopImmediatePropagation()}},true);
  win.console.error=(...parts)=>errors.push(parts.join(' '));
- win.fetch=async input=>{requests.push(String(input));const file=String(input).endsWith('/social.json')?'social.json':String(input).endsWith('/search-index.json')?'search-index.json':null;assert.ok(file,'Unexpected fetch: '+input);return {ok:true,json:async()=>JSON.parse(await fs.readFile(root+'/'+file,'utf8'))}};
+ win.fetch=async input=>{requests.push(String(input));const file=String(input).endsWith('/social.json')?'social.json':String(input).endsWith('/search-index.json')?'search-index.json':null;assert.ok(file,'Unexpected fetch: '+input);return {ok:true,json:async()=>(file==='social.json'?socialData:searchIndex)??JSON.parse(await fs.readFile(root+'/'+file,'utf8'))}};
  win.document.body.innerHTML='<div id="root"></div>';
  const append=win.document.body.appendChild.bind(win.document.body);win.document.body.appendChild=node=>node.tagName==='SCRIPT'&&node.src.endsWith('/site.js')?node:append(node);
  win.document.head.innerHTML='<meta name="description" content="">';
@@ -115,5 +115,25 @@ for(const path of ['/education/','/education/germany/index.html','/universities/
   }
   await win.happyDOM.close();
  }
+}
+// Untrusted text stays text; malformed configuration cannot create an executable
+// search link, leave the deployment prefix or impersonate a social platform.
+for (const base of ['/', '/globalistihdam.com/']) {
+ const unsafePaths=['javascript:alert(1)','data:text/html,unsafe','//evil.test/','/\\evil.test/','/%2f%2fevil.test/','/%5cevil.test/','/\nevil.test/','/%0aevil.test/','/../outside/','/%2e%2e/outside/','https://evil.test/','relative/path','/portal?type=student'];
+ const title='<img id="gi-injected" src=x onerror=alert(1)>';
+ const entries=[...unsafePaths.map(path=>({path,title:'Unsafe',description:'Configuration test'})),null,{path:'/education/',title:{},description:'Invalid shape'},{path:'/education/?lang=en',title,description:'<svg onload=alert(1)>'}];
+ const {win,errors}=await open(base,{search:'?lang=en',searchIndex:{tr:entries,en:entries},socialData:{links:{instagram:'javascript:alert(1)',youtube:'https://www.youtube.com/channel/UCDsoaujCJYj1Be6rkjM_94Q',tiktok:'https://www.tiktok.com.evil.test/profile'}}});
+ win.document.querySelector('.gi-search-toggle').click();await pause();
+ const links=[...win.document.querySelectorAll('.gi-search-result')];
+ assert.equal(links.length,1);checks++;
+ assert.equal(links[0].href,'https://example.test'+base+'education/?lang=en');checks++;
+ assert.equal(links[0].querySelector('strong').textContent,title);checks++;
+ assert.equal(win.document.querySelector('#gi-injected'),null);checks++;
+ assert.equal(links[0].querySelector('svg'),null);checks++;
+ const socialLinks=[...win.document.querySelectorAll('.brand-social-links a')];
+ assert.equal(socialLinks.length,1);checks++;
+ assert.equal(new URL(socialLinks[0].href).hostname,'www.youtube.com');checks++;
+ assert.deepEqual(errors,[]);checks++;
+ await win.happyDOM.close();
 }
 console.log('PASS',checks,'DOM interaction and route checks (no visual browser or external form submission).');

@@ -8,6 +8,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
+import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -128,12 +129,29 @@ function checkRuntime() {
     [{ hash: '#en/home', search: '?lang=tr', saved: 'tr' }, 'en'],
     [{ hash: '#market-data', search: '?lang=en' }, 'en'],
     [{ storageThrows: true }, 'tr'], [{ storageThrows: true, search: '?lang=en' }, 'en'],
+    [{ saved: '<img src=x onerror=alert(1)>', search: '?lang=javascript%3Aalert(1)', hash: '#evil/home' }, 'tr'],
   ]) {
     check(runtimeContext(configuration).GlobalistihdamRuntime.language() === expected,
       `Incorrect language precedence: ${JSON.stringify(configuration)}`);
   }
   check(runtimeContext({ pathname: projectBase.slice(0, -1) }).GlobalistihdamRuntime.path() === '/', 'Project root without a slash must resolve');
   check(runtimeContext({ pathname: '/globalistihdam.comic/' }).GlobalistihdamRuntime.base === '/', 'Project prefix must match a full path segment');
+  const runtime = runtimeContext().GlobalistihdamRuntime;
+  const configured = JSON.parse(fs.readFileSync(path.join(root, 'social.json'), 'utf8')).links;
+  for (const [platform, href] of Object.entries(configured)) {
+    if (href) check(runtime.socialLinks(configured)[platform] === href, `Existing social URL must remain available: ${platform}`);
+  }
+  for (const [platform, href] of [
+    ['instagram', 'javascript:alert(1)'], ['youtube', 'data:text/html,unsafe'],
+    ['tiktok', '//www.tiktok.com/profile'], ['instagram', 'http://www.instagram.com/globalistihdam/'],
+    ['youtube', 'https://youtube.com.evil.test/channel'], ['youtube', 'https://www.youtube.com@evil.test/channel'],
+    ['youtube', 'https://user:password@www.youtube.com/channel'], ['youtube', 'https://www.youtube.com:8443/channel'],
+    ['youtube', 'https://www.youtube.com\\@evil.test/channel'], ['youtube', 'https://www.you\ntube.com/channel'],
+    ['unknown', 'https://www.youtube.com/channel'], ['youtube', { toString: () => 'https://www.youtube.com/channel' }],
+  ]) {
+    check(Object.keys(runtime.socialLinks({ [platform]: href })).length === 0, `Unsafe social configuration accepted: ${platform}`);
+  }
+  check(Object.keys(runtime.socialLinks(null)).length === 0, 'Null social configuration must fail closed');
 }
 
 async function main() {
@@ -148,6 +166,22 @@ async function main() {
     check(/<div\b[^>]*\bid=["']root["']/.test(html), `Missing application mount: ${filename}`);
     const scripts = [...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/g)];
     check(scripts.length > 0, `Missing boot script: ${filename}`);
+    const policyTags = [...html.matchAll(/<meta\b[^>]*http-equiv="Content-Security-Policy"[^>]*content="([^"]+)"[^>]*>/g)];
+    check(policyTags.length === 1, `Expected one Content Security Policy: ${filename}`);
+    check(policyTags[0].index < html.indexOf('<script'), `Policy must precede executable content: ${filename}`);
+    const directives = new Map(policyTags[0][1].split(';').map(part => {
+      const [name, ...values] = part.trim().split(/\s+/); return [name, values];
+    }));
+    const scriptPolicy = directives.get('script-src') || [];
+    check(scriptPolicy.includes("'self'") && !scriptPolicy.includes("'unsafe-inline'") && !scriptPolicy.includes("'unsafe-eval'"), `Unsafe script policy: ${filename}`);
+    const inlineHashes = scripts.filter(match => !/\bsrc\s*=/.test(match[1]))
+      .map(match => "'sha256-" + createHash('sha256').update(match[2]).digest('base64') + "'");
+    assert.deepEqual([...new Set(scriptPolicy.filter(value => value !== "'self'"))].sort(), [...new Set(inlineHashes)].sort(), `Stale bootstrap hashes; run node scripts/update-security-policy.mjs: ${filename}`); checks++;
+    for (const [name, expected] of Object.entries({ 'default-src': ["'self'"], 'object-src': ["'none'"], 'base-uri': ["'none'"], 'connect-src': ["'self'"], 'form-action': ["'self'", 'https://global-istihdam.mtoman.chatgpt.site'] })) {
+      assert.deepEqual(directives.get(name), expected, `Unexpected ${name} policy: ${filename}`); checks++;
+    }
+    check(!directives.has('frame-ancestors'), `frame-ancestors is unsupported in meta policy: ${filename}`);
+    check(/<meta name="referrer" content="strict-origin-when-cross-origin">/.test(html), `Missing referrer policy: ${filename}`);
     for (const match of scripts) {
       const src = /\bsrc=["']([^"']+)["']/.exec(match[1])?.[1];
       if (src) {

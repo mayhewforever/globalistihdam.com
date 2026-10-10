@@ -18,6 +18,8 @@ Date: 10 October 2026
 
 - Professional bilingual homepage and shared visual system across public pages, retaining the original logo artwork, four-slide hero, six-sector carousel, audience links, Final–Hull feature and investment, insights and contact banners.
 - Local search covering 83 public pages in each language, with keyboard controls and a clear empty state.
+- Consistent bilingual section names and one responsive section-heading type scale.
+- Strict local search paths, approved social-link hosts, exact-hash script CSP and referrer policy in all public HTML shells.
 - Removed the temporary-preview banner and unfinished email placeholder from the public experience.
 
 ## Public deployment
@@ -26,8 +28,8 @@ The updated marketing website was successfully deployed on 10 October 2026 at ht
 
 ## Check results
 
-- Static checks: 8,547 passed across 83 HTML shells, 75 detail routes, 162 Turkish/English page constructors and 36 local assets. 340 external URL formats were checked; their contents and availability were not all inspected.
-- Simulated DOM checks: 435 passed, including language changes, form-value preservation, skip navigation, mobile menu dismissal, retained campaign sections, carousel keyboard and expansion controls, and representative deep routes at both hosting paths.
+- Static checks: 9,476 passed across 83 HTML shells, 75 detail routes, 162 Turkish/English page constructors and 36 local assets. 340 external URL formats were checked; their contents and availability were not all inspected.
+- Simulated DOM checks: 451 passed, including language changes, form-value preservation, skip navigation, mobile menu dismissal, retained campaign sections, carousel keyboard and expansion controls, and representative deep routes at both hosting paths.
 - JavaScript syntax checks passed for the active bundle, hosting runtime and homepage script.
 
 ## Remaining verification

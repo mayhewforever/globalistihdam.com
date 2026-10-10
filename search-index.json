@@ -1,17 +1,17 @@
 {
   "tr": [
     {
-      "title": "Yurt Dışında Eğitim",
+      "title": "Uluslararası Eğitim",
       "description": "Ülke rehberleri, üniversiteler, maliyetler ve kişisel eğitim başvurusu desteği.",
       "path": "/education/?lang=tr"
     },
     {
-      "title": "İş Gücü ve İstihdam",
+      "title": "İstihdam",
       "description": "İşverenler ve çalışanlar için sektöre özel istihdam rehberleri ve başvuru takibi.",
       "path": "/sectors/?lang=tr"
     },
     {
-      "title": "Yatırım ve Pazara Giriş",
+      "title": "Yatırım Danışmanlığı",
       "description": "16 ülke rehberi, sektör keşfi, yatırım planlayıcı ve iş koordinasyonu.",
       "path": "/investment/?lang=tr"
     },
@@ -418,17 +418,17 @@
   ],
   "en": [
     {
-      "title": "Study Abroad",
+      "title": "International Education",
       "description": "Country guides, universities, study costs and personalised application support.",
       "path": "/education/?lang=en"
     },
     {
-      "title": "Workforce Recruitment",
+      "title": "Recruitment",
       "description": "Sector guides, workforce enquiries and application tracking for employers and candidates.",
       "path": "/sectors/?lang=en"
     },
     {
-      "title": "Investment & Market Entry",
+      "title": "Investment Advisory",
       "description": "Explore 16 country guides, discover sectors, plan a market-entry route and request business coordination.",
       "path": "/investment/?lang=en"
     },

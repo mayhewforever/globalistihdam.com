@@ -47,5 +47,27 @@
     rewrite(template.content);
     return template.innerHTML;
   }
-  globalThis.GlobalistihdamRuntime = Object.freeze({ base, portalOrigin, language, path, url, rewrite, markup });
+  // Configuration can change independently of the bundle. Only link to the
+  // expected HTTPS platform; credentials, unusual ports and lookalike hosts
+  // must never turn a social button into a different destination.
+  function socialLinks(value) {
+    const hosts = {
+      instagram: ['instagram.com', 'www.instagram.com'],
+      youtube: ['youtube.com', 'www.youtube.com'],
+      tiktok: ['tiktok.com', 'www.tiktok.com'],
+    };
+    const links = {};
+    for (const [platform, allowedHosts] of Object.entries(hosts)) {
+      const candidate = value?.[platform];
+      if (typeof candidate !== 'string' || /[\\\u0000-\u0020\u007f]/.test(candidate)) continue;
+      try {
+        const parsed = new URL(candidate);
+        if (parsed.protocol === 'https:' && !parsed.username && !parsed.password && !parsed.port && allowedHosts.includes(parsed.hostname)) {
+          links[platform] = parsed.href;
+        }
+      } catch (_) { /* Ignore malformed configuration. */ }
+    }
+    return links;
+  }
+  globalThis.GlobalistihdamRuntime = Object.freeze({ base, portalOrigin, language, path, url, rewrite, markup, socialLinks });
 })();
