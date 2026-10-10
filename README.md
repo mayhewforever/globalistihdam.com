@@ -8,7 +8,7 @@ Applications, administration and robotics services link to the existing separate
 
 News panels cover recruitment, international education, investment and robotics. They read the public `news/latest.json` feed from this repository, with a dated bundled fallback. Routine news updates change that data file without rebuilding either website. See [the daily update procedure](docs/daily-news-update.md) and [initial source verification](docs/news-source-verification-2026-10-10.md).
 
-WhatsApp buttons open a server-side contact redirect on the application site. The company number is not displayed on the website; opening WhatsApp reveals the recipient. The contact form remains available separately.
+WhatsApp uses separate international and Türkiye contact lines on the application site. English buttons open the international line; Turkish buttons offer both choices. Neither number is displayed on the website; opening WhatsApp reveals the selected recipient. Contact forms remain separate and are not automatically forwarded to WhatsApp.
 
 Privacy links lead to the portal's current bilingual KVKK notice. The portal asks each applicant to acknowledge the current notice before opening a new form. This reading acknowledgement is separate from explicit consent and does not complete the company's pending legal and operational privacy arrangements.
 

@@ -24,7 +24,7 @@ Date: 10 October 2026
 - Public KVKK links and a current-notice landing page use the separate portal as the canonical privacy source.
 - Removed the temporary-preview banner and unfinished email placeholder from the public experience.
 
-- Removed the company telephone number from public contact areas and prepared email signatures in both languages. Labeled WhatsApp links use the separate application site’s `/contact/whatsapp` redirect; the number is not included in public page markup or static application links. The recipient becomes visible when WhatsApp opens. Existing secure enquiry links remain available. Applicant-supplied contact fields remain available.
+- Removed the company telephone number from public contact areas and prepared email signatures in both languages. Labeled WhatsApp links use the separate application site’s contact routes. International enquiries route to the personal line; Türkiye enquiries use the company line. English buttons open `/contact/whatsapp/international`; Turkish buttons open the bilingual choice page. Neither number is included in public page markup or static contact links. WhatsApp displays the selected recipient after navigation. Secure enquiry forms remain separate; no automatic form or email forwarding is configured. Applicant-supplied contact fields remain available.
 
 ## Public deployment
 
@@ -33,7 +33,7 @@ The marketing website is published at https://globalistihdam.mtoman.chatgpt.site
 ## Check results
 
 - Static checks: 127,222 passed across 83 HTML shells, 75 detail routes, 162 Turkish/English page constructors and 37 local assets. 342 external URL formats were checked; their contents and availability were not all inspected.
-- Simulated DOM checks: 574 passed, including language changes, form-value preservation, skip navigation, mobile menu dismissal, retained campaign sections, carousel keyboard and expansion controls, and representative deep routes at both hosting paths.
+- Simulated DOM checks: 994 passed, including language changes, form-value preservation, skip navigation, mobile menu dismissal, retained campaign sections, carousel keyboard and expansion controls, and representative deep routes at both hosting paths.
 - News checks: all twelve feed items passed schema/date/source/bilingual-length validation; 222 offline rendering, routing, fallback and unsafe-input checks passed.
 - JavaScript syntax checks passed for the active bundle, hosting runtime and homepage script.
 

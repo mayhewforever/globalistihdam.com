@@ -9,10 +9,11 @@ const professionalHome=await fs.readFile(root+'/assets/professional-home.js','ut
 const searchUI=await fs.readFile(root+'/assets/site-search.js','utf8');
 let checks=0;
 const pause=()=>new Promise(r=>setTimeout(r,60));
+const whatsappFor=lang=>'https://global-istihdam.mtoman.chatgpt.site/contact/whatsapp'+(lang==='en'?'/international':'?lang=tr');
 function assertPublicContact(document) {
  assert.equal(document.querySelectorAll('a[href^="tel:"]').length,0,'Public pages must not expose telephone links');checks++;
  assert.doesNotMatch(document.body.textContent,/(?:\+?90[\s().-]*)?533[\s().-]*924[\s().-]*75[\s().-]*19/);checks++;
- for(const link of document.querySelectorAll('[data-whatsapp]')) { assert.equal(link.href,'https://global-istihdam.mtoman.chatgpt.site/contact/whatsapp');checks++; }
+ for(const link of document.querySelectorAll('[data-whatsapp]')) { assert.equal(link.href,whatsappFor(document.documentElement.lang));checks++; }
  assert.equal(document.querySelectorAll('a[href*="wa.me"]').length,0);checks++;
 }
 
@@ -69,8 +70,9 @@ assert.equal(w.document.querySelectorAll('.pro-sector-card').length,6);checks++;
 for(const lang of ['tr','en']) {
  w.document.querySelector('[data-lang="'+lang+'"]').click();await pause();
  assertPublicContact(w.document);
+ const standalone=w.document.createElement('template');standalone.innerHTML=w.GlobalistihdamHome(lang);assert.equal(standalone.content.querySelector('[data-whatsapp]').href,whatsappFor(lang));checks++;
  for(const link of w.document.querySelectorAll('[data-whatsapp],.pro-contact-band a')) {
-  assert.equal(link.href,'https://global-istihdam.mtoman.chatgpt.site/contact/whatsapp');assert.match(link.textContent,/WhatsApp/);checks++;
+  assert.equal(link.href,whatsappFor(lang));assert.match(link.textContent,/WhatsApp/);checks++;
  }
 }
 
@@ -128,8 +130,8 @@ assert.ok(!dialog.open);checks++;assert.equal(w.document.activeElement,toggle);c
 assert.deepEqual(errors,[]);checks++;
 await w.happyDOM.close();
 for(const path of ['/education/','/education/germany/index.html','/universities/final-international-university/','/investment/canada/','/sectors/healthcare/','/privacy/']) {
- for(const base of ['','/globalistihdam.com']) {
-  const {win,errors}=await open(base+path,{search:'?lang=en'});
+ for(const base of ['','/globalistihdam.com']) for(const lang of ['en','tr']) {
+  const {win,errors}=await open(base+path,{search:'?lang='+lang});
   assert.ok(win.document.querySelector('h1'),path);checks++;
   assert.doesNotMatch(win.document.body.textContent,/Page not found|could not load/);checks++;
   const button=win.document.querySelector('.pro-menu');
