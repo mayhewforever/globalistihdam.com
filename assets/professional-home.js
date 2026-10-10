@@ -6,7 +6,7 @@
   const copy = {
     tr: {
       eyebrow: 'İNSAN. BİLGİ. YENİ OLASILIKLAR.',
-      title: 'İnsanla başlar.<br><em>Dünyaya açılır.</em>',
+      title: 'Uluslararası<br><em>Danışmanlık.</em>',
       intro: 'Kariyeriniz, eğitiminiz ve işiniz için sınırların ötesini düşünün. Uluslararası hedeflerinizi, birlikte somut adımlara dönüştürelim.',
       primary: 'Kariyeriniz için başlayın', secondary: 'Ekibinizi güçlendirin',
       imageAlt: 'Güneş enerjisi sahasında birlikte çalışan mühendisler',
@@ -18,8 +18,8 @@
         ['İşverenler için', 'İş gücü ve yetkinlik ihtiyaçlarınızı tanımlayın.'],
         ['Öğrenciler için', 'Eğitim tercihlerinizi uluslararası ölçekte değerlendirin.']
       ],
-      servicesLabel: 'BİRBİRİNİ TAMAMLAYAN HİZMETLER',
-      servicesTitle: 'Bir hedef.<br>Farklı yollar.',
+      servicesLabel: 'UZMANLIK ALANLARIMIZ',
+      servicesTitle: 'Hizmetlerimiz',
       servicesIntro: 'İnsan kaynağından eğitime, pazara girişten yeni teknolojilere. İhtiyacınıza uygun hizmet alanını keşfedin.',
       about: 'Globalistihdam’ı tanıyın',
       services: [
@@ -28,15 +28,15 @@
         ['Yatırım ve pazara giriş', 'Yeni bir pazarı anlamak, iş bağlantılarını değerlendirmek ve sonraki adımları belirlemek için danışmanlık alanlarımızı inceleyin.', 'GİRİŞİMCİLER & İŞLETMELER', 'Yatırım danışmanlığını keşfedin'],
         ['İnsansı robotlar', 'İnsansı robotik çözümlerin kullanım alanlarını keşfedin. Kurumunuzun uygulama ve iş birliği ihtiyaçlarını paylaşın.', 'TEKNOLOJİ & İŞ BİRLİĞİ', 'Robotik çözümleri keşfedin']
       ],
-      studyLabel: 'EĞİTİMDEN YENİ UFUKLARA',
-      studyTitle: 'Geleceğinize<br>yeni bir perspektif.',
+      studyLabel: 'ULUSLARARASI EĞİTİM',
+      studyTitle: 'Eğitim Ülkeleri',
       studyIntro: 'Nerede okumak istediğiniz kadar, neyi başarmak istediğiniz de önemli. Üniversiteleri, eğitim bölgelerini ve başvuru hazırlığına ilişkin bilgileri bir arada inceleyin.',
       studyPhoto: 'Kampüste birlikte ders çalışan üniversite öğrencileri',
       studyImageLabel: 'MERAKINIZ SİZE YOL GÖSTERSİN.',
       studyCta: 'Tüm eğitim seçenekleri', destinationLabel: 'Eğitim bölgelerini keşfedin',
       destinations: ['Almanya', 'Kuzey Kıbrıs', 'Azerbaycan', 'Kanada', 'Amerika Birleşik Devletleri', 'Çin'],
-      sectorLabel: 'SEKTÖREL BİR YAKLAŞIM',
-      sectorTitle: 'Her sektörün<br>ihtiyacı farklı.',
+      sectorLabel: 'SEKTÖREL UZMANLIK',
+      sectorTitle: 'Sektörler',
       sectorIntro: 'Doğru başlangıç, işin gerektirdiklerini anlamaktır. Hizmet alanlarımızı inceleyin ve mesleki hedefinizi ya da personel ihtiyacınızı bizimle paylaşın.',
       allSectors: 'Tüm sektörleri inceleyin',
       sectors: [
@@ -46,31 +46,31 @@
       ],
       moreSectors: ['Enerji', 'Eğitim ve dil hizmetleri', 'Bakım ve destek'],
       investmentLabel: 'YATIRIM & İŞ DANIŞMANLIĞI',
-      investmentTitle: 'Yeni pazarlara,<br>hazırlıklı bir başlangıç.',
+      investmentTitle: 'Yatırım Danışmanlığı',
       investmentIntro: 'Türkiye ve uluslararası pazarlar için iş geliştirme, bağlantı kurma ve pazara giriş başlıklarını keşfedin.',
       investmentCta: 'Pazarları ve hizmetleri inceleyin',
       investmentAlt: 'İstanbul Boğazı kıyısından şehir manzarası',
-      processLabel: 'NASIL BAŞLARIZ?', processTitle: 'Net bir hedef.<br>Planlı bir süreç.',
+      processLabel: 'BAŞVURU MERKEZİ', processTitle: 'Başvuru Süreci',
       processIntro: 'İlk görüşmeden sonraki adımlara kadar, ihtiyacı anlamaya ve beklentileri açıkça tanımlamaya odaklanırız.',
       steps: [
         ['Hedefinizi paylaşın', 'Size uygun başvuru yolunu seçin. Deneyiminizi, eğitim hedefinizi veya kuruluşunuzun ihtiyacını açıklayın.'],
         ['İhtiyaçları netleştirelim', 'Kapsamı, tercihleri ve hazırlanması gereken bilgileri birlikte değerlendirelim.'],
         ['Sonraki adımı planlayalım', 'İlgili hizmetin koşullarını ve takip edilecek yolu görüşerek ilerleyelim.']
       ],
-      faqLabel: 'İLK SORULARINIZ',
+      faqLabel: 'SIKÇA SORULAN SORULAR',
       faqs: [
         ['Hangi başvuru yolunu seçmeliyim?', 'İş arıyorsanız aday, personel arıyorsanız işveren, yurt dışında eğitim planlıyorsanız öğrenci başvurusunu seçin. Yatırım ve robotik talepleriniz için ilgili hizmet sayfasını kullanabilir veya bizimle görüşebilirsiniz.'],
         ['Listelenen sektörler açık iş ilanı anlamına gelir mi?', 'Hayır. Sektör sayfaları hizmet alanlarını tanıtır. Güncel pozisyonları, uygunluk koşullarını ve başvuru sürecini ayrıca teyit etmeniz gerekir.'],
         ['Üniversite ve program bilgilerini nasıl değerlendirmeliyim?', 'Ülke ve üniversite sayfaları ilk araştırmanıza yardımcı olur. Başvurmadan önce programın güncel kabul şartlarını, ücretlerini ve son tarihlerini ilgili üniversiteden doğrulayın.']
       ],
-      contactLabel: 'BİR SONRAKİ ADIM', contactTitle: 'Hedefinizi konuşalım.',
+      contactLabel: 'BİR SONRAKİ ADIM', contactTitle: 'İletişim',
       contactIntro: 'Bir kariyer değişikliği, yeni bir ekip veya uluslararası bir eğitim planı. Sizin için önemli olanı dinleyelim.',
       contactCta: 'Bizimle iletişime geçin', callLabel: 'DOĞRUDAN GÖRÜŞÜN',
       photography: 'Sektör ve öğrenci fotoğrafları temsili görsellerdir.'
     },
     en: {
       eyebrow: 'PEOPLE. KNOWLEDGE. POSSIBILITIES.',
-      title: 'Built around people.<br><em>Open to the world.</em>',
+      title: 'International<br><em>Advisory.</em>',
       intro: 'Think beyond borders for your career, education and business. Let’s turn your international ambitions into a considered next step.',
       primary: 'Start your career enquiry', secondary: 'Build your team',
       imageAlt: 'Engineers working together at a solar energy site',
@@ -82,8 +82,8 @@
         ['For employers', 'Tell us about your workforce and skills requirements.'],
         ['For students', 'Explore an international perspective on your education.']
       ],
-      servicesLabel: 'CONNECTED AREAS OF EXPERTISE',
-      servicesTitle: 'One ambition.<br>More ways forward.',
+      servicesLabel: 'OUR EXPERTISE',
+      servicesTitle: 'Our Services',
       servicesIntro: 'From workforce needs and education to market entry and emerging technology. Find the service that fits your plans.',
       about: 'Get to know Globalistihdam',
       services: [
@@ -92,15 +92,15 @@
         ['Investment & market entry', 'Explore our advisory areas to understand a new market, consider business connections and identify your next steps.', 'ENTREPRENEURS & BUSINESSES', 'Explore investment advisory'],
         ['Humanoid robotics', 'Discover potential applications for humanoid robotics. Share your organisation’s implementation and cooperation requirements.', 'TECHNOLOGY & COOPERATION', 'Explore robotics solutions']
       ],
-      studyLabel: 'EDUCATION. A WIDER HORIZON.',
-      studyTitle: 'A new perspective<br>on your future.',
+      studyLabel: 'INTERNATIONAL EDUCATION',
+      studyTitle: 'Study Destinations',
       studyIntro: 'What you want to achieve matters as much as where you want to study. Explore universities, destinations and application preparation in one place.',
       studyPhoto: 'University students studying together on campus',
       studyImageLabel: 'LET CURIOSITY LEAD THE WAY.',
       studyCta: 'Explore all education options', destinationLabel: 'Explore study destinations',
       destinations: ['Germany', 'North Cyprus', 'Azerbaijan', 'Canada', 'United States', 'China'],
-      sectorLabel: 'AN INDUSTRY PERSPECTIVE',
-      sectorTitle: 'Every industry<br>has its own needs.',
+      sectorLabel: 'SECTOR EXPERTISE',
+      sectorTitle: 'Sectors',
       sectorIntro: 'A good starting point is understanding the work. Explore our service areas and share your professional ambitions or staffing requirements.',
       allSectors: 'Explore all sectors',
       sectors: [
@@ -110,24 +110,24 @@
       ],
       moreSectors: ['Energy', 'Education & language services', 'Care & support'],
       investmentLabel: 'INVESTMENT & BUSINESS ADVISORY',
-      investmentTitle: 'New markets.<br>A considered beginning.',
+      investmentTitle: 'Investment Advisory',
       investmentIntro: 'Explore business development, relationship building and market entry topics for Türkiye and international markets.',
       investmentCta: 'Explore markets and services',
       investmentAlt: 'A view of Istanbul from the Bosphorus waterfront',
-      processLabel: 'HOW WE BEGIN', processTitle: 'A clear ambition.<br>A considered process.',
+      processLabel: 'APPLICATION CENTRE', processTitle: 'Application Process',
       processIntro: 'From your first enquiry to the next steps, we focus on understanding your requirements and setting clear expectations.',
       steps: [
         ['Share your ambition', 'Choose the relevant application route. Describe your experience, study goals or organisation’s requirements.'],
         ['Clarify the requirements', 'Let’s consider the scope, your preferences and the information you will need to prepare.'],
         ['Plan your next step', 'Discuss the relevant service conditions and agree on a path forward.']
       ],
-      faqLabel: 'YOUR FIRST QUESTIONS',
+      faqLabel: 'FREQUENTLY ASKED QUESTIONS',
       faqs: [
         ['Which application route should I choose?', 'Choose the candidate route if you are looking for work, the employer route if you are recruiting, or the student route if you are planning to study abroad. For investment and robotics enquiries, visit the relevant service page or contact us.'],
         ['Do the listed sectors represent current vacancies?', 'No. Sector pages introduce service areas. Current vacancies, eligibility requirements and the application process need to be confirmed separately.'],
         ['How should I use the university and programme information?', 'Country and university pages support your initial research. Before applying, confirm current entry requirements, fees and deadlines directly with the relevant university.']
       ],
-      contactLabel: 'YOUR NEXT STEP', contactTitle: 'Let’s talk about your plans.',
+      contactLabel: 'YOUR NEXT STEP', contactTitle: 'Contact',
       contactIntro: 'A career move, a new team or an international education. Tell us what matters to you.',
       contactCta: 'Start a conversation', callLabel: 'SPEAK TO US DIRECTLY',
       photography: 'Industry and student photographs are illustrative.'
