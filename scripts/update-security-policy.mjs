@@ -26,7 +26,7 @@ for (const filename of htmlFiles(root)) {
     "style-src 'self' 'unsafe-inline'",
     "img-src 'self'",
     "font-src 'self'",
-    "connect-src 'self'",
+    "connect-src 'self' https://raw.githubusercontent.com",
     "object-src 'none'",
     "base-uri 'none'",
     "frame-src 'none'",

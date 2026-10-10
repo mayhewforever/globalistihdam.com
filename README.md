@@ -6,6 +6,10 @@ Professional bilingual static marketing website for recruitment, education and b
 
 Applications, administration and robotics services link to the existing separate site at `https://global-istihdam.mtoman.chatgpt.site`. This repository does not contain application records, credentials or server code. Submitting and tracking an application requires the separate portal to be available and the visitor to complete its sign-in process.
 
+News panels cover recruitment, international education, investment and robotics. They read the public `news/latest.json` feed from this repository, with a dated bundled fallback. Routine news updates change that data file without rebuilding either website. See [the daily update procedure](docs/daily-news-update.md) and [initial source verification](docs/news-source-verification-2026-10-10.md).
+
+Privacy links lead to the portal's current bilingual KVKK notice. The portal asks each applicant to acknowledge the current notice before opening a new form. This reading acknowledgement is separate from explicit consent and does not complete the company's pending legal and operational privacy arrangements.
+
 ## Publish
 
 The current public website is deployed with Sites at `https://globalistihdam.mtoman.chatgpt.site`. Its public marketing files mirror this repository. GitHub pushes do not automatically deploy that Site; publish the updated static files through Sites after source changes. The separate application portal remains at `https://global-istihdam.mtoman.chatgpt.site`.

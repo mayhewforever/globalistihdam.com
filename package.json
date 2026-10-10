@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node scripts/check-site.mjs && node scripts/check-dom.mjs",
+    "test": "node scripts/check-site.mjs && node scripts/check-dom.mjs && node scripts/check-news.mjs && node scripts/check-news-dom.mjs",
     "test:static": "node scripts/check-site.mjs"
   },
   "devDependencies": {

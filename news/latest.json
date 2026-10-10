@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-10T08:06:49Z",
+  "sections": {
+    "recruitment": {
+      "checkedAt": "2026-10-10T08:06:49Z",
+      "items": [
+        {
+          "id": "ilo-retail-safety-20261008",
+          "publishedOn": "2026-10-08",
+          "publisher": "ILO",
+          "url": "https://www.ilo.org/resource/news/ilo-meeting-agrees-action-strengthen-safety-and-health-retail",
+          "title": {
+            "tr": "ILO uzlaşması, perakendenin dijital dönüşümünde çalışan güvenliğini öne çıkarıyor",
+            "en": "ILO agreement puts worker safety at the centre of retail’s digital transition"
+          },
+          "summary": {
+            "tr": "Hükümet, işveren ve çalışan temsilcileri; yapay zekâ riskleri, çalışanlara danışılması ve küçük işletmelerin desteklenmesini kapsayan sonuçlar üzerinde uzlaştı. Metin öncelikleri belirliyor; uygulamanın gerçekleştiğini göstermiyor.",
+            "en": "Governments, employers and workers agreed conclusions on retail safety, including AI-related risks, worker consultation and support for smaller businesses. The agreement establishes priorities; it does not demonstrate their implementation."
+          }
+        },
+        {
+          "id": "ilo-africa-arab-mobility-20261007",
+          "publishedOn": "2026-10-07",
+          "publisher": "ILO",
+          "url": "https://www.ilo.org/resource/news/ilo-backs-action-advance-sustainable-labour-mobility-between-africa-and",
+          "title": {
+            "tr": "Afrika–Arap diyaloğunda adil işe alım ve sınır ötesi beceriler gündemde",
+            "en": "Africa–Arab dialogue focuses on fair recruitment and cross-border skills"
+          },
+          "summary": {
+            "tr": "Tanzanya’da buluşan hükümetler ve ortaklar, yeterliliklerin tanınmasını, adil işe alımı, ücret güvencesini ve taşınabilir sosyal hakları görüştü. ILO, Afrika–Arap işgücü göçü koridorunda uygulamaya dönük işbirliğini destekledi.",
+            "en": "Governments and partners meeting in Tanzania discussed qualification recognition, fair recruitment, wage protection and portable social benefits. The ILO supported practical cooperation across the Africa–Arab labour migration corridor."
+          }
+        },
+        {
+          "id": "eurostat-unemployment-20261001",
+          "publishedOn": "2026-10-01",
+          "publisher": "Eurostat",
+          "url": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/3-01102026-ap",
+          "title": {
+            "tr": "Avro Bölgesi’nde işsizlik ağustosta yüzde 6,4’te kaldı",
+            "en": "Euro area unemployment holds at 6.4% in August"
+          },
+          "summary": {
+            "tr": "Eurostat, ağustos işsizliğini Avro Bölgesi’nde yüzde 6,4, AB genelinde yüzde 6,1 olarak açıkladı. Her iki oran temmuza göre değişmezken AB’de genç işsizliği yüzde 15,4’e yükseldi.",
+            "en": "Eurostat reported August unemployment of 6.4% in the euro area and 6.1% across the EU, both unchanged from July. EU youth unemployment edged up to 15.4%."
+          }
+        }
+      ]
+    },
+    "education": {
+      "checkedAt": "2026-10-10T08:06:49Z",
+      "items": [
+        {
+          "id": "unesco-maldives-qualifications-centre-2026-10-01",
+          "publishedOn": "2026-10-01",
+          "publisher": "UNESCO",
+          "url": "https://www.unesco.org/en/articles/maldives-moves-towards-establishing-national-information-centre-recognition-qualifications",
+          "title": {
+            "tr": "Maldivler, diploma tanıma merkezi hazırlıklarını ilerletiyor",
+            "en": "Maldives advances plans for a qualifications recognition centre"
+          },
+          "summary": {
+            "tr": "UNESCO destekli çalıştayda, yurt dışı eğitim, kredi tanıma ve mesleki hareketlilik süreçlerinde daha açık bilgi sağlaması amaçlanan ulusal yeterlilik bilgi merkezinin hazırlıkları değerlendirildi.",
+            "en": "A UNESCO-supported workshop assessed plans for a national qualifications information centre, intended to make overseas study, credit recognition and professional mobility easier to navigate."
+          }
+        },
+        {
+          "id": "oecd-education-at-a-glance-2026-09-29",
+          "publishedOn": "2026-09-29",
+          "publisher": "OECD",
+          "url": "https://www.oecd.org/en/publications/2026/09/education-at-a-glance-2026_3bce4131.html",
+          "title": {
+            "tr": "OECD: Yükseköğretim mezuniyeti artarken iş gücü piyasası belirsizliği sürüyor",
+            "en": "OECD reports rising tertiary attainment alongside labour-market uncertainty"
+          },
+          "summary": {
+            "tr": "OECD’nin yeni raporuna göre 25–34 yaş grubunda yükseköğretim mezunlarının oranı 2025’te yüzde 47’ye ulaştı; rapor, genç mezunların işsizliğindeki son artışa da dikkat çekiyor.",
+            "en": "The OECD’s new education report puts tertiary attainment among 25–34-year-olds at 47% in 2025, while noting a recent rise in unemployment among young graduates."
+          }
+        },
+        {
+          "id": "daad-international-graduates-germany-2026-09-08",
+          "publishedOn": "2026-09-08",
+          "publisher": "DAAD",
+          "url": "https://www.daad.de/en/press-releases/2026/internationale-studierende-staerken-arbeitsmarkt-und-wirtschaft-in-deutschland/",
+          "title": {
+            "tr": "DAAD araştırması uluslararası mezunların Almanya’nın iş gücündeki rolünü inceliyor",
+            "en": "DAAD study examines international graduates’ role in Germany’s workforce"
+          },
+          "summary": {
+            "tr": "DAAD’ın yaptırdığı IW analizi, uluslararası öğrencilerin emekliliğe kadar Almanya’da kalma oranını yüzde 34 olarak hesaplıyor; akademik başarı ve mezuniyetten işe geçiş desteğinin önemini vurguluyor.",
+            "en": "A DAAD-commissioned IW analysis estimates that 34% of international entrants remain in Germany until retirement, highlighting the importance of study success and support for entering employment."
+          }
+        }
+      ]
+    },
+    "investment": {
+      "checkedAt": "2026-10-10T08:06:49Z",
+      "items": [
+        {
+          "id": "valencia-truck-charging-20261001",
+          "publishedOn": "2026-10-01",
+          "publisher": "ICEX Invest in Spain",
+          "url": "https://www.investinspain.org/en/news/2026/pragmacharge",
+          "title": {
+            "tr": "Valensiya’da elektrikli kamyon şarj merkezi açıldı; kapasite artışı planlanıyor",
+            "en": "Valencia opens electric-lorry charging hub with further expansion planned"
+          },
+          "summary": {
+            "tr": "PragmaCharge ve Prologis, Valensiya’da 14 şarj noktalı merkez açtı. PragmaCharge’ın İspanya için açıkladığı 40 milyon avroya kadar yatırım programı kapsamında kapasitenin 2027’de 50 noktaya çıkarılması planlanıyor.",
+            "en": "PragmaCharge and Prologis opened a Valencia hub with 14 charging points. Expansion to 50 is planned for 2027, within PragmaCharge’s announced Spanish investment programme of up to €40 million."
+          }
+        },
+        {
+          "id": "renault-spain-investment-20260930",
+          "publishedOn": "2026-09-30",
+          "publisher": "ICEX Invest in Spain",
+          "url": "https://www.investinspain.org/en/news/2026/renault",
+          "title": {
+            "tr": "Renault, İspanya’da 600 milyon avroluk yatırım programı açıkladı",
+            "en": "Renault announces €600 million Spanish investment programme"
+          },
+          "summary": {
+            "tr": "Renault, 2026–2030 döneminde İspanya tesislerine 600 milyon avro yatırım açıkladı. Program, beş model ve Valladolid’de batarya montaj hattını kapsıyor; mevcut 6.000’den fazla doğrudan istihdamı desteklemeyi amaçlıyor.",
+            "en": "Renault announced €600 million for Spanish facilities during 2026–2030, including five models and a Valladolid battery assembly line. ICEX says the programme is intended to support more than 6,000 existing direct jobs."
+          }
+        },
+        {
+          "id": "florentia-istanbul-opening-20260924",
+          "publishedOn": "2026-09-24",
+          "publisher": "Invest in Türkiye",
+          "url": "https://www.invest.gov.tr/en/news/news-from-turkey/pages/florentia-village-opens-in-istanbul-with-eur-250-million-investment.aspx",
+          "title": {
+            "tr": "İstanbul’da 250 milyon avroluk Türk–İtalyan perakende yatırımı açıldı",
+            "en": "€250 million Turkish–Italian retail development opens in Istanbul"
+          },
+          "summary": {
+            "tr": "Kalyon İnşaat ve İtalyan RDM Fingen Group, İstanbul Havalimanı yakınında Florentia Village’ı açtı. 250 milyon avroluk proje 190 mağazayla başladı; genişleme ve 5.000’in üzerinde doğrudan istihdam hedefleniyor.",
+            "en": "Kalyon Construction and Italy’s RDM Fingen Group opened Florentia Village near Istanbul Airport. The €250 million development begins with 190 stores; further expansion and over 5,000 direct jobs are project targets."
+          }
+        }
+      ]
+    },
+    "robotics": {
+      "checkedAt": "2026-10-10T08:06:49Z",
+      "items": [
+        {
+          "id": "agility-fort-digit-safety-2026-10-01",
+          "publishedOn": "2026-10-01",
+          "publisher": "Agility Robotics",
+          "url": "https://www.agilityrobotics.com/content/agility-and-fort-robotics-announce-strategic-partnership-to-advance-humanoid-robot-safety",
+          "title": {
+            "tr": "Agility ve FORT, Digit 5 için güvenlik iş birliğini genişletmeyi planlıyor",
+            "en": "Agility and FORT plan expanded safety systems for Digit 5"
+          },
+          "summary": {
+            "tr": "Şirketler, Digit 5’in dış güvenlik altyapısıyla bağlantılarını ve depo ile üretim tesislerindeki gelecek uygulamalarını destekleyen güvenlik sistemleri üzerinde çalışmak için mutabakat zaptı imzaladı.",
+            "en": "The companies signed a memorandum outlining work on Digit 5’s safety systems, including links to external safety infrastructure and support for future deployments in warehouses and manufacturing."
+          }
+        },
+        {
+          "id": "ifr-humanoid-sales-2026-09-30",
+          "publishedOn": "2026-09-30",
+          "publisher": "International Federation of Robotics",
+          "url": "https://ifr.org/ifr-press-releases/news/global-sales-of-professional-service-robots-surge-24-percent",
+          "title": {
+            "tr": "IFR: Tam boy insansı robot satışları 7.000; uygulama engelleri sürüyor",
+            "en": "IFR counts 7,000 full-size humanoids, with deployment barriers remaining"
+          },
+          "summary": {
+            "tr": "IFR, 2025’te yaklaşık 7.000 tam boy insansı robot satıldığını bildiriyor. Uzmanlaşmış pilotlar ve uzaktan insan kontrolü sürerken güvenlik, maliyet ve ekonomik uygulanabilirlik sorunları yaygın kullanımı sınırlıyor.",
+            "en": "IFR reports about 7,000 full-size humanoid robot sales in 2025. Specialised pilots and frequent teleoperation persist, while safety requirements, costs and uncertain business cases constrain wider adoption."
+          }
+        },
+        {
+          "id": "ifr-industrial-robot-fleet-2026-09-24",
+          "publishedOn": "2026-09-24",
+          "publisher": "International Federation of Robotics",
+          "url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally",
+          "title": {
+            "tr": "Dünyadaki endüstriyel robot sayısı beş milyona ulaştı",
+            "en": "Global industrial robot fleet reaches five million"
+          },
+          "summary": {
+            "tr": "IFR’nin World Robotics 2026 raporu, 2025’te faal endüstriyel robot sayısının yüzde 9 arttığını bildiriyor. Yıllık kurulumlar 600.000’i aşarken yeni kurulumların yüzde 59’u Çin’de gerçekleşti.",
+            "en": "IFR’s World Robotics 2026 report records a 9% rise in operating industrial robots during 2025. Annual installations exceeded 600,000, with China accounting for 59% of new deployments."
+          }
+        }
+      ]
+    }
+  }
+}

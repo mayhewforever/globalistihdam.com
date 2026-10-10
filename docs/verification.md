@@ -20,16 +20,19 @@ Date: 10 October 2026
 - Local search covering 83 public pages in each language, with keyboard controls and a clear empty state.
 - Consistent bilingual section names and one responsive section-heading type scale.
 - Strict local search paths, approved social-link hosts, exact-hash script CSP and referrer policy in all public HTML shells.
+- Bilingual news panels with twelve initially verified stories, publication/source/check timestamps, safe links, bounded fetches, stale warnings and a local fallback; shared live JSON supports unattended updates without redeployment.
+- Public KVKK links and a current-notice landing page use the separate portal as the canonical privacy source.
 - Removed the temporary-preview banner and unfinished email placeholder from the public experience.
 
 ## Public deployment
 
-The updated marketing website was successfully deployed on 10 October 2026 at https://globalistihdam.mtoman.chatgpt.site with public access (Sites version 1). Its source matches GitHub commit `e9a2b2e5ad33c692f6715a997da9ae8fd6b863cd`. The existing application backend was not redeployed.
+The marketing website is published at https://globalistihdam.mtoman.chatgpt.site with public access. Its most recent completed deployment before this news update was Sites version 2. The separate application backend was also updated (version 18). The news and KVKK changes require the next publication of both Sites; routine news-data refreshes then require only a feed commit.
 
 ## Check results
 
-- Static checks: 9,476 passed across 83 HTML shells, 75 detail routes, 162 Turkish/English page constructors and 36 local assets. 340 external URL formats were checked; their contents and availability were not all inspected.
-- Simulated DOM checks: 451 passed, including language changes, form-value preservation, skip navigation, mobile menu dismissal, retained campaign sections, carousel keyboard and expansion controls, and representative deep routes at both hosting paths.
+- Static checks: 9,729 passed across 83 HTML shells, 75 detail routes, 162 Turkish/English page constructors and 37 local assets. 342 external URL formats were checked; their contents and availability were not all inspected.
+- Simulated DOM checks: 439 passed, including language changes, form-value preservation, skip navigation, mobile menu dismissal, retained campaign sections, carousel keyboard and expansion controls, and representative deep routes at both hosting paths.
+- News checks: all twelve feed items passed schema/date/source/bilingual-length validation; 214 offline rendering, routing, fallback and unsafe-input checks passed.
 - JavaScript syntax checks passed for the active bundle, hosting runtime and homepage script.
 
 ## Remaining verification

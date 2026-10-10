@@ -26,8 +26,8 @@
       "path": "/insights/?lang=tr"
     },
     {
-      "title": "Gizlilik ve başvuru bilgileri",
-      "description": "Başvuru portalında hangi bilgilerin kaydedildiğini, kimlerin erişebildiğini ve saklama düzenlemelerinin durumunu inceleyin.",
+      "title": "KVKK Aydınlatma Metni",
+      "description": "Kişisel verileriniz ve başvuru süreci hakkında bilgi.",
       "path": "/privacy/?lang=tr"
     },
     {
@@ -443,8 +443,8 @@
       "path": "/insights/?lang=en"
     },
     {
-      "title": "Privacy & application information",
-      "description": "Understand what the application portal stores, who can access it and the status of retention arrangements.",
+      "title": "KVKK Privacy Notice",
+      "description": "Your personal data and the application process.",
       "path": "/privacy/?lang=en"
     },
     {

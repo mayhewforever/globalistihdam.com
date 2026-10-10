@@ -177,7 +177,7 @@ async function main() {
     const inlineHashes = scripts.filter(match => !/\bsrc\s*=/.test(match[1]))
       .map(match => "'sha256-" + createHash('sha256').update(match[2]).digest('base64') + "'");
     assert.deepEqual([...new Set(scriptPolicy.filter(value => value !== "'self'"))].sort(), [...new Set(inlineHashes)].sort(), `Stale bootstrap hashes; run node scripts/update-security-policy.mjs: ${filename}`); checks++;
-    for (const [name, expected] of Object.entries({ 'default-src': ["'self'"], 'object-src': ["'none'"], 'base-uri': ["'none'"], 'connect-src': ["'self'"], 'form-action': ["'self'", 'https://global-istihdam.mtoman.chatgpt.site'] })) {
+    for (const [name, expected] of Object.entries({ 'default-src': ["'self'"], 'object-src': ["'none'"], 'base-uri': ["'none'"], 'connect-src': ["'self'", 'https://raw.githubusercontent.com'], 'form-action': ["'self'", 'https://global-istihdam.mtoman.chatgpt.site'] })) {
       assert.deepEqual(directives.get(name), expected, `Unexpected ${name} policy: ${filename}`); checks++;
     }
     check(!directives.has('frame-ancestors'), `frame-ancestors is unsupported in meta policy: ${filename}`);

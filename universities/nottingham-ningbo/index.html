@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-CkOV5qhJhcO6D9V9y6Up/Q/OKhV+C9YPQhORL+Ozq4c=' 'sha256-VbiwPsa4iX7c0ChKOwZeSvAAxpERJYwGkSIR9qMgsVY='; style-src 'self' 'unsafe-inline'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-src 'none'; form-action 'self' https://global-istihdam.mtoman.chatgpt.site">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-CkOV5qhJhcO6D9V9y6Up/Q/OKhV+C9YPQhORL+Ozq4c=' 'sha256-VTiIAOyb9EVtw2JOiDTlYPa2zdyt419qMmOdHKrCJnI='; style-src 'self' 'unsafe-inline'; img-src 'self'; font-src 'self'; connect-src 'self' https://raw.githubusercontent.com; object-src 'none'; base-uri 'none'; frame-src 'none'; form-action 'self' https://global-istihdam.mtoman.chatgpt.site">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Globalistihdam Recruitment&amp;Investment Agency — uluslararası istihdam, eğitim ve yatırım danışmanlığı">
@@ -27,6 +27,7 @@
       await import(window.__GLOBALISTIHDAM_BASE__ + 'assets/professional-home.js');
       await import(window.__GLOBALISTIHDAM_BASE__ + 'assets/index-DQWQZiam.js');
       await import(window.__GLOBALISTIHDAM_BASE__ + 'assets/site-search.js');
+      await import(window.__GLOBALISTIHDAM_BASE__ + 'assets/latest-news.js');
     } catch (error) {
       console.error('Website loading failed', error);
       document.getElementById('root').innerHTML = '<main style="padding:24px"><h1>Site yüklenemedi / Unable to load</h1><p>Lütfen sayfayı yenileyin. / Please reload the page.</p><a href="tel:+905339247519">+90 (533) 924 75 19</a></main>';
