@@ -1,0 +1,15 @@
+{
+  "name": "globalistihdam-static-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/check-site.mjs && node scripts/check-dom.mjs",
+    "test:static": "node scripts/check-site.mjs"
+  },
+  "devDependencies": {
+    "happy-dom": "20.14.6"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

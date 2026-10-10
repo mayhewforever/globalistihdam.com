@@ -1,0 +1,836 @@
+{
+  "tr": [
+    {
+      "title": "Yurt Dışında Eğitim",
+      "description": "Ülke rehberleri, üniversiteler, maliyetler ve kişisel eğitim başvurusu desteği.",
+      "path": "/education/?lang=tr"
+    },
+    {
+      "title": "İş Gücü ve İstihdam",
+      "description": "İşverenler ve çalışanlar için sektöre özel istihdam rehberleri ve başvuru takibi.",
+      "path": "/sectors/?lang=tr"
+    },
+    {
+      "title": "Yatırım ve Pazara Giriş",
+      "description": "16 ülke rehberi, sektör keşfi, yatırım planlayıcı ve iş koordinasyonu.",
+      "path": "/investment/?lang=tr"
+    },
+    {
+      "title": "Ülkeleri Keşfedin",
+      "description": "Eğitim ve yatırım hedefiniz için ayrı ülke rehberleri.",
+      "path": "/countries/?lang=tr"
+    },
+    {
+      "title": "Pazar İçgörüleri",
+      "description": "İstihdam, uluslararası eğitim ve yatırım için tarihli kısa pazar göstergeleri.",
+      "path": "/insights/?lang=tr"
+    },
+    {
+      "title": "Gizlilik ve başvuru bilgileri",
+      "description": "Başvuru portalında hangi bilgilerin kaydedildiğini, kimlerin erişebildiğini ve saklama düzenlemelerinin durumunu inceleyin.",
+      "path": "/privacy/?lang=tr"
+    },
+    {
+      "title": "Kurumsal",
+      "description": "Globalistihdam’ın istihdam, eğitim ve yatırım danışmanlığı hizmetleri hakkında bilgi.",
+      "path": "/#tr/corporate"
+    },
+    {
+      "title": "İletişim",
+      "description": "Globalistihdam’ın telefon ve adres bilgileri; hizmetler hakkında görüşme seçenekleri.",
+      "path": "/#tr/contact"
+    },
+    {
+      "title": "Türkiye",
+      "description": "İngilizce ve Türkçe programları, Ankara ve İstanbul’da üniversite yaşamını keşfedin; hedeflerinize ve bütçenize uygun eğitim planınızı oluşturun.",
+      "path": "/education/turkiye/?lang=tr"
+    },
+    {
+      "title": "Çin",
+      "description": "Suzhou, Ningbo ve Hangzhou dahil Çin’deki uluslararası programları keşfedin. Program seçmeden eğitim dilini, kabul koşullarını ve öğrenci desteğini karşılaştırın.",
+      "path": "/education/china/?lang=tr"
+    },
+    {
+      "title": "Azerbaycan",
+      "description": "Bakü’den başlayarak üniversite, bölüm ve eğitim dili seçeneklerinizi değerlendirin.",
+      "path": "/education/azerbaijan/?lang=tr"
+    },
+    {
+      "title": "Kuzey Kıbrıs",
+      "description": "Üniversiteleri keşfedin; Final Üniversitesi’nin İngiltere’ye uzanan 2+2 ve 3+1 eğitim yollarını inceleyin.",
+      "path": "/education/north-cyprus/?lang=tr"
+    },
+    {
+      "title": "Almanya",
+      "description": "Almanya’da akademik hedefinize uygun bölüm ve eğitim dili seçeneklerini keşfedin.",
+      "path": "/education/germany/?lang=tr"
+    },
+    {
+      "title": "Avrupa · İngiltere",
+      "description": "İngiltere’deki üniversite seçeneklerini inceleyin. Diğer Avrupa ülkelerine yönelik hedeflerinizi başvurunuzda paylaşabilirsiniz.",
+      "path": "/education/europe/?lang=tr"
+    },
+    {
+      "title": "Kanada",
+      "description": "Kanada için üniversite, bölüm ve eğitim seviyesi tercihlerinizi birlikte planlayalım.",
+      "path": "/education/canada/?lang=tr"
+    },
+    {
+      "title": "ABD",
+      "description": "Amerika Birleşik Devletleri’nde eğitim hedeflerinize uygun üniversite seçeneklerini keşfedin.",
+      "path": "/education/usa/?lang=tr"
+    },
+    {
+      "title": "Turizm ve Otelcilik",
+      "description": "Sektörel iş gücü rehberi, işveren talepleri ve çalışan başvuruları.",
+      "path": "/sectors/hospitality/?lang=tr"
+    },
+    {
+      "title": "Üretim ve Sanayi",
+      "description": "Sektörel iş gücü rehberi, işveren talepleri ve çalışan başvuruları.",
+      "path": "/sectors/manufacturing/?lang=tr"
+    },
+    {
+      "title": "Sağlık Profesyonelleri",
+      "description": "Sektörel iş gücü rehberi, işveren talepleri ve çalışan başvuruları.",
+      "path": "/sectors/healthcare/?lang=tr"
+    },
+    {
+      "title": "Eğitim ve Dil Hizmetleri",
+      "description": "Sektörel iş gücü rehberi, işveren talepleri ve çalışan başvuruları.",
+      "path": "/sectors/education/?lang=tr"
+    },
+    {
+      "title": "Yaşlı ve Engelli Bireylere Destek",
+      "description": "Sektörel iş gücü rehberi, işveren talepleri ve çalışan başvuruları.",
+      "path": "/sectors/care/?lang=tr"
+    },
+    {
+      "title": "Enerji ve Yenilenebilir Enerji",
+      "description": "Sektörel iş gücü rehberi, işveren talepleri ve çalışan başvuruları.",
+      "path": "/sectors/energy/?lang=tr"
+    },
+    {
+      "title": "Türkiye · Yatırım Rehberi",
+      "description": "Savunma sanayii, turizm ve gayrimenkul başta olmak üzere üretim, lojistik, enerji ve teknoloji alanlarını keşfedin. Sektöre özel fizibilite ve net bir izin yol haritasıyla başlayın.",
+      "path": "/investment/turkiye/?lang=tr"
+    },
+    {
+      "title": "Birleşik Arap Emirlikleri · Yatırım Rehberi",
+      "description": "Lisans seçiminden önce uygun emirliği ve faaliyet modelini belirleyin. Ana kara ve serbest bölge yapıları farklı iş ihtiyaçlarına hizmet eder.",
+      "path": "/investment/united-arab-emirates/?lang=tr"
+    },
+    {
+      "title": "Suudi Arabistan · Yatırım Rehberi",
+      "description": "Sanayi, lojistik, turizm ve sağlık projelerini yerel talep ve güncel yatırımcı kayıt sistemi çerçevesinde değerlendirin.",
+      "path": "/investment/saudi-arabia/?lang=tr"
+    },
+    {
+      "title": "Katar · Yatırım Rehberi",
+      "description": "Lojistik, teknoloji, üretim ve iş hizmetleri için Katar’daki kuruluş platformlarını karşılaştırın. Seçimin temelinde faaliyet uygunluğu bulunmalıdır.",
+      "path": "/investment/qatar/?lang=tr"
+    },
+    {
+      "title": "Bahreyn · Yatırım Rehberi",
+      "description": "Finansal hizmetler, bilişim, üretim, lojistik veya turizm için Körfez’de bir iş merkezi seçeneğini faaliyet bazlı kuruluş incelemesiyle değerlendirin.",
+      "path": "/investment/bahrain/?lang=tr"
+    },
+    {
+      "title": "Umman · Yatırım Rehberi",
+      "description": "Başlangıçtan itibaren konum ve iş gücü planlamasıyla lojistik, yenilenebilir enerji, sürdürülebilir turizm ve ileri üretimi değerlendirin.",
+      "path": "/investment/oman/?lang=tr"
+    },
+    {
+      "title": "Kuveyt · Yatırım Rehberi",
+      "description": "Yeni işletme veya büyüme projesi için KDIPA yatırım yolunu değerlendirin. Açıkça tanımlanmış bir iş teklifi başvurunun temelini oluşturur.",
+      "path": "/investment/kuwait/?lang=tr"
+    },
+    {
+      "title": "Almanya · Yatırım Rehberi",
+      "description": "Sanayi üretimi, enerji, dijital hizmetler ve yaşam bilimlerini keşfedin. Konumu müşterilere, nitelikli personele ve altyapıya göre belirleyin.",
+      "path": "/investment/germany/?lang=tr"
+    },
+    {
+      "title": "Birleşik Krallık · Yatırım Rehberi",
+      "description": "İleri üretim, temiz enerji, yaşam bilimleri ve dijital işletmeleri müşterilerinize uygun konum ve faaliyet planıyla değerlendirin.",
+      "path": "/investment/united-kingdom/?lang=tr"
+    },
+    {
+      "title": "Fransa · Yatırım Rehberi",
+      "description": "Yapılandırılmış pazara giriş planıyla havacılık, temiz enerji, dijital inovasyon, tarım-gıda ve sağlık alanlarını keşfedin.",
+      "path": "/investment/france/?lang=tr"
+    },
+    {
+      "title": "Hollanda · Yatırım Rehberi",
+      "description": "Fiziksel varlık ve müşteri ihtiyaçlarını dikkate alarak tarım-gıda, teknoloji, yaşam bilimleri ve tedarik zinciri faaliyetlerini karşılaştırın.",
+      "path": "/investment/netherlands/?lang=tr"
+    },
+    {
+      "title": "İrlanda · Yatırım Rehberi",
+      "description": "Gerçekçi personel ve faaliyet planıyla teknoloji, ilaç, tıbbi teknoloji ve uluslararası iş hizmetlerini keşfedin.",
+      "path": "/investment/ireland/?lang=tr"
+    },
+    {
+      "title": "İspanya · Yatırım Rehberi",
+      "description": "Bölgesel konum karşılaştırmasıyla yenilenebilir enerji, mobilite, dijital hizmetler, turizm ve tarım-gıda alanlarını keşfedin.",
+      "path": "/investment/spain/?lang=tr"
+    },
+    {
+      "title": "Amerika Birleşik Devletleri · Yatırım Rehberi",
+      "description": "Eyalet bazında pazara giriş stratejisi oluşturun. Şirket türü, vergiler, iş gücü ve faaliyet şartları federal ve yerel düzeyde değerlendirilmelidir.",
+      "path": "/investment/usa/?lang=tr"
+    },
+    {
+      "title": "Kanada · Yatırım Rehberi",
+      "description": "İleri üretim, yaşam bilimleri, enerji ve tarım-gıdayı keşfedin. Eyaletleri ve yerleşimleri projenizin iş gücü ve altyapı ihtiyaçlarına göre karşılaştırın.",
+      "path": "/investment/canada/?lang=tr"
+    },
+    {
+      "title": "Çin · Yatırım Rehberi",
+      "description": "Sanayi tedarik zincirlerini, tüketici pazarlarını ve yenilik merkezlerini eyalet bazında karşılaştırın. Hukuki yapı seçmeden faaliyeti ve pazara giriş koşullarını değerlendirin.",
+      "path": "/investment/china/?lang=tr"
+    },
+    {
+      "title": "Xi’an Jiaotong-Liverpool Üniversitesi",
+      "description": "XJTLU’nun uluslararası kabul kaynaklarından Suzhou’daki lisans ve lisansüstü seçeneklerini inceleyin. Seçtiğiniz programın akademik ve dil koşullarını kontrol edin.",
+      "path": "/universities/xian-jiaotong-liverpool/?lang=tr"
+    },
+    {
+      "title": "Nottingham Ningbo Çin Üniversitesi",
+      "description": "Ningbo’da eğitim için üniversitenin uluslararası kabul kaynaklarını inceleyin. Program içeriğini, giriş koşullarını ve güncel ücretleri doğrudan üniversiteden karşılaştırın.",
+      "path": "/universities/nottingham-ningbo/?lang=tr"
+    },
+    {
+      "title": "Zhejiang Üniversitesi",
+      "description": "Zhejiang’ın 2026 lisans rehberinde Çince ve İngilizce eğitim seçenekleri yer alır. Dil belgesi ve 2026/27 lisans kabulü için CSCA sonucu belirtilen koşullar arasındadır; döneminizin rehberini doğrulayın.",
+      "path": "/universities/zhejiang/?lang=tr"
+    },
+    {
+      "title": "Uluslararası Final Üniversitesi",
+      "description": "2015 yılında Girne’de kurulan Uluslararası Final Üniversitesi; mühendislik, işletme, mimarlık, psikoloji, eğitim, sağlık bilimleri ve turizm alanlarında programlar sunar. Eğitim dili programa göre Türkçe veya İngilizcedir.",
+      "path": "/universities/final-international-university/?lang=tr"
+    },
+    {
+      "title": "Ada Kent Üniversitesi",
+      "description": "Ada Kent Üniversitesi; diş hekimliği, eczacılık ve hemşireliğin yanı sıra hukuk, eğitim ve işletme alanlarında akademik seçenekler sunar.",
+      "path": "/universities/ada-kent/?lang=tr"
+    },
+    {
+      "title": "Akdeniz Karpaz Üniversitesi",
+      "description": "Akdeniz Karpaz Üniversitesi’nin Havacılık Yönetimi programı; havalimanı yönetimi, havayolu operasyonları, uçuş planlama ve lojistik konularını kapsar.",
+      "path": "/universities/akdeniz-karpaz/?lang=tr"
+    },
+    {
+      "title": "Altınbaş Kıbrıs Üniversitesi",
+      "description": "Altınbaş Kıbrıs Üniversitesi; mühendislik ve mimarlık, sanat, sağlık bilimleri, hukuk ve sosyal bilimler alanlarında fakültelere sahiptir.",
+      "path": "/universities/altinbas-cyprus/?lang=tr"
+    },
+    {
+      "title": "Ankara Sosyal Bilimler Üniversitesi · Kuzey Kıbrıs Yerleşkesi",
+      "description": "ASBÜ Kuzey Kıbrıs Yerleşkesi; hukuk, psikoloji, ilahiyat, İngilizce öğretmenliği ve özel eğitim öğretmenliği gibi alanlarda programlar sunar.",
+      "path": "/universities/asbu-north-cyprus/?lang=tr"
+    },
+    {
+      "title": "Arkın Yaratıcı Sanatlar ve Tasarım Üniversitesi",
+      "description": "ARUCAD’ın Görsel İletişim Tasarımı programı, geleneksel ve dijital yaratıcı teknikleri sanat, tasarım ve görsel kültür çalışmalarıyla birleştirir.",
+      "path": "/universities/arucad/?lang=tr"
+    },
+    {
+      "title": "Avrupa Liderlik Üniversitesi",
+      "description": "Avrupa Liderlik Üniversitesi; veri bilimi, bilgisayar mühendisliği, dijital pazarlama ve sosyal medya ile işletme alanlarında programlar listeler.",
+      "path": "/universities/european-leadership/?lang=tr"
+    },
+    {
+      "title": "Bahçeşehir Kıbrıs Üniversitesi",
+      "description": "Bahçeşehir Kıbrıs Üniversitesi’nin Mimarlık ve Mühendislik Fakültesi; mimarlığın yanı sıra bilgisayar, yazılım, elektrik-elektronik, endüstri ve inşaat mühendisliğini kapsar.",
+      "path": "/universities/bahcesehir-cyprus/?lang=tr"
+    },
+    {
+      "title": "Doğu Akdeniz Üniversitesi",
+      "description": "Doğu Akdeniz Üniversitesi; mühendislik, mimarlık, eczacılık, turizm, işletme ve ekonomi dahil geniş bir akademik alan yelpazesine sahiptir.",
+      "path": "/universities/eastern-mediterranean/?lang=tr"
+    },
+    {
+      "title": "Girne Amerikan Üniversitesi",
+      "description": "Girne Amerikan Üniversitesi; işletme ve ekonomi, mühendislik, mimarlık ve tasarım, iletişim, eğitim ve sağlık bilimleri alanlarında eğitim sunar.",
+      "path": "/universities/girne-american/?lang=tr"
+    },
+    {
+      "title": "Girne Üniversitesi",
+      "description": "Girne Üniversitesi; denizcilik, havacılık, mühendislik, tıp, diş hekimliği ve eczacılık dahil çeşitli alanlarda programlar sunar.",
+      "path": "/universities/university-of-kyrenia/?lang=tr"
+    },
+    {
+      "title": "İTÜ-KKTC Eğitim Araştırma Yerleşkeleri",
+      "description": "İTÜ Kuzey Kıbrıs’ın programları; bilgisayar, elektrik-elektronik ve endüstri mühendisliğinin yanı sıra mimarlık, ekonomi ve finans ile denizcilik alanlarını kapsar.",
+      "path": "/universities/itu-north-cyprus/?lang=tr"
+    },
+    {
+      "title": "Kıbrıs Amerikan Üniversitesi",
+      "description": "Kıbrıs Amerikan Üniversitesi; güzel sanatlar, hukuk, işletme ve ekonomi, mühendislik ve teknoloji, eğitim, sağlık bilimleri ve siyasal bilgiler alanlarında eğitim verir.",
+      "path": "/universities/american-university-cyprus/?lang=tr"
+    },
+    {
+      "title": "Kıbrıs Aydın Üniversitesi",
+      "description": "Kıbrıs Aydın Üniversitesi; diş hekimliği, eğitim bilimleri, mühendislik ve mimarlık, insan ve toplum bilimleri, sağlık bilimleri, hukuk ve uygulamalı bilimler alanlarında fakültelere sahiptir.",
+      "path": "/universities/cyprus-aydin/?lang=tr"
+    },
+    {
+      "title": "Kıbrıs Batı Üniversitesi",
+      "description": "Kıbrıs Batı Üniversitesi; işletme, psikoloji, lojistik, sivil havacılık yönetimi, turizm ve otelcilik ile bilgisayar, bilişim sistemleri ve elektrik-elektronik mühendisliği programları sunar.",
+      "path": "/universities/cyprus-west/?lang=tr"
+    },
+    {
+      "title": "Kıbrıs Sağlık ve Toplum Bilimleri Üniversitesi",
+      "description": "Kıbrıs Sağlık ve Toplum Bilimleri Üniversitesi’nin lisans seçenekleri arasında diş hekimliği, psikoloji ile fizyoterapi ve rehabilitasyon bulunur.",
+      "path": "/universities/cyprus-health-social-sciences/?lang=tr"
+    },
+    {
+      "title": "Lefke Avrupa Üniversitesi",
+      "description": "Lefke Avrupa Üniversitesi, 1990 yılında akademik faaliyetlerine başladı. Mimarlık, mühendislik, eğitim, iletişim ve iktisadi ve idari bilimler alanlarında fakülteleri bulunur.",
+      "path": "/universities/european-university-lefke/?lang=tr"
+    },
+    {
+      "title": "ODTÜ Kuzey Kıbrıs Kampüsü",
+      "description": "ODTÜ Kuzey Kıbrıs Kampüsü, Kalkanlı’da mühendislik, iktisadi ve idari bilimler ile eğitim ve insan bilimleri alanlarında lisans programları sunar.",
+      "path": "/universities/metu-north-cyprus/?lang=tr"
+    },
+    {
+      "title": "Onbeş Kasım Kıbrıs Üniversitesi",
+      "description": "Lefkoşa’da eğitim veren Onbeş Kasım Kıbrıs Üniversitesi, iletişim, mühendislik, eğitim ve turizm alanlarında programlar sunar.",
+      "path": "/universities/onbes-kasim/?lang=tr"
+    },
+    {
+      "title": "Rauf Denktaş Üniversitesi",
+      "description": "Rauf Denktaş Üniversitesi, Lefkoşa Surlariçi’ndeki yerleşkelerinde mimarlık ve mühendislik, işletme ve ekonomi ile hukuk alanlarında eğitim verir.",
+      "path": "/universities/rauf-denktas/?lang=tr"
+    },
+    {
+      "title": "Uluslararası Alasya Üniversitesi",
+      "description": "Aşağı Dikmen’deki Uluslararası Alasya Üniversitesi, bilgisayar ve yazılım mühendisliğinin yanı sıra işletme, uluslararası ticaret ve siyaset bilimi programları sunar.",
+      "path": "/universities/international-alasia/?lang=tr"
+    },
+    {
+      "title": "Uluslararası Kıbrıs Üniversitesi",
+      "description": "1997 yılında Lefkoşa’da kurulan Uluslararası Kıbrıs Üniversitesi; tarım bilimleri, mühendislik, tıp, eczacılık, güzel sanatlar, tasarım ve mimarlık alanlarında akademik birimlere sahiptir.",
+      "path": "/universities/cyprus-international/?lang=tr"
+    },
+    {
+      "title": "Yakın Doğu Üniversitesi",
+      "description": "Lefkoşa’daki Yakın Doğu Üniversitesi, tıp ve veteriner hekimliğinden yapay zekâ ve bilişime uzanan alanlarda fakültelere sahiptir.",
+      "path": "/universities/near-east/?lang=tr"
+    },
+    {
+      "title": "Anadolu Üniversitesi · Lefkoşa Kampüsü",
+      "description": "Anadolu Üniversitesi’nin Lefkoşa kampüsü açıköğretim öğrencilerine hizmet verir. Bu kampüs, YÖDAK’ın 23 kurumluk listesinden ayrı bir açıköğretim seçeneği olarak gösterilmektedir.",
+      "path": "/universities/anadolu-nicosia/?lang=tr"
+    },
+    {
+      "title": "ADA Üniversitesi",
+      "description": "Bakü’deki ADA Üniversitesi; işletme, kamu yönetimi, bilişim ve mühendislik, hukuk ve tasarım gibi alanlarda lisans ve lisansüstü eğitim sunan bir devlet üniversitesidir.",
+      "path": "/universities/ada-university/?lang=tr"
+    },
+    {
+      "title": "University of Europe for Applied Sciences",
+      "description": "UE’nin Berlin kampüsü; iletişim tasarımı, oyun tasarımı, işletme ve spor yönetimi gibi alanlarda İngilizce lisans ve yüksek lisans seçenekleri sunar.",
+      "path": "/universities/university-of-europe/?lang=tr"
+    },
+    {
+      "title": "Portsmouth Üniversitesi",
+      "description": "Ana kampüsü Portsmouth’ta bulunan üniversite; bilgisayar bilimleri, siber güvenlik, veri bilimi ve yazılım mühendisliği dahil lisans ve lisansüstü seçenekler sunar.",
+      "path": "/universities/portsmouth/?lang=tr"
+    },
+    {
+      "title": "Manitoba Üniversitesi",
+      "description": "Winnipeg’deki Manitoba Üniversitesi, farklı alanlarda lisans ve lisansüstü eğitim sunar. Bilgisayar bilimi seçenekleri arasında honours ve major dereceleri ile co-op uygulamaları bulunur.",
+      "path": "/universities/manitoba/?lang=tr"
+    },
+    {
+      "title": "Arizona Eyalet Üniversitesi",
+      "description": "Tempe ve başka yerleşkelerde eğitim veren Arizona Eyalet Üniversitesi, bir devlet araştırma üniversitesidir. Ira A. Fulton okulları lisans ve lisansüstü mühendislik programları sunar.",
+      "path": "/universities/arizona-state/?lang=tr"
+    },
+    {
+      "title": "Khazar University",
+      "description": "Khazar University, Bakü'de mühendislik, sosyal bilimler, eğitim ve işletme gibi alanlarda eğitim sunan ve programlarının çoğunda İngilizce kullanan özel bir üniversitedir.",
+      "path": "/universities/khazar-university/?lang=tr"
+    },
+    {
+      "title": "Baku Engineering University",
+      "description": "Baku Engineering University, Hırdalan'da bilişim, mühendislik, iktisadi ve idari bilimler ile mimarlık ve inşaat alanlarında eğitim sunar.",
+      "path": "/universities/baku-engineering-university/?lang=tr"
+    },
+    {
+      "title": "Constructor University",
+      "description": "Constructor University, Bremen'de bilim, bilgisayar bilimi, mühendislik, işletme ve sosyal bilimler alanlarında İngilizce eğitim veren özel bir araştırma üniversitesidir.",
+      "path": "/universities/constructor-university/?lang=tr"
+    },
+    {
+      "title": "Rhine-Waal University of Applied Sciences",
+      "description": "Rhine-Waal University of Applied Sciences, Kleve ve Kamp-Lintfort kampüslerinde çok sayıda İngilizce program ve uygulamaya dönük eğitim sunar.",
+      "path": "/universities/rhine-waal-university-of-applied-sciences/?lang=tr"
+    },
+    {
+      "title": "Coventry University",
+      "description": "Coventry University'nin kampüsü, İngiltere'deki Coventry şehrinin merkezinde yer alır.",
+      "path": "/universities/coventry-university/?lang=tr"
+    },
+    {
+      "title": "University of Hertfordshire",
+      "description": "University of Hertfordshire, İngiltere'nin Hertfordshire bölgesindeki Hatfield'da yer alır.",
+      "path": "/universities/university-of-hertfordshire/?lang=tr"
+    },
+    {
+      "title": "University of Calgary",
+      "description": "University of Calgary, Kanada’nın Alberta eyaletindeki Calgary şehrinde bulunan bir üniversitedir.",
+      "path": "/universities/university-of-calgary/?lang=tr"
+    },
+    {
+      "title": "York University",
+      "description": "York University, Kanada’nın Toronto şehrinde eğitim ve araştırma faaliyetleri yürüten bir üniversitedir.",
+      "path": "/universities/york-university/?lang=tr"
+    },
+    {
+      "title": "Oregon State University",
+      "description": "Oregon State University, Corvallis ve Bend kampüslerinde lisans ve lisansüstü eğitim sunan bir Oregon üniversitesidir.",
+      "path": "/universities/oregon-state-university/?lang=tr"
+    },
+    {
+      "title": "University of South Florida",
+      "description": "University of South Florida, Tampa Bay bölgesinde işletme, mühendislik, fen ve sosyal bilimler ile sağlık alanlarında programlar sunar.",
+      "path": "/universities/university-of-south-florida/?lang=tr"
+    },
+    {
+      "title": "Orta Doğu Teknik Üniversitesi",
+      "description": "Ankara’daki ODTÜ; mühendislik, mimarlık, fen, sosyal bilimler, iktisat ve eğitim alanlarında İngilizce eğitim sunar. Uluslararası kabul sayfalarında program, yeterlik ve dil rehberleri bulunur.",
+      "path": "/universities/middle-east-technical-university/?lang=tr"
+    },
+    {
+      "title": "Boğaziçi Üniversitesi",
+      "description": "İstanbul’daki Boğaziçi Üniversitesi, programa özel yeterlikler ve İngilizce koşulları içeren uluslararası lisans kabul yolunu yayımlar. Adaylar seçtikleri programın güncel kontenjanını ve belge listesini kontrol etmelidir.",
+      "path": "/universities/bogazici-university/?lang=tr"
+    },
+    {
+      "title": "Koç Üniversitesi",
+      "description": "Koç Üniversitesi, İstanbul’da kâr amacı gütmeyen bir vakıf araştırma üniversitesidir. İngilizce Elektrik ve Elektronik Mühendisliği lisans seçeneklerine bir örnektir; tüm program kataloğunu ve güncel kabul koşullarını karşılaştırın.",
+      "path": "/universities/koc-university/?lang=tr"
+    }
+  ],
+  "en": [
+    {
+      "title": "Study Abroad",
+      "description": "Country guides, universities, study costs and personalised application support.",
+      "path": "/education/?lang=en"
+    },
+    {
+      "title": "Workforce Recruitment",
+      "description": "Sector guides, workforce enquiries and application tracking for employers and candidates.",
+      "path": "/sectors/?lang=en"
+    },
+    {
+      "title": "Investment & Market Entry",
+      "description": "Explore 16 country guides, discover sectors, plan a market-entry route and request business coordination.",
+      "path": "/investment/?lang=en"
+    },
+    {
+      "title": "Explore Countries",
+      "description": "Dedicated country guides for your study and investment goals.",
+      "path": "/countries/?lang=en"
+    },
+    {
+      "title": "Market Insights",
+      "description": "Dated market snapshots for workforce recruitment, international education and investment.",
+      "path": "/insights/?lang=en"
+    },
+    {
+      "title": "Privacy & application information",
+      "description": "Understand what the application portal stores, who can access it and the status of retention arrangements.",
+      "path": "/privacy/?lang=en"
+    },
+    {
+      "title": "About Globalistihdam",
+      "description": "Information about Globalistihdam’s recruitment, education and investment advisory services.",
+      "path": "/#en/corporate"
+    },
+    {
+      "title": "Contact",
+      "description": "Globalistihdam’s telephone and address details, with ways to discuss its services.",
+      "path": "/#en/contact"
+    },
+    {
+      "title": "Türkiye",
+      "description": "Explore English- and Turkish-taught programmes, university life in Ankara and Istanbul, and a study plan that fits your goals and budget.",
+      "path": "/education/turkiye/?lang=en"
+    },
+    {
+      "title": "China",
+      "description": "Explore international programmes in China, including Suzhou, Ningbo and Hangzhou. Compare teaching language, academic entry requirements and support before selecting a programme.",
+      "path": "/education/china/?lang=en"
+    },
+    {
+      "title": "Azerbaijan",
+      "description": "Explore universities, subjects and study languages, starting with Baku.",
+      "path": "/education/azerbaijan/?lang=en"
+    },
+    {
+      "title": "North Cyprus",
+      "description": "Discover universities and explore Final University’s 2+2 and 3+1 pathways to England.",
+      "path": "/education/north-cyprus/?lang=en"
+    },
+    {
+      "title": "Germany",
+      "description": "Explore subjects and teaching languages for your academic goals in Germany.",
+      "path": "/education/germany/?lang=en"
+    },
+    {
+      "title": "Europe · England",
+      "description": "Explore universities in England. Share your goals for other European countries in your enquiry.",
+      "path": "/education/europe/?lang=en"
+    },
+    {
+      "title": "Canada",
+      "description": "Plan your university, subject and study-level preferences for Canada.",
+      "path": "/education/canada/?lang=en"
+    },
+    {
+      "title": "USA",
+      "description": "Discover university options for your academic goals in the United States.",
+      "path": "/education/usa/?lang=en"
+    },
+    {
+      "title": "Tourism & Hospitality",
+      "description": "Sector workforce guidance, employer enquiries and candidate applications.",
+      "path": "/sectors/hospitality/?lang=en"
+    },
+    {
+      "title": "Manufacturing & Industry",
+      "description": "Sector workforce guidance, employer enquiries and candidate applications.",
+      "path": "/sectors/manufacturing/?lang=en"
+    },
+    {
+      "title": "Healthcare Professionals",
+      "description": "Sector workforce guidance, employer enquiries and candidate applications.",
+      "path": "/sectors/healthcare/?lang=en"
+    },
+    {
+      "title": "Education & Language Services",
+      "description": "Sector workforce guidance, employer enquiries and candidate applications.",
+      "path": "/sectors/education/?lang=en"
+    },
+    {
+      "title": "Elderly & Disability Support",
+      "description": "Sector workforce guidance, employer enquiries and candidate applications.",
+      "path": "/sectors/care/?lang=en"
+    },
+    {
+      "title": "Energy & Renewable Energy",
+      "description": "Sector workforce guidance, employer enquiries and candidate applications.",
+      "path": "/sectors/energy/?lang=en"
+    },
+    {
+      "title": "Türkiye · Investment Guide",
+      "description": "Explore defence industry, tourism and real estate, with further opportunities across manufacturing, logistics, energy and technology. Start with a sector-specific feasibility study and a clear approval pathway.",
+      "path": "/investment/turkiye/?lang=en"
+    },
+    {
+      "title": "United Arab Emirates · Investment Guide",
+      "description": "Choose the right emirate and operating model before choosing a licence. Mainland and free-zone structures serve different business needs.",
+      "path": "/investment/united-arab-emirates/?lang=en"
+    },
+    {
+      "title": "Saudi Arabia · Investment Guide",
+      "description": "Assess industrial, logistics, tourism and healthcare projects against local demand and the current investor registration framework.",
+      "path": "/investment/saudi-arabia/?lang=en"
+    },
+    {
+      "title": "Qatar · Investment Guide",
+      "description": "Compare Qatar’s establishment platforms for logistics, technology, manufacturing and business services. Activity eligibility should lead the decision.",
+      "path": "/investment/qatar/?lang=en"
+    },
+    {
+      "title": "Bahrain · Investment Guide",
+      "description": "Explore a Gulf base for financial services, ICT, manufacturing, logistics or tourism, with an activity-led setup review.",
+      "path": "/investment/bahrain/?lang=en"
+    },
+    {
+      "title": "Oman · Investment Guide",
+      "description": "Consider logistics, renewable energy, sustainable tourism and advanced manufacturing, with location and workforce planning from the outset.",
+      "path": "/investment/oman/?lang=en"
+    },
+    {
+      "title": "Kuwait · Investment Guide",
+      "description": "Evaluate the KDIPA investment route for a new operating business or expansion. A well-defined business proposal is central to the application.",
+      "path": "/investment/kuwait/?lang=en"
+    },
+    {
+      "title": "Germany · Investment Guide",
+      "description": "Explore industrial production, energy, digital services and life sciences. Match your location to customers, skilled staff and infrastructure.",
+      "path": "/investment/germany/?lang=en"
+    },
+    {
+      "title": "United Kingdom · Investment Guide",
+      "description": "Assess advanced manufacturing, clean energy, life sciences and digital businesses, with a location and operating plan suited to your customers.",
+      "path": "/investment/united-kingdom/?lang=en"
+    },
+    {
+      "title": "France · Investment Guide",
+      "description": "Explore aerospace, clean energy, digital innovation, agrifood and healthcare within a structured market-entry plan.",
+      "path": "/investment/france/?lang=en"
+    },
+    {
+      "title": "Netherlands · Investment Guide",
+      "description": "Compare opportunities in agrifood, technology, life sciences and supply-chain operations, with attention to physical presence and customers.",
+      "path": "/investment/netherlands/?lang=en"
+    },
+    {
+      "title": "Ireland · Investment Guide",
+      "description": "Explore technology, pharmaceuticals, medical technology and international business services, supported by a realistic staffing and operating plan.",
+      "path": "/investment/ireland/?lang=en"
+    },
+    {
+      "title": "Spain · Investment Guide",
+      "description": "Explore renewable energy, mobility, digital services, tourism and agrifood with a regional location comparison.",
+      "path": "/investment/spain/?lang=en"
+    },
+    {
+      "title": "United States · Investment Guide",
+      "description": "Build a state-by-state entry strategy. Entity choice, taxes, workforce and operational requirements need both federal and local review.",
+      "path": "/investment/usa/?lang=en"
+    },
+    {
+      "title": "Canada · Investment Guide",
+      "description": "Explore advanced manufacturing, life sciences, energy and agrifood. Compare provinces and communities against your project’s workforce and infrastructure needs.",
+      "path": "/investment/canada/?lang=en"
+    },
+    {
+      "title": "China · Investment Guide",
+      "description": "Compare industrial supply chains, consumer markets and innovation centres by province. Define the activity and assess market access before selecting a legal structure.",
+      "path": "/investment/china/?lang=en"
+    },
+    {
+      "title": "Xi’an Jiaotong-Liverpool University",
+      "description": "Explore undergraduate and postgraduate options in Suzhou through XJTLU’s international admissions resources. Check the entry and language requirements for your chosen programme.",
+      "path": "/universities/xian-jiaotong-liverpool/?lang=en"
+    },
+    {
+      "title": "University of Nottingham Ningbo China",
+      "description": "Explore the university’s international recruitment resources for study in Ningbo. Compare programme content, entry requirements and current tuition directly with the university.",
+      "path": "/universities/nottingham-ningbo/?lang=en"
+    },
+    {
+      "title": "Zhejiang University",
+      "description": "Zhejiang’s 2026 undergraduate guide lists Chinese- and English-taught study routes. Language evidence and, for 2026/27 undergraduate entry, a CSCA report are among the stated requirements; verify the guide for your intake.",
+      "path": "/universities/zhejiang/?lang=en"
+    },
+    {
+      "title": "Final International University",
+      "description": "Established in Kyrenia in 2015, Final International University offers programs in engineering, business, architecture, psychology, education, health sciences and tourism. Teaching is in Turkish or English depending on the program.",
+      "path": "/universities/final-international-university/?lang=en"
+    },
+    {
+      "title": "Ada Kent University",
+      "description": "Ada Kent University offers study options in dentistry, pharmacy and nursing, alongside law, education and business.",
+      "path": "/universities/ada-kent/?lang=en"
+    },
+    {
+      "title": "University of Mediterranean Karpasia",
+      "description": "The University of Mediterranean Karpasia’s Aviation Management program covers airport management, airline operations, flight planning and logistics.",
+      "path": "/universities/akdeniz-karpaz/?lang=en"
+    },
+    {
+      "title": "Altınbaş Cyprus University",
+      "description": "Altınbaş Cyprus University has faculties covering engineering and architecture, arts, health sciences, law and social sciences.",
+      "path": "/universities/altinbas-cyprus/?lang=en"
+    },
+    {
+      "title": "Social Sciences University of Ankara · North Cyprus Campus",
+      "description": "ASBU’s North Cyprus Campus offers programs including law, psychology, theology, English language teaching and special education teaching.",
+      "path": "/universities/asbu-north-cyprus/?lang=en"
+    },
+    {
+      "title": "Arkin University of Creative Arts and Design",
+      "description": "ARUCAD’s Visual Communication Design program combines traditional and digital creative techniques with studies in art, design and visual culture.",
+      "path": "/universities/arucad/?lang=en"
+    },
+    {
+      "title": "European Leadership University",
+      "description": "European Leadership University lists programs in data science, computer engineering, digital marketing and social media, and business administration.",
+      "path": "/universities/european-leadership/?lang=en"
+    },
+    {
+      "title": "Bahçeşehir Cyprus University",
+      "description": "Bahçeşehir Cyprus University’s Faculty of Architecture and Engineering covers architecture, computer, software, electrical and electronics, industrial and civil engineering.",
+      "path": "/universities/bahcesehir-cyprus/?lang=en"
+    },
+    {
+      "title": "Eastern Mediterranean University",
+      "description": "Eastern Mediterranean University covers academic fields including engineering, architecture, pharmacy, tourism, business and economics.",
+      "path": "/universities/eastern-mediterranean/?lang=en"
+    },
+    {
+      "title": "Girne American University",
+      "description": "Girne American University offers study across business and economics, engineering, architecture and design, communication, education and health sciences.",
+      "path": "/universities/girne-american/?lang=en"
+    },
+    {
+      "title": "University of Kyrenia",
+      "description": "The University of Kyrenia offers programs including maritime studies, aviation, engineering, medicine, dentistry and pharmacy.",
+      "path": "/universities/university-of-kyrenia/?lang=en"
+    },
+    {
+      "title": "Istanbul Technical University · North Cyprus",
+      "description": "ITU North Cyprus offers programs in computer, electrical and electronics, and industrial engineering, alongside architecture, economics and finance, and maritime disciplines.",
+      "path": "/universities/itu-north-cyprus/?lang=en"
+    },
+    {
+      "title": "American University of Cyprus",
+      "description": "The American University of Cyprus offers study in fine arts, law, business and economics, engineering and technology, education, health sciences and political sciences.",
+      "path": "/universities/american-university-cyprus/?lang=en"
+    },
+    {
+      "title": "Cyprus Aydin University",
+      "description": "Cyprus Aydin University has faculties covering dentistry, education, engineering and architecture, humanities and social sciences, health sciences, law and applied sciences.",
+      "path": "/universities/cyprus-aydin/?lang=en"
+    },
+    {
+      "title": "Cyprus West University",
+      "description": "Cyprus West University offers business, psychology, logistics, civil aviation management, tourism and hotel management, and computer, information systems, and electrical and electronics engineering.",
+      "path": "/universities/cyprus-west/?lang=en"
+    },
+    {
+      "title": "Cyprus Health and Social Sciences University",
+      "description": "Cyprus Health and Social Sciences University offers undergraduate options including dentistry, psychology, and physiotherapy and rehabilitation.",
+      "path": "/universities/cyprus-health-social-sciences/?lang=en"
+    },
+    {
+      "title": "European University of Lefke",
+      "description": "The European University of Lefke began academic activities in 1990. Its faculties cover architecture, engineering, education, communication, and economics and administrative sciences.",
+      "path": "/universities/european-university-lefke/?lang=en"
+    },
+    {
+      "title": "Middle East Technical University · Northern Cyprus Campus",
+      "description": "METU Northern Cyprus Campus in Kalkanlı offers undergraduate programs in engineering, economics and administrative sciences, and education and humanities.",
+      "path": "/universities/metu-north-cyprus/?lang=en"
+    },
+    {
+      "title": "Onbeş Kasım Kıbrıs University",
+      "description": "Based in Nicosia, Onbeş Kasım Kıbrıs University offers programs spanning communication, engineering, education and tourism.",
+      "path": "/universities/onbes-kasim/?lang=en"
+    },
+    {
+      "title": "Rauf Denktaş University",
+      "description": "Rauf Denktaş University has campuses in Nicosia’s walled city and offers architecture and engineering, business and economics, and law.",
+      "path": "/universities/rauf-denktas/?lang=en"
+    },
+    {
+      "title": "International University of Alasia",
+      "description": "International University of Alasia in Aşağı Dikmen offers computer and software engineering alongside business, international trade and political science.",
+      "path": "/universities/international-alasia/?lang=en"
+    },
+    {
+      "title": "Cyprus International University",
+      "description": "Founded in Nicosia in 1997, Cyprus International University has academic units in agricultural sciences, engineering, medicine, pharmacy, fine arts, design and architecture.",
+      "path": "/universities/cyprus-international/?lang=en"
+    },
+    {
+      "title": "Near East University",
+      "description": "Based in Nicosia, Near East University has faculties spanning medicine and veterinary medicine to artificial intelligence and informatics.",
+      "path": "/universities/near-east/?lang=en"
+    },
+    {
+      "title": "Anadolu University · Nicosia Campus",
+      "description": "Anadolu University’s Nicosia campus serves open education students. This campus is listed separately from the 23 institutions in the YÖDAK directory.",
+      "path": "/universities/anadolu-nicosia/?lang=en"
+    },
+    {
+      "title": "ADA University",
+      "description": "ADA is a state university in Baku offering undergraduate and graduate study in fields including business, public affairs, IT and engineering, law and design.",
+      "path": "/universities/ada-university/?lang=en"
+    },
+    {
+      "title": "University of Europe for Applied Sciences",
+      "description": "UE’s Berlin campus offers English-taught bachelor’s and master’s options including communication design, game design, business and sport management.",
+      "path": "/universities/university-of-europe/?lang=en"
+    },
+    {
+      "title": "University of Portsmouth",
+      "description": "With its main campus in Portsmouth, the university offers undergraduate and postgraduate options including computing, cyber security, data science and software engineering.",
+      "path": "/universities/portsmouth/?lang=en"
+    },
+    {
+      "title": "University of Manitoba",
+      "description": "The University of Manitoba in Winnipeg offers broad undergraduate and graduate study. Computer science options include honours and major degrees, with co-op opportunities.",
+      "path": "/universities/manitoba/?lang=en"
+    },
+    {
+      "title": "Arizona State University",
+      "description": "Arizona State University is a public research university with a Tempe campus and other locations. Its Ira A. Fulton Schools offer undergraduate and graduate engineering programs.",
+      "path": "/universities/arizona-state/?lang=en"
+    },
+    {
+      "title": "Khazar University",
+      "description": "Khazar University is a private university in Baku offering fields including engineering, social sciences, education and business, with most programs taught in English.",
+      "path": "/universities/khazar-university/?lang=en"
+    },
+    {
+      "title": "Baku Engineering University",
+      "description": "Baku Engineering University in Khirdalan offers study in information technology, engineering, economics and administrative sciences, and architecture and construction.",
+      "path": "/universities/baku-engineering-university/?lang=en"
+    },
+    {
+      "title": "Constructor University",
+      "description": "Constructor University is a private, English-taught research university in Bremen with study areas spanning science, computer science, engineering, business and social sciences.",
+      "path": "/universities/constructor-university/?lang=en"
+    },
+    {
+      "title": "Rhine-Waal University of Applied Sciences",
+      "description": "Rhine-Waal University of Applied Sciences offers numerous English-taught programs and practice-oriented study at its Kleve and Kamp-Lintfort campuses.",
+      "path": "/universities/rhine-waal-university-of-applied-sciences/?lang=en"
+    },
+    {
+      "title": "Coventry University",
+      "description": "Coventry University's campus is situated in the centre of Coventry, England.",
+      "path": "/universities/coventry-university/?lang=en"
+    },
+    {
+      "title": "University of Hertfordshire",
+      "description": "The University of Hertfordshire is located in Hatfield, Hertfordshire, England.",
+      "path": "/universities/university-of-hertfordshire/?lang=en"
+    },
+    {
+      "title": "University of Calgary",
+      "description": "The University of Calgary is a university located in Calgary, Alberta, Canada.",
+      "path": "/universities/university-of-calgary/?lang=en"
+    },
+    {
+      "title": "York University",
+      "description": "York University is a teaching and research university located in Toronto, Canada.",
+      "path": "/universities/york-university/?lang=en"
+    },
+    {
+      "title": "Oregon State University",
+      "description": "Oregon State University offers undergraduate and graduate study in Oregon, with campuses in Corvallis and Bend.",
+      "path": "/universities/oregon-state-university/?lang=en"
+    },
+    {
+      "title": "University of South Florida",
+      "description": "The University of South Florida offers programs across business, engineering, arts and sciences, and health in the Tampa Bay region.",
+      "path": "/universities/university-of-south-florida/?lang=en"
+    },
+    {
+      "title": "Middle East Technical University",
+      "description": "METU in Ankara offers English-medium study across engineering, architecture, sciences, social sciences, economics and education. Its international admissions pages provide programme, qualification and language guidance.",
+      "path": "/universities/middle-east-technical-university/?lang=en"
+    },
+    {
+      "title": "Boğaziçi University",
+      "description": "Boğaziçi University in Istanbul publishes an international undergraduate admissions route with programme-specific entry qualifications and English-language requirements. Applicants should check the current quota and document list for their chosen programme.",
+      "path": "/universities/bogazici-university/?lang=en"
+    },
+    {
+      "title": "Koç University",
+      "description": "Koç University is a nonprofit foundation research university in Istanbul. Its English-taught Electrical and Electronics Engineering programme is one example of its undergraduate offering; compare the full programme catalogue and current admission conditions.",
+      "path": "/universities/koc-university/?lang=en"
+    }
+  ]
+}
