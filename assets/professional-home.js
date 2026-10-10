@@ -65,7 +65,7 @@
       ],
       contactLabel: 'BİR SONRAKİ ADIM', contactTitle: 'İletişim',
       contactIntro: 'Bir kariyer değişikliği, yeni bir ekip veya uluslararası bir eğitim planı. Sizin için önemli olanı dinleyelim.',
-      contactCta: 'Bizimle iletişime geçin', callLabel: 'DOĞRUDAN GÖRÜŞÜN',
+      contactCta: 'Bizimle iletişime geçin', callLabel: 'WHATSAPP',
       photography: 'Sektör ve öğrenci fotoğrafları temsili görsellerdir.'
     },
     en: {
@@ -129,7 +129,7 @@
       ],
       contactLabel: 'YOUR NEXT STEP', contactTitle: 'Contact',
       contactIntro: 'A career move, a new team or an international education. Tell us what matters to you.',
-      contactCta: 'Start a conversation', callLabel: 'SPEAK TO US DIRECTLY',
+      contactCta: 'Start a conversation', callLabel: 'WHATSAPP',
       photography: 'Industry and student photographs are illustrative.'
     }
   };
@@ -184,7 +184,7 @@
       </div></section>
       <section class="gi-investment" aria-labelledby="gi-investment-title"><div class="gi-shell gi-investment-layout"><div class="gi-investment-copy"><p class="gi-kicker">${c.investmentLabel}</p><h2 class="gi-title" id="gi-investment-title">${c.investmentTitle}</h2><p class="gi-body">${c.investmentIntro}</p><a class="gi-link" href="${serviceLinks[2]}">${c.investmentCta}${arrow}</a></div><img src="${asset('investment-istanbul.jpg')}" alt="${c.investmentAlt}" width="2100" height="1180" loading="lazy"></div></section>
       <section class="gi-process gi-section" aria-labelledby="gi-process-title"><div class="gi-shell"><div class="gi-section-heading"><div><p class="gi-kicker">${c.processLabel}</p><h2 class="gi-title" id="gi-process-title">${c.processTitle}</h2></div><p class="gi-body">${c.processIntro}</p></div><ol class="gi-steps">${c.steps.map((s, i) => `<li><span class="gi-step-number" aria-hidden="true">0${i + 1}</span><h3>${s[0]}</h3><p>${s[1]}</p></li>`).join('')}</ol><section class="gi-faq-layout" aria-labelledby="gi-faq-title"><div class="gi-faq-intro"><p class="gi-kicker">${c.faqLabel}</p><h2 class="gi-title" id="gi-faq-title">${c.faqTitle}</h2></div><div class="gi-faq">${c.faqs.map(q => `<details><summary>${q[0]}<span aria-hidden="true">+</span></summary><p>${q[1]}</p></details>`).join('')}</div></section></div></section>
-      <section class="gi-contact" aria-labelledby="gi-contact-title"><div class="gi-shell gi-contact-layout"><div><p class="gi-kicker">${c.contactLabel}</p><h2 class="gi-title" id="gi-contact-title">${c.contactTitle}</h2><p class="gi-body">${c.contactIntro}</p><a class="gi-button gi-button-light" href="${contact}">${c.contactCta}${arrow}</a></div><div class="gi-direct"><p class="gi-kicker">${c.callLabel}</p><a href="tel:+905339247519">+90 (533) 924 75 19${diagonal}</a><span>Globalistihdam<br>Recruitment&amp;Investment Agency</span></div></div></section>
+      <section class="gi-contact" aria-labelledby="gi-contact-title"><div class="gi-shell gi-contact-layout"><div><p class="gi-kicker">${c.contactLabel}</p><h2 class="gi-title" id="gi-contact-title">${c.contactTitle}</h2><p class="gi-body">${c.contactIntro}</p><a class="gi-button gi-button-light" href="${contact}">${c.contactCta}${arrow}</a></div><div class="gi-direct"><p class="gi-kicker">${c.callLabel}</p><a data-whatsapp href="https://global-istihdam.mtoman.chatgpt.site/contact/whatsapp" target="_blank" rel="noopener noreferrer">${lang==='tr'?'WhatsApp’tan yazın':'Chat on WhatsApp'}${diagonal}</a><span>Globalistihdam<br>Recruitment&amp;Investment Agency</span></div></div></section>
       <p class="gi-photo-note gi-shell">${c.photography}</p>
     </div>`;
   };

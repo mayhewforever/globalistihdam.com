@@ -65,8 +65,15 @@ function checkLink(href, description) {
   }
 }
 
+function checkPublishedContact(value, description) {
+  check(!/(?:\+?90[\s().-]*)?533[\s().-]*924[\s().-]*75[\s().-]*19/.test(value), `Published company phone in ${description}`);
+  check(!/tel:\+?\d/i.test(value), `Published telephone link in ${description}`);
+  check(!/wa\.me\//i.test(value), `Public WhatsApp links must use the number-free server redirect in ${description}`);
+}
+
 function checkDataLinks(value, description, seen = new Set()) {
   if (typeof value === 'string') {
+    checkPublishedContact(value, description);
     if (/^https?:\/\//.test(value)) checkLink(value, description);
     return;
   }
@@ -163,6 +170,7 @@ async function main() {
   const referencedFiles = new Set();
   for (const filename of htmlFiles) {
     const html = fs.readFileSync(filename, 'utf8');
+    checkPublishedContact(html, filename);
     check(/<div\b[^>]*\bid=["']root["']/.test(html), `Missing application mount: ${filename}`);
     const scripts = [...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/g)];
     check(scripts.length > 0, `Missing boot script: ${filename}`);
@@ -260,6 +268,7 @@ async function main() {
       for (const lang of ['tr', 'en']) {
         const input = { params: Promise.resolve({ [param]: slug }), searchParams: Promise.resolve({ lang }) };
         const metadata = await page.generateMetadata(input);
+        checkDataLinks(metadata, `${family}/${slug} metadata (${lang})`);
         const tree = await page.default(input);
         check(typeof metadata?.title === 'string' && metadata.title.length > 0, `Missing title: ${family}/${slug} (${lang})`);
         check(Boolean(tree?.props), `Empty page: ${family}/${slug} (${lang})`);
@@ -283,6 +292,7 @@ async function main() {
     for (const lang of ['tr', 'en']) {
       const input = { params: Promise.resolve({}), searchParams: Promise.resolve({ lang }) };
       const metadata = await page.generateMetadata(input);
+      checkDataLinks(metadata, `${route} metadata (${lang})`);
       const tree = await page.default(input);
       check(Boolean(metadata?.title && tree?.props), `Empty directory: ${route} (${lang})`);
       checkDataLinks(tree, `${route} (${lang})`);
@@ -292,9 +302,10 @@ async function main() {
 
   // Check literal local file references in active scripts and CSS, including
   // assets that are rendered by a component after page construction.
-  const activeScripts = [bundleFile, path.join(root, 'site.js')];
+  const activeScripts = [...new Set([bundleFile, path.join(root, 'site.js'), ...[...referencedFiles].filter(filename => filename.endsWith('.js'))])];
   for (const filename of activeScripts) {
     const content = fs.readFileSync(filename, 'utf8');
+    checkPublishedContact(content, filename);
     const references = content.matchAll(/["'`]((?:\/|\.\.?\/)[^"'`$<>\\\s]+\.(?:png|jpe?g|webp|svg|gif|css|js|txt|json))(?:[?#][^"'`\s]*)?["'`]/g);
     for (const match of references) checkAsset(match[1], filename);
   }
@@ -304,6 +315,7 @@ async function main() {
       checkAsset(match[1], filename);
     }
   }
+  checkDataLinks(JSON.parse(fs.readFileSync(path.join(root, 'search-index.json'), 'utf8')), 'search directory');
   const social = JSON.parse(fs.readFileSync(path.join(root, 'social.json'), 'utf8'));
   check(social.links && typeof social.links === 'object', 'Invalid social.json');
   checkDataLinks(social, 'social.json');

@@ -27,7 +27,6 @@ The repository and GitHub Pages cannot create or host email accounts. No domain 
 Globalistihdam | General Enquiries / Genel İletişim
 Recruitment & Investment Agency
 info@globalistihdam.com
-+90 (533) 924 75 19
 Çankaya, Ankara, Türkiye
 
 ### Careers
@@ -35,7 +34,6 @@ info@globalistihdam.com
 Globalistihdam | Careers / Kariyer
 Recruitment & Investment Agency
 careers@globalistihdam.com
-+90 (533) 924 75 19
 Çankaya, Ankara, Türkiye
 
 ### Education
@@ -43,7 +41,6 @@ careers@globalistihdam.com
 Globalistihdam | Education / Eğitim
 Recruitment & Investment Agency
 education@globalistihdam.com
-+90 (533) 924 75 19
 Çankaya, Ankara, Türkiye
 
 ### Business
@@ -51,7 +48,6 @@ education@globalistihdam.com
 Globalistihdam | Business / İş İlişkileri
 Recruitment & Investment Agency
 business@globalistihdam.com
-+90 (533) 924 75 19
 Çankaya, Ankara, Türkiye
 
 ## Optional acknowledgement templates

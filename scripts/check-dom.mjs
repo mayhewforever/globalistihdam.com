@@ -9,6 +9,13 @@ const professionalHome=await fs.readFile(root+'/assets/professional-home.js','ut
 const searchUI=await fs.readFile(root+'/assets/site-search.js','utf8');
 let checks=0;
 const pause=()=>new Promise(r=>setTimeout(r,60));
+function assertPublicContact(document) {
+ assert.equal(document.querySelectorAll('a[href^="tel:"]').length,0,'Public pages must not expose telephone links');checks++;
+ assert.doesNotMatch(document.body.textContent,/(?:\+?90[\s().-]*)?533[\s().-]*924[\s().-]*75[\s().-]*19/);checks++;
+ for(const link of document.querySelectorAll('[data-whatsapp]')) { assert.equal(link.href,'https://global-istihdam.mtoman.chatgpt.site/contact/whatsapp');checks++; }
+ assert.equal(document.querySelectorAll('a[href*="wa.me"]').length,0);checks++;
+}
+
 async function open(path,{storage,search='',searchIndex,socialData}={}) {
  const win=new Window({url:'https://example.test'+path+search,settings:{disableJavaScriptFileLoading:true,disableCSSFileLoading:true,enableJavaScriptEvaluation:true,suppressInsecureJavaScriptEnvironmentWarning:true}});
  const errors=[]; const requests=[];
@@ -30,6 +37,7 @@ async function open(path,{storage,search='',searchIndex,socialData}={}) {
  if(win.GlobalistihdamRuntime.path()==='/') win.eval(legacy);
  win.eval(searchUI);
  await pause();
+ assertPublicContact(win.document);
  return {win,errors,requests};
 }
 const {win:w,errors,requests}=await open('/globalistihdam.com/',{storage:'not-a-language',search:'?lang=en'});
@@ -58,7 +66,13 @@ showAll.click();assert.equal(showAll.getAttribute('aria-pressed'),'false');check
 w.document.querySelector('[data-lang="tr"]').click();await pause();
 assert.equal(w.document.querySelectorAll('.pro-slide').length,4);checks++;
 assert.equal(w.document.querySelectorAll('.pro-sector-card').length,6);checks++;
-w.document.querySelector('[data-lang="en"]').click();await pause();
+for(const lang of ['tr','en']) {
+ w.document.querySelector('[data-lang="'+lang+'"]').click();await pause();
+ assertPublicContact(w.document);
+ for(const link of w.document.querySelectorAll('[data-whatsapp],.pro-contact-band a')) {
+  assert.equal(link.href,'https://global-istihdam.mtoman.chatgpt.site/contact/whatsapp');assert.match(link.textContent,/WhatsApp/);checks++;
+ }
+}
 
 w.location.hash='#en/education';await pause();
 const forms=w.document.querySelectorAll('[data-preference-form]');
@@ -77,6 +91,10 @@ assert.equal(w.document.documentElement.lang,'en');checks++;
 assert.match(w.document.querySelector('.brand-social').textContent,/connect with the world/);checks++;
 for(const page of ['corporate','contact','training','media','home']) {
  w.location.hash='#en/'+page;await pause();
+ if(page==='contact') {
+  assert.ok(w.document.querySelector('.contact-info [data-whatsapp]'));checks++;
+  assert.ok([...w.document.querySelectorAll('.sidecard a')].some(link=>new URL(link.href).searchParams.get('type')==='contact'),'Contact form remains separate from WhatsApp');checks++;
+ }
  if(page==='media') {
   const gallery=w.document.querySelector('.brand-gallery');
   const images=[...gallery.querySelectorAll('img')];
@@ -90,6 +108,7 @@ for(const page of ['corporate','contact','training','media','home']) {
  w.document.querySelector('a[href="#main"]').click();await pause();
  assert.equal(w.document.querySelector('#main h1').textContent,title);checks++;
  assert.equal(w.document.activeElement.id,'main');checks++;
+ assertPublicContact(w.document);
 }
 const menu=w.document.querySelector('.menu-toggle');menu.click();assert.equal(menu.getAttribute('aria-expanded'),'true');checks++;
 w.document.dispatchEvent(new w.KeyboardEvent('keydown',{key:'Escape',bubbles:true}));assert.equal(menu.getAttribute('aria-expanded'),'false');checks++;
