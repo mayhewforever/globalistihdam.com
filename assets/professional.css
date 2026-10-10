@@ -802,3 +802,12 @@ body { margin: 0; background: var(--gi-white); }
   .public-root .pro-header { display: none !important; }
   .public-root .gi-news, .gi-home .gi-section { padding-block: 30px; }
 }
+
+/* Preserve the complete Türkiye mark in the dedicated brand gallery. */
+.public-root .brand-gallery .media-banner { width: 100%; height: auto; max-height: none; object-fit: contain; }
+/* Contain the complete brand artwork in both short banners and tall cards. */
+.public-root :is(.service-hero, .advisory-hero, .market-hero, .pro-slide, .page-hero, .service-final, .slider-photo-frame) {
+  background-size: contain;
+  background-position: right center;
+  background-repeat: no-repeat;
+}

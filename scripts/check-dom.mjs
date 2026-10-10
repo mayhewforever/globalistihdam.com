@@ -77,6 +77,14 @@ assert.equal(w.document.documentElement.lang,'en');checks++;
 assert.match(w.document.querySelector('.brand-social').textContent,/connect with the world/);checks++;
 for(const page of ['corporate','contact','training','media','home']) {
  w.location.hash='#en/'+page;await pause();
+ if(page==='media') {
+  const gallery=w.document.querySelector('.brand-gallery');
+  const images=[...gallery.querySelectorAll('img')];
+  assert.deepEqual(images.map(image=>new URL(image.src).pathname),['/globalistihdam.com/global-istihdam-symbol-turkiye-v4.png','/globalistihdam.com/brand-banner-turkiye-v4.png']);checks++;
+  assert.equal(images[1].getAttribute('width'),'2172');assert.equal(images[1].getAttribute('height'),'724');checks++;
+  assert.equal(gallery.closest('.native-slider').querySelectorAll('.slider-arrow').length,2);checks++;
+  assert.ok([...gallery.children].every(slide=>!slide.style.backgroundImage),'Gallery artwork must not be duplicated as cropped slide backgrounds');checks++;
+ }
  assert.ok(w.document.querySelector('#main h1'));checks++;
  const title=w.document.querySelector('#main h1').textContent;
  w.document.querySelector('a[href="#main"]').click();await pause();

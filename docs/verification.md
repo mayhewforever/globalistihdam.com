@@ -26,12 +26,12 @@ Date: 10 October 2026
 
 ## Public deployment
 
-The marketing website is published at https://globalistihdam.mtoman.chatgpt.site with public access. The most recent completed deployments before this visual update were marketing version 3 and application backend version 19. This source is the next visual revision. Routine news-data refreshes require only a feed commit.
+The marketing website is published at https://globalistihdam.mtoman.chatgpt.site with public access. The most recent completed deployments before this visual update were marketing version 4 and application backend version 20. This source is the next visual revision. Routine news-data refreshes require only a feed commit.
 
 ## Check results
 
 - Static checks: 9,729 passed across 83 HTML shells, 75 detail routes, 162 Turkish/English page constructors and 37 local assets. 342 external URL formats were checked; their contents and availability were not all inspected.
-- Simulated DOM checks: 443 passed, including language changes, form-value preservation, skip navigation, mobile menu dismissal, retained campaign sections, carousel keyboard and expansion controls, and representative deep routes at both hosting paths.
+- Simulated DOM checks: 447 passed, including language changes, form-value preservation, skip navigation, mobile menu dismissal, retained campaign sections, carousel keyboard and expansion controls, and representative deep routes at both hosting paths.
 - News checks: all twelve feed items passed schema/date/source/bilingual-length validation; 222 offline rendering, routing, fallback and unsafe-input checks passed.
 - JavaScript syntax checks passed for the active bundle, hosting runtime and homepage script.
 
