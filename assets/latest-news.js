@@ -188,13 +188,20 @@
       renderedKey = undefined;
       return;
     }
-    if (!mount || mount.parentElement !== main) {
-      mount?.remove();
+    const home = runtime.path() === '/' && hashPage === 'home';
+    const before = home ? main.querySelector('.home-insight-band') || main.querySelector('.pro-contact-band') : null;
+    const parent = before?.parentElement || main;
+    if (!mount) {
       mount = element('section', 'gi-news');
       mount.id = 'gi-latest-news';
       mount.setAttribute('aria-labelledby', 'gi-news-title');
-      main.appendChild(mount);
       renderedKey = undefined;
+    }
+    // Keep the homepage's final contact section last. Reuse the same mount when
+    // a framework rerender replaces its parent, without a mutation/remount loop.
+    if (mount.parentElement !== parent || (before && mount.nextElementSibling !== before)) {
+      if (before) before.before(mount);
+      else parent.appendChild(mount);
     }
     const lang = runtime.language();
     const key = [lang, keys.join(','), feedState].join('|');

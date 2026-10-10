@@ -207,9 +207,8 @@ body { margin: 0; background: var(--gi-white); }
 .public-root .pro-footer-bottom { font-size: .68rem; line-height: 1.7; color: #637177; border-color: var(--gi-line); flex-wrap: wrap; gap: 15px 27px; }
 .public-root .brand-social-links { background: var(--gi-paper); border-color: var(--gi-line); }
 
-/* Preserve the established logo, branded photography, sliders and banners.
-   The original bundle remains responsible for the logo composition and artwork.
-   These rules refine spacing/type/controls without replacing those assets. */
+/* Retain the established photography, sliders and banners. The isolated symbol
+   and live wordmark are sized together in the final identity rules below. */
 .public-root .gi-home.pro-home .pro-home-hero { isolation: isolate; }
 .public-root .gi-home.pro-home .pro-home-hero .pro-hero-track { gap: 0 !important; }
 .public-root .gi-home.pro-home .pro-slide-copy { padding-top: 82px; padding-bottom: 112px; }
@@ -567,4 +566,239 @@ body { margin: 0; background: var(--gi-white); }
 @media print {
   .public-root .gi-news { padding-block: 30px; }
   .public-root .gi-news-group, .public-root .gi-news-story { break-inside: avoid; }
+}
+
+/* 2026 identity refinement: the active campaign, editorial sections and news. */
+:root {
+  --gi-section-space: clamp(60px, 6.4vw, 92px);
+  --gi-section-title-size: clamp(2rem, 3vw, 3rem);
+}
+.public-root .pro-header { box-shadow: 0 2px 12px #102b3c05; }
+.public-root .pro-header > .pro-container { gap: 22px; min-height: 104px; padding-block: 15px; }
+.public-root .agency-brand { display: flex; align-items: center; gap: 13px; color: var(--gi-navy); }
+.public-root .agency-symbol { width: 72px; height: 72px; flex: 0 0 72px; overflow: visible; }
+.public-root .agency-symbol img {
+  width: 100% !important; height: 100% !important; max-width: 100% !important;
+  object-fit: contain !important; object-position: center; margin: 0; display: block;
+  filter: none; opacity: 1;
+}
+.public-root .agency-wordmark { min-width: 0; gap: 6px; }
+.public-root .agency-wordmark > strong { font-size: 1.42rem; font-weight: 750; letter-spacing: -.045em; line-height: 1.12; }
+.public-root .agency-wordmark > span { max-width: 225px; font-size: .66rem !important; font-weight: 550; line-height: 1.4 !important; letter-spacing: .02em; color: #586b74; }
+.public-root .pro-header .pro-header-nav { gap: 17px; }
+.public-root .pro-header .pro-header-nav > a { min-height: 44px; display: inline-flex; align-items: center; font-size: .78rem; }
+.public-root .pro-header .pro-header-nav > a.pro-portal-link { padding-inline: 13px; background: var(--gi-navy); border: 1px solid var(--gi-navy); color: #fff; border-radius: 2px; }
+.public-root .pro-header .pro-header-nav > a.pro-portal-link:hover { background: #294958; }
+.public-root .pro-header .pro-header-nav > a.pro-portal-link::after { display: none; }
+.public-root .pro-header .header-controls { gap: 10px; }
+.public-root .pro-language { display: inline-flex; align-items: center; gap: 0; }
+.public-root .pro-language a, .public-root .pro-language button { min-width: 44px; min-height: 44px; font-size: .74rem !important; }
+.public-root .pro-language [aria-pressed="true"], .public-root .pro-language [aria-current="page"], .public-root .pro-language [aria-current="true"] { background: var(--gi-paper) !important; border-radius: 2px; }
+.public-root .pro-header .gi-search-toggle { width: 44px; min-width: 44px; height: 44px; padding: 11px; border-radius: 2px; }
+.public-root .pro-header .pro-menu, .public-root .pro-header .menu-toggle { min-width: 44px; width: 44px; height: 44px; flex-basis: 44px; }
+.gi-search-dialog > button, .gi-search-dialog header button, .gi-search-dialog .gi-search-close { width: 44px; height: 44px; }
+
+/* Photographic hero: keep all four slides and their native scroll controls. */
+.public-root .gi-home.pro-home .pro-slide { background-color: #143345; background-blend-mode: multiply; }
+.public-root .gi-home.pro-home .pro-slide-copy { padding: 74px max(48px, calc((100vw - 1320px) / 2)) 110px; }
+.public-root .gi-home.pro-home .pro-slide h1,
+.public-root .gi-home.pro-home .pro-slide h2 { max-width: 18ch; font-size: clamp(2.8rem, 4.6vw, 4.35rem); font-weight: 530; letter-spacing: -.045em; line-height: 1.08; text-wrap: balance; }
+.public-root .gi-home.pro-home .pro-slide h1 > span,
+.public-root .gi-home.pro-home .pro-slide h2 > span { color: #e1d0a1; }
+.public-root .gi-home.pro-home .pro-slide .pro-eyebrow { max-width: 58ch; color: #e3d3ac !important; letter-spacing: .14em; font-size: .68rem !important; line-height: 1.75; margin-bottom: 25px; }
+.public-root .gi-home.pro-home .pro-slide .pro-lead { max-width: 57ch; color: #e2e9ea; font-size: 1rem; line-height: 1.8; margin-bottom: 30px; }
+.public-root .gi-home.pro-home .pro-slide-image { opacity: .88; -webkit-mask-image: linear-gradient(90deg, transparent 8%, #000 65%); mask-image: linear-gradient(90deg, transparent 8%, #000 65%); }
+.public-root .gi-home.pro-home .pro-slide-image::after { background: linear-gradient(90deg, #102b3cef, #102b3c8f 55%, #102b3c15), linear-gradient(0deg, #102b3c50, transparent 65%); }
+.public-root .gi-home.pro-home .pro-hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+.public-root .gi-home.pro-home .pro-hero-actions > a { min-height: 50px; padding: 13px 21px; font-size: .83rem; font-weight: 600; line-height: 1.5; }
+.public-root .gi-home.pro-home .pro-home-hero .pro-button,
+.public-root .gi-home.pro-home .pro-investment-band .pro-button { background: #dfcfaa; border-color: #dfcfaa; }
+.public-root .gi-home.pro-home .pro-hero-secondary { background: #102b3c24; border-color: #dbe5e575; }
+.public-root .gi-home.pro-home .pro-home-hero .slider-toolbar { left: max(48px, calc((100vw - 1320px) / 2)); bottom: 26px; }
+.public-root .gi-home.pro-home .slider-arrow { min-width: 44px; width: 44px; height: 44px; }
+.public-root .gi-home.pro-home .slider-view { min-height: 44px; padding-block: 10px; }
+.public-root .gi-home.pro-home .pro-service-strip { background: var(--gi-navy); border-top: 1px solid #d6c69c4d; }
+.public-root .gi-home.pro-home .pro-service-strip a { min-height: 80px; gap: 16px; font-size: .79rem; letter-spacing: 0; padding-block: 19px; }
+.public-root .gi-home.pro-home .pro-service-strip a > span { color: #d8c797; font-size: .67rem; font-variant-numeric: tabular-nums; }
+.public-root .gi-home.pro-home .pro-service-strip strong { font-weight: 550; }
+
+/* Six obvious starting points, followed by the service directory. */
+.public-root .gi-home.pro-home .home-journeys { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 26px; padding-block: 30px; }
+.public-root .gi-home.pro-home .home-journeys > span { grid-column: 1 / -1; margin-bottom: 13px; color: var(--gi-muted); font-size: .75rem; letter-spacing: .035em; }
+.public-root .gi-home.pro-home .home-journeys > a { display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 48px; padding: 11px 0; text-align: left; font-size: .87rem; font-weight: 550; border-bottom: 1px solid var(--gi-line); }
+.public-root .gi-home.pro-home .home-journeys > a::after { content: "↗"; color: #6d786e; font-size: 1.15rem; flex: none; }
+.public-root .gi-home.pro-home .home-journeys > a:hover { background: transparent; color: #536448; }
+.gi-home .gi-section, .public-root .gi-home.pro-home > .pro-section { padding-block: var(--gi-section-space); }
+.gi-home .gi-kicker { margin-bottom: 18px; font-size: .66rem; line-height: 1.7; letter-spacing: .13em; }
+.gi-home .gi-body { font-size: .98rem; line-height: 1.8; }
+.gi-home .gi-services-layout { grid-template-columns: .72fr 1.65fr; gap: clamp(40px, 6vw, 90px); align-items: start; }
+.gi-home .gi-services-intro { padding-top: 18px; }
+.gi-home .gi-services-intro .gi-body { max-width: 34ch; }
+.gi-home .gi-service { grid-template-columns: 24px minmax(0, 1fr) 98px 44px; gap: 18px; padding-block: 27px; align-items: start; }
+.gi-home .gi-service-copy { min-width: 0; }
+.gi-home .gi-service:nth-child(1) { --gi-service-accent: #347c9a; }
+.gi-home .gi-service:nth-child(2) { --gi-service-accent: #168d91; }
+.gi-home .gi-service:nth-child(3) { --gi-service-accent: #d18a3e; }
+.gi-home .gi-service:nth-child(4) { --gi-service-accent: #6b9d48; }
+.gi-home .gi-service > .gi-number { border-top: 3px solid var(--gi-service-accent); padding-top: 8px; }
+.gi-home .gi-service h3 { font-size: clamp(1.25rem, 1.6vw, 1.6rem); line-height: 1.25; margin-bottom: 10px; }
+.gi-home .gi-service-tag { font-size: .6rem; letter-spacing: .08em; color: #657368; }
+.gi-home .gi-service p:not(.gi-service-tag) { font-size: .84rem; line-height: 1.75; }
+.gi-home .gi-service-image { width: 98px; height: 108px; margin-top: 5px; object-fit: cover; display: block; }
+.gi-home .gi-icon-link { min-width: 44px; width: 44px; height: 44px; margin-top: 4px; }
+
+/* The education banner and destination directory are complementary features. */
+.public-root .gi-home.pro-home .pro-editorial { grid-template-columns: 1.05fr 1fr; gap: clamp(40px, 6vw, 88px); align-items: center; }
+.public-root .gi-home.pro-home .pro-editorial-image img { height: 450px; object-fit: cover; }
+.public-root .gi-home.pro-home .pro-editorial-image > span { background: #102b3ceb; font-size: .66rem; line-height: 1.7; padding: 18px 23px; }
+.public-root .gi-home.pro-home .pro-pathway-line { gap: 32px; padding-block: 20px; }
+.gi-home .gi-study-layout { grid-template-columns: .94fr 1.06fr; gap: clamp(40px, 6vw, 88px); }
+.gi-home .gi-study-image { height: 455px; }
+.gi-home .gi-study-image figcaption { font-size: .65rem; letter-spacing: .09em; padding: 17px 22px; }
+.gi-home .gi-destinations { margin-block: 25px 18px; }
+.gi-home .gi-destinations a { min-height: 54px; font-size: .84rem; }
+.public-root .gi-home.pro-home .pro-sector-section { padding-block: var(--gi-section-space); background: #fff; }
+.public-root .gi-home.pro-home .pro-sector-rail > .pro-sector-card.native-photo-slide { min-height: 365px; }
+.public-root .gi-home.pro-home .pro-sector-card.native-photo-slide h3 { max-width: 20ch; font-size: 1.4rem; }
+.gi-home .gi-process { background: var(--gi-paper); }
+.gi-home .gi-section-heading { grid-template-columns: 1fr 1fr; gap: 72px; margin-bottom: 34px; }
+.gi-home .gi-steps { gap: 40px; margin: 38px 0 28px; }
+.gi-home .gi-steps li { position: relative; padding-top: 23px; }
+.gi-home .gi-step-number { color: #6b776c; font-family: var(--gi-font); font-size: 1.7rem; font-weight: 450; letter-spacing: -.04em; margin-bottom: 24px; }
+.gi-home .gi-steps h3 { font-size: 1.15rem; }
+.gi-home .gi-process .gi-actions { margin-top: 30px; }
+.gi-home .gi-faq-layout { grid-template-columns: .72fr 1.65fr; gap: clamp(40px, 6vw, 90px); padding-top: 46px; margin-top: 54px; }
+.gi-home .gi-faq-intro { padding-top: 15px; }
+.gi-home .gi-faq summary { min-height: 68px; padding: 18px 0; font-size: .94rem; }
+.gi-home .gi-faq details > p { max-width: 70ch; font-size: .87rem; line-height: 1.8; }
+.public-root .gi-home.pro-home .pro-investment-band { background: var(--gi-navy); border-left-color: var(--gi-gold); padding-block: 68px; }
+.public-root .gi-home.pro-home .pro-investment-band > .pro-container { gap: 84px; }
+.public-root .gi-home.pro-home .pro-market-list { padding-top: 12px; }
+.public-root .gi-home.pro-home .home-insight-band { padding-block: 58px; }
+.public-root .gi-home.pro-home .pro-contact-band { background: #e6d9b8; color: var(--gi-navy); padding-block: 50px; border-top: 1px solid #d5c49b; }
+.public-root .gi-home.pro-home .pro-contact-band .pro-eyebrow { color: #5d604c !important; }
+.public-root .gi-home.pro-home .pro-contact-band h2, .public-root .gi-home.pro-home .pro-contact-band a { color: var(--gi-navy); }
+.public-root .gi-home.pro-home .pro-contact-band h2 { margin-bottom: 0; }
+.public-root .gi-home.pro-home .pro-contact-band a { min-height: 44px; display: inline-flex; align-items: center; font-weight: 500; }
+
+/* A compact reading layout keeps twelve sourced updates easy to scan. */
+.public-root .gi-news { padding-block: var(--gi-section-space); background: #f6f4ee; }
+.public-root .gi-news-groups { gap: 40px 48px; }
+.public-root .gi-news-group { border-top-width: 2px; padding-top: 19px; }
+.public-root .gi-news-category { font-size: clamp(1.18rem, 1.65vw, 1.45rem); font-weight: 600; margin-bottom: 8px; }
+.public-root .gi-news-checked { margin-bottom: 18px; font-size: .75rem; }
+.public-root .gi-news-story { padding-block: 20px 16px; }
+.public-root .gi-news-meta { font-size: .72rem; line-height: 1.6; margin-bottom: 8px; }
+.public-root .gi-news-story-title { font-size: 1.03rem; line-height: 1.45; margin-bottom: 10px; }
+.public-root .gi-news-summary { font-size: .85rem; line-height: 1.75; }
+.public-root .gi-news-source { font-size: .77rem; }
+.public-root .gi-news-stale { display: inline-block; padding: 5px 9px; background: #ece2c9; border-left: 2px solid #aa8d4d; }
+.public-root .pro-footer { background: #fff; padding-top: 58px; }
+.public-root .pro-footer .agency-symbol { width: 64px; height: 64px; flex-basis: 64px; }
+.public-root .pro-footer .agency-wordmark > strong { font-size: 1.32rem; }
+.public-root .pro-footer-grid { gap: 55px; }
+.public-root .pro-footer-grid > div > a:not(:has(img)) { min-height: 36px; margin-bottom: 2px; padding-block: 7px; }
+.public-root .pro-footer-bottom a { min-height: 44px; display: inline-flex; align-items: center; }
+
+@media (max-width: 1320px) {
+  .public-root .pro-header > .pro-container { flex-wrap: wrap; gap: 12px; min-height: 96px; padding-block: 12px; }
+  .public-root .pro-header .pro-logo { order: 0; margin-right: auto; min-width: 0; }
+  .public-root .pro-header .header-controls,
+  .public-root .pro-header > .pro-container > .pro-language,
+  .public-root .pro-header > .pro-container > .gi-search-toggle { order: 1; }
+  .public-root .pro-header .pro-menu, .public-root .pro-header .menu-toggle { display: inline-flex; order: 2; align-items: center; justify-content: center; flex-direction: column; padding: 8px; }
+  .public-root .pro-header .menu-toggle span { display: block; flex: none; width: 23px; height: 2px; margin: 3px 0; background: var(--gi-navy); }
+  .public-root .pro-header .pro-menu svg { width: 24px; height: 24px; margin: 0; }
+  .public-root .pro-header .pro-header-nav { display: none; order: 3; flex: 1 0 100%; width: 100%; flex-direction: column; align-items: stretch; gap: 0; padding: 10px 0 3px; border-top: 1px solid var(--gi-line); max-height: calc(100dvh - 160px); overflow-y: auto; }
+  .public-root .pro-header .pro-header-nav.open, .public-root .pro-header .pro-header-nav.is-open { display: flex; }
+  .public-root .pro-header .pro-header-nav > a { min-height: 48px; font-size: .94rem; padding: 12px 2px; border-bottom: 1px solid var(--gi-line); }
+  .public-root .pro-header .pro-header-nav > a::after { display: none; }
+  .public-root .pro-header .pro-header-nav > a.pro-portal-link { margin-top: 12px; padding-inline: 16px; }
+  .public-root .pro-header .agency-symbol { width: 64px; height: 64px; flex-basis: 64px; }
+}
+@media (max-width: 1050px) {
+  .gi-home .gi-services-layout { grid-template-columns: 1fr; gap: 26px; }
+  .gi-home .gi-services-intro .gi-body { max-width: 68ch; }
+  .gi-home .gi-service { grid-template-columns: 28px minmax(0, 1fr) 128px 44px; gap: 24px; }
+  .gi-home .gi-service-image { width: 128px; height: 102px; }
+  .gi-home .gi-service p:not(.gi-service-tag) { max-width: 57ch; }
+  .public-root .gi-home.pro-home .pro-editorial,
+  .gi-home .gi-study-layout { gap: 40px; }
+  .public-root .gi-home.pro-home .pro-editorial-image img, .gi-home .gi-study-image { height: 435px; }
+  .gi-home .gi-section-heading { gap: 40px; }
+  .public-root .gi-home.pro-home .pro-service-strip a { font-size: .72rem; gap: 10px; }
+  .public-root .gi-home.pro-home .pro-service-strip a + a { padding-left: 16px; }
+  .public-root .gi-home.pro-home .pro-investment-band > .pro-container { gap: 45px; }
+}
+@media (max-width: 950px) {
+  .public-root .gi-home.pro-home .pro-slide-copy { padding: 64px 28px 105px; }
+  .public-root .gi-home.pro-home .pro-home-hero .slider-toolbar { left: 28px; }
+  .public-root .gi-home.pro-home .pro-slide h1, .public-root .gi-home.pro-home .pro-slide h2 { font-size: clamp(2.8rem, 5.5vw, 3.65rem); }
+  .public-root .gi-home.pro-home .home-journeys { gap: 0 22px; }
+  .public-root .gi-home.pro-home .home-journeys > a { font-size: .8rem; }
+  .public-root .gi-news-groups { gap: 32px; }
+  .public-root .gi-news-groups[data-groups="1"] .gi-news-stories { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+}
+@media (max-width: 700px) {
+  .public-root .gi-home.pro-home .pro-slide-copy { padding: 49px 20px 105px; }
+  .public-root .gi-home.pro-home .pro-slide h1, .public-root .gi-home.pro-home .pro-slide h2 { max-width: 19ch; font-size: clamp(2.45rem, 7.2vw, 3.15rem); }
+  .public-root .gi-home.pro-home .pro-slide .pro-lead { max-width: 52ch; font-size: .94rem; line-height: 1.75; }
+  .public-root .gi-home.pro-home .pro-slide-image { -webkit-mask-image: none; mask-image: none; opacity: .56; }
+  .public-root .gi-home.pro-home .pro-slide-image::after { background: linear-gradient(90deg, #102b3ce8, #102b3c8c), linear-gradient(0deg, #102b3c44, transparent); }
+  .public-root .gi-home.pro-home .pro-hero-actions { align-items: flex-start; flex-direction: row; }
+  .public-root .gi-home.pro-home .pro-hero-actions > a { font-size: .79rem; padding: 13px 17px; }
+  .public-root .gi-home.pro-home .pro-home-hero .slider-toolbar { left: 20px; }
+  .public-root .gi-home.pro-home .pro-service-strip a { min-height: 70px; font-size: .74rem; }
+  .public-root .gi-home.pro-home .pro-service-strip a:nth-child(2n) { padding-left: 18px; }
+  .public-root .gi-home.pro-home .home-journeys { grid-template-columns: repeat(2, minmax(0, 1fr)); padding-block: 23px; gap: 0 20px; }
+  .public-root .gi-home.pro-home .home-journeys > a { font-size: .8rem; line-height: 1.55; min-height: 54px; }
+  .gi-home .gi-service { grid-template-columns: 21px minmax(0, 1fr) 44px; gap: 14px; }
+  .gi-home .gi-service-image { display: none; }
+  .gi-home .gi-service h3 { font-size: 1.36rem; }
+  .gi-home .gi-service-tag { font-size: .58rem; }
+  .public-root .gi-home.pro-home .pro-editorial, .gi-home .gi-study-layout { grid-template-columns: 1fr; gap: 30px; }
+  .public-root .gi-home.pro-home .pro-editorial-image img, .gi-home .gi-study-image { height: 340px; }
+  .gi-home .gi-section-heading { grid-template-columns: 1fr; gap: 18px; }
+  .gi-home .gi-steps { grid-template-columns: 1fr; gap: 26px; margin-top: 28px; }
+  .gi-home .gi-steps li { display: grid; grid-template-columns: 40px 1fr; column-gap: 18px; }
+  .gi-home .gi-step-number { grid-row: 1 / 3; font-size: 1.6rem; margin-bottom: 0; }
+  .gi-home .gi-faq-layout { grid-template-columns: 1fr; gap: 5px; padding-top: 34px; margin-top: 42px; }
+  .gi-home .gi-faq-intro { padding-top: 0; }
+  .gi-home .gi-faq summary { font-size: .9rem; }
+  .public-root .gi-home.pro-home .pro-investment-band { padding-block: 52px; }
+  .public-root .gi-home.pro-home .pro-investment-band > .pro-container { grid-template-columns: 1fr; gap: 28px; }
+  .public-root .gi-home.pro-home .pro-contact-band { padding-block: 38px; }
+  .public-root .pro-footer-grid { gap: 28px; }
+  .public-root .pro-footer-grid > div > a:not(:has(img)) { min-height: 44px; padding-block: 11px; }
+}
+@media (max-width: 600px) {
+  .public-root .pro-header > .pro-container { row-gap: 10px; padding-block: 13px 9px; }
+  .public-root .pro-header .pro-logo { flex: 1 0 100%; margin: 0; }
+  .public-root .pro-header .agency-symbol { width: 60px; height: 60px; flex-basis: 60px; }
+  .public-root .pro-header .agency-brand { gap: 12px; }
+  .public-root .pro-header .agency-wordmark > strong { font-size: 1.4rem; }
+  .public-root .pro-header .agency-wordmark > span { max-width: 220px; font-size: .65rem !important; }
+  .public-root .pro-header .header-controls { flex: 1 0 100%; justify-content: flex-end; gap: 8px; padding-top: 6px; border-top: 1px solid var(--gi-line); }
+  .public-root .pro-header > .pro-container > .gi-search-toggle { margin-left: auto; }
+  .public-root .pro-header .pro-header-nav { max-height: calc(100dvh - 225px); }
+  .public-root .pro-header .gi-search-toggle { width: 44px; min-width: 44px; height: 44px; padding: 11px; }
+  .public-root .pro-header .pro-menu, .public-root .pro-header .menu-toggle { width: 44px; min-width: 44px; height: 44px; flex-basis: 44px; }
+  .public-root .gi-news-groups, .public-root .gi-news-groups[data-groups="1"] .gi-news-stories { grid-template-columns: 1fr; gap: 28px; }
+  .public-root .gi-news-groups[data-groups="1"] .gi-news-stories { gap: 0; }
+  .public-root .gi-news-category { font-size: 1.2rem; }
+}
+@media (max-width: 400px) {
+  .public-root .gi-home.pro-home .pro-slide-copy { padding-inline: 16px; }
+  .public-root .gi-home.pro-home .pro-home-hero .slider-toolbar { left: 16px; }
+  .public-root .gi-home.pro-home .pro-hero-actions { flex-direction: column; align-items: stretch; }
+  .public-root .gi-home.pro-home .pro-hero-actions > a { text-align: center; }
+  .public-root .pro-header .agency-wordmark > strong { font-size: 1.3rem; }
+  .public-root .pro-header .agency-wordmark > span { max-width: 204px; font-size: .61rem !important; }
+  .public-root .gi-home.pro-home .home-journeys { gap: 0 15px; }
+  .public-root .gi-home.pro-home .home-journeys > a { font-size: .76rem; }
+  .gi-home .gi-service { grid-template-columns: 17px minmax(0, 1fr) 44px; gap: 10px; }
+}
+@media print {
+  .public-root .pro-header { display: none !important; }
+  .public-root .gi-news, .gi-home .gi-section { padding-block: 30px; }
 }

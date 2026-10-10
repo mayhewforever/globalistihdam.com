@@ -30,7 +30,7 @@ async function open(path, { remoteData = edition(), localData = edition(), remot
     if (data instanceof Error) throw data;
     return { ok: true, headers: { get: () => null }, text: async () => JSON.stringify(data) };
   };
-  win.document.body.innerHTML = '<div id="root" class="public-root"><main id="main"><h1>Existing title</h1><section id="existing-banner">Existing banner</section></main><footer>Existing footer</footer></div>';
+  win.document.body.innerHTML = '<div id="root" class="public-root"><main id="main"><div class="gi-home"><h1>Existing title</h1><section id="existing-banner">Existing banner</section><section class="home-insight-band">Insights</section><section class="pro-contact-band">Contact</section></div></main><footer>Existing footer</footer></div>';
   win.eval(runtime);
   win.eval(newsUI);
   await pause();
@@ -43,6 +43,8 @@ for (const base of ['/', '/globalistihdam.com/']) {
   check(win.document.querySelectorAll('.gi-news-story').length, 12, 'Three stories per section');
   check(win.document.querySelectorAll('h1').length, 1, 'Preserve original title hierarchy');
   check(Boolean(win.document.querySelector('#existing-banner')), true, 'Preserve banners');
+  const originalMount = win.document.querySelector('#gi-latest-news');
+  check(originalMount.nextElementSibling === win.document.querySelector('.home-insight-band'), true, 'Homepage news precedes insights and final contact');
   check(win.document.querySelector('#gi-news-title').textContent, 'Latest News');
   check(win.document.querySelector('.gi-news-story-title').textContent, '<img id="injected-news" src=x onerror=alert(1)>');
   check(win.document.querySelectorAll('#injected-news,.gi-news img,.gi-news svg,.gi-news script').length, 0, 'News text must never become HTML');
@@ -57,9 +59,11 @@ for (const base of ['/', '/globalistihdam.com/']) {
   }
   check(win.document.querySelectorAll('.gi-news-stale').length, 0);
   check(win.document.querySelectorAll('.gi-news-meta time[datetime]').length, 12);
-  win.document.querySelector('main').innerHTML = '<h1>Rendered again</h1>';
+  win.document.querySelector('main').innerHTML = '<div class="gi-home"><h1>Rendered again</h1><section class="pro-contact-band">Contact</section></div>';
   await pause();
   check(win.document.querySelectorAll('#gi-latest-news').length, 1, 'Remount after page render');
+  check(win.document.querySelector('#gi-latest-news') === originalMount, true, 'Reuse the same panel after rerender');
+  check(originalMount.nextElementSibling === win.document.querySelector('.pro-contact-band'), true, 'Fall back to placing news before final contact');
   check(requests.length, 1, 'Language and rerenders must not cause repeated fetches');
   win.location.hash = '#tr/home';
   win.dispatchEvent(new win.CustomEvent('globalistihdam:language'));
@@ -70,6 +74,7 @@ for (const base of ['/', '/globalistihdam.com/']) {
   check(win.document.querySelector('#gi-latest-news'), null, 'No news on contact');
   win.location.hash = '#en/education'; await pause();
   check([...win.document.querySelectorAll('[data-news-section]')].map(node => node.dataset.newsSection), ['education']);
+  check(win.document.querySelector('#gi-latest-news').parentElement === win.document.querySelector('main'), true, 'Other sections retain their normal mount position');
   check(requests.length, 1);
   check(errors, []);
   await win.happyDOM.close();

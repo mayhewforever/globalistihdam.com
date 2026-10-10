@@ -57,7 +57,7 @@
         ['İhtiyaçları netleştirelim', 'Kapsamı, tercihleri ve hazırlanması gereken bilgileri birlikte değerlendirelim.'],
         ['Sonraki adımı planlayalım', 'İlgili hizmetin koşullarını ve takip edilecek yolu görüşerek ilerleyelim.']
       ],
-      faqLabel: 'SIKÇA SORULAN SORULAR',
+      faqLabel: 'BAŞVURU REHBERİ', faqTitle: 'Sık Sorulanlar',
       faqs: [
         ['Hangi başvuru yolunu seçmeliyim?', 'İş arıyorsanız aday, personel arıyorsanız işveren, yurt dışında eğitim planlıyorsanız öğrenci başvurusunu seçin. Yatırım ve robotik talepleriniz için ilgili hizmet sayfasını kullanabilir veya bizimle görüşebilirsiniz.'],
         ['Listelenen sektörler açık iş ilanı anlamına gelir mi?', 'Hayır. Sektör sayfaları hizmet alanlarını tanıtır. Güncel pozisyonları, uygunluk koşullarını ve başvuru sürecini ayrıca teyit etmeniz gerekir.'],
@@ -121,7 +121,7 @@
         ['Clarify the requirements', 'Let’s consider the scope, your preferences and the information you will need to prepare.'],
         ['Plan your next step', 'Discuss the relevant service conditions and agree on a path forward.']
       ],
-      faqLabel: 'FREQUENTLY ASKED QUESTIONS',
+      faqLabel: 'APPLICATION GUIDANCE', faqTitle: 'FAQs',
       faqs: [
         ['Which application route should I choose?', 'Choose the candidate route if you are looking for work, the employer route if you are recruiting, or the student route if you are planning to study abroad. For investment and robotics enquiries, visit the relevant service page or contact us.'],
         ['Do the listed sectors represent current vacancies?', 'No. Sector pages introduce service areas. Current vacancies, eligibility requirements and the application process need to be confirmed separately.'],
@@ -147,6 +147,7 @@
     const serviceLinks = [local('/sectors/'), local('/education/'), local('/investment/'), runtime.portalOrigin + '/robotics?lang=' + lang];
     const destinationSlugs = ['germany', 'north-cyprus', 'azerbaijan', 'canada', 'usa', 'china'];
     const sectorSlugs = ['healthcare', 'hospitality', 'manufacturing'];
+    const serviceImages = ['energy-team.jpg', 'students-campus.jpg', 'investment-istanbul.jpg', 'sector-manufacturing.jpg'];
 
     return `<div class="gi-home">
       <section class="gi-hero" aria-labelledby="gi-hero-title">
@@ -169,7 +170,7 @@
       </section>
       <section class="gi-services gi-section" aria-labelledby="gi-services-title">
         <div class="gi-shell gi-services-layout"><div class="gi-services-intro"><p class="gi-kicker">${c.servicesLabel}</p><h2 class="gi-title" id="gi-services-title">${c.servicesTitle}</h2><p class="gi-body">${c.servicesIntro}</p><a class="gi-link" href="${about}">${c.about}${arrow}</a></div><div class="gi-service-list">
-          ${c.services.map((s, i) => `<article class="gi-service"><span class="gi-number">0${i + 1}</span><div><p class="gi-service-tag">${s[2]}</p><h3><a href="${serviceLinks[i]}">${s[0]}</a></h3><p>${s[1]}</p></div><a class="gi-icon-link" href="${serviceLinks[i]}" aria-label="${s[3]}">${diagonal}</a></article>`).join('')}
+          ${c.services.map((s, i) => `<article class="gi-service"><span class="gi-number" aria-hidden="true">0${i + 1}</span><div class="gi-service-copy"><p class="gi-service-tag">${s[2]}</p><h3><a href="${serviceLinks[i]}">${s[0]}</a></h3><p>${s[1]}</p></div><img class="gi-service-image" src="${asset(serviceImages[i])}" width="1800" height="1200" alt="" loading="lazy"><a class="gi-icon-link" href="${serviceLinks[i]}" aria-label="${s[3]}">${diagonal}</a></article>`).join('')}
         </div></div>
       </section>
       <section class="gi-study gi-section" aria-labelledby="gi-study-title"><div class="gi-shell gi-study-layout">
@@ -182,7 +183,7 @@
         <nav class="gi-sector-more" aria-label="${c.allSectors}">${c.moreSectors.map((s, i) => `<a href="${local('/sectors/' + ['energy', 'education', 'care'][i] + '/')}">${s}${arrow}</a>`).join('')}</nav>
       </div></section>
       <section class="gi-investment" aria-labelledby="gi-investment-title"><div class="gi-shell gi-investment-layout"><div class="gi-investment-copy"><p class="gi-kicker">${c.investmentLabel}</p><h2 class="gi-title" id="gi-investment-title">${c.investmentTitle}</h2><p class="gi-body">${c.investmentIntro}</p><a class="gi-link" href="${serviceLinks[2]}">${c.investmentCta}${arrow}</a></div><img src="${asset('investment-istanbul.jpg')}" alt="${c.investmentAlt}" width="2100" height="1180" loading="lazy"></div></section>
-      <section class="gi-process gi-section" aria-labelledby="gi-process-title"><div class="gi-shell"><div class="gi-section-heading"><div><p class="gi-kicker">${c.processLabel}</p><h2 class="gi-title" id="gi-process-title">${c.processTitle}</h2></div><p class="gi-body">${c.processIntro}</p></div><ol class="gi-steps">${c.steps.map((s, i) => `<li><span class="gi-step-number" aria-hidden="true">0${i + 1}</span><h3>${s[0]}</h3><p>${s[1]}</p></li>`).join('')}</ol><div class="gi-faq-layout"><p class="gi-kicker">${c.faqLabel}</p><div class="gi-faq">${c.faqs.map(q => `<details><summary>${q[0]}<span aria-hidden="true">+</span></summary><p>${q[1]}</p></details>`).join('')}</div></div></div></section>
+      <section class="gi-process gi-section" aria-labelledby="gi-process-title"><div class="gi-shell"><div class="gi-section-heading"><div><p class="gi-kicker">${c.processLabel}</p><h2 class="gi-title" id="gi-process-title">${c.processTitle}</h2></div><p class="gi-body">${c.processIntro}</p></div><ol class="gi-steps">${c.steps.map((s, i) => `<li><span class="gi-step-number" aria-hidden="true">0${i + 1}</span><h3>${s[0]}</h3><p>${s[1]}</p></li>`).join('')}</ol><section class="gi-faq-layout" aria-labelledby="gi-faq-title"><div class="gi-faq-intro"><p class="gi-kicker">${c.faqLabel}</p><h2 class="gi-title" id="gi-faq-title">${c.faqTitle}</h2></div><div class="gi-faq">${c.faqs.map(q => `<details><summary>${q[0]}<span aria-hidden="true">+</span></summary><p>${q[1]}</p></details>`).join('')}</div></section></div></section>
       <section class="gi-contact" aria-labelledby="gi-contact-title"><div class="gi-shell gi-contact-layout"><div><p class="gi-kicker">${c.contactLabel}</p><h2 class="gi-title" id="gi-contact-title">${c.contactTitle}</h2><p class="gi-body">${c.contactIntro}</p><a class="gi-button gi-button-light" href="${contact}">${c.contactCta}${arrow}</a></div><div class="gi-direct"><p class="gi-kicker">${c.callLabel}</p><a href="tel:+905339247519">+90 (533) 924 75 19${diagonal}</a><span>Globalistihdam<br>Recruitment&amp;Investment Agency</span></div></div></section>
       <p class="gi-photo-note gi-shell">${c.photography}</p>
     </div>`;
