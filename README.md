@@ -1,10 +1,16 @@
 # Globalistihdam Recruitment & Investment Agency
 
+**[Open the public website](https://globalistihdam.mtoman.chatgpt.site)** · [GitHub project](https://github.com/mayhewforever/globalistihdam.com)
+
 Professional bilingual static marketing website for recruitment, education and business advisory. The public pages run on GitHub Pages under `/globalistihdam.com/` or on a domain's root path.
 
 Applications, administration and robotics services link to the existing separate site at `https://global-istihdam.mtoman.chatgpt.site`. This repository does not contain application records, credentials or server code. Submitting and tracking an application requires the separate portal to be available and the visitor to complete its sign-in process.
 
 ## Publish
+
+The current public website is deployed with Sites at `https://globalistihdam.mtoman.chatgpt.site`. Its public marketing files mirror this repository. GitHub pushes do not automatically deploy that Site; publish the updated static files through Sites after source changes. The separate application portal remains at `https://global-istihdam.mtoman.chatgpt.site`.
+
+GitHub Pages is an optional additional hosting target. To enable it:
 
 GitHub repository → **Settings → Pages → Deploy from a branch → main → / (root) → Save**.
 

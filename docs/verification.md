@@ -20,6 +20,10 @@ Date: 10 October 2026
 - Local search covering 83 public pages in each language, with keyboard controls and a clear empty state.
 - Removed the temporary-preview banner and unfinished email placeholder from the public experience.
 
+## Public deployment
+
+The updated marketing website was successfully deployed on 10 October 2026 at https://globalistihdam.mtoman.chatgpt.site with public access (Sites version 1). Its source matches GitHub commit `e9a2b2e5ad33c692f6715a997da9ae8fd6b863cd`. The existing application backend was not redeployed.
+
 ## Check results
 
 - Static checks: 8,547 passed across 83 HTML shells, 75 detail routes, 162 Turkish/English page constructors and 36 local assets. 340 external URL formats were checked; their contents and availability were not all inspected.
@@ -28,7 +32,7 @@ Date: 10 October 2026
 
 ## Remaining verification
 
-- GitHub Pages was not enabled at the start; its expected URL returned HTTP 404. The current connection cannot change Pages settings. Enable Pages in repository settings, then verify the deployment and public URL.
+- GitHub Pages remains disabled. Google passkey verification prevented the browser sign-in needed for its administration settings. The public website is hosted through Sites instead; Pages is optional and its expected URL should not be shared as live.
 - A graphical browser preview was unavailable in this environment. Layout, mobile viewport appearance and actual carousel movement have not been visually certified.
 - Direct requests to the separate portal and robotics site returned HTTP 403 in this environment. The hosting service reports the existing site active and public, but these responses do not establish that its authenticated user journeys succeed or fail. Test sign-in, submission, file upload, staff review and status tracking with authorised accounts on that service.
 - No live application or outbound email was submitted during verification.
