@@ -56,7 +56,7 @@ Görseller temsilidir. / Photographs are illustrative.
 ## Publishing settings
 
 - Instagram: Reel, vertical 9:16.
-- YouTube: Short, public when approved by the publishing workflow; **not made for kids**.
+- YouTube: Short, public, scheduled by the publishing workflow; **not made for kids**.
 - Audience: general adult and business audience. No age-sensitive claims or targeting.
 - The closing uses the neutral CTA “Explore Globalistihdam.” The actual website URL is supplied in the bilingual caption and YouTube description; no bio-link availability is assumed.
 - No phone number, email address, WhatsApp contact, job offer, admission promise, visa promise, investment return, response-time claim or email notification claim appears.

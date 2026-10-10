@@ -1,0 +1,35 @@
+{
+  "updated": "2026-10-10",
+  "timezone": "Europe/Istanbul",
+  "channelId": "UCDsoaujCJYj1Be6rkjM_94Q",
+  "instagram": "globalistihdam",
+  "posts": [
+    {
+      "id": 392636708,
+      "uuid": "-9184135642984791343",
+      "network": "youtube",
+      "status": "PENDING",
+      "publicationDate": {
+        "dateTime": "2026-10-10T16:00:00",
+        "timezone": "Europe/Istanbul"
+      },
+      "title": "Globalistihdam | Explore. Prepare. Connect.",
+      "video": "social/2026-10-10/globalistihdam-introduction.mp4",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7114390&openWithPostUuid=-9184135642984791343"
+    },
+    {
+      "id": 392636834,
+      "uuid": "-196726760734700917",
+      "network": "instagram",
+      "status": "PENDING",
+      "publicationDate": {
+        "dateTime": "2026-10-10T18:00:00",
+        "timezone": "Europe/Istanbul"
+      },
+      "title": "Globalistihdam introduction",
+      "video": "social/2026-10-10/globalistihdam-introduction.mp4",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7114390&openWithPostUuid=-196726760734700917"
+    }
+  ]
+}
+

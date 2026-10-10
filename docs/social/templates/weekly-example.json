@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "format": "weekly-video",
+  "language": "en",
+  "title": "Globalistihdam | Prepare your next step",
+  "website": "https://globalistihdam.mtoman.chatgpt.site",
+  "topic": "Preparing a useful international advisory enquiry",
+  "sources": [{"type": "first-party", "path": "docs/social/channel-branding.md"}],
+  "scenes": [
+    {"layout":"photo","eyebrow":"START WITH CLARITY","heading":["A useful enquiry","starts with you."],"body":["Your goals shape the questions.","Prepare before you get in touch."],"footer":"Explore. Prepare. Connect.","image":"energy-team.jpg"},
+    {"layout":"list","eyebrow":"CHOOSE YOUR SERVICE","heading":["Find your focus."],"items":["Recruitment","International Education","Investment Advisory","Humanoid Robotics"],"footer":"Choose the area that fits your goal.","image":"brand-banner-turkiye-v4.png"},
+    {"layout":"photo","eyebrow":"01 / DEFINE YOUR GOAL","heading":["What do you","want to explore?"],"body":["Write down your main objective.","Separate priorities from preferences."],"footer":"A clear goal is a useful starting point.","image":"students-campus.jpg"},
+    {"layout":"photo","eyebrow":"02 / PREPARE THE CONTEXT","heading":["Make the context","easy to understand."],"body":["Note your experience and interests.","List your destination preferences."],"footer":"Keep questions concise and specific.","image":"sector-manufacturing.jpg"},
+    {"layout":"photo","eyebrow":"03 / START A CONVERSATION","heading":["Bring your","questions."],"body":["Explore the website guides first.","Then visit the Contact page."],"footer":"Discuss what you need to know.","image":"investment-istanbul.jpg"},
+    {"layout":"closing","heading":["Explore the website."],"body":["Start with your questions."],"cta":"Explore Globalistihdam","footer":"People. Education. Business."}
+  ],
+  "captions": {
+    "instagram": "Bir sonraki adımınız için hedefinizi, önceliklerinizi ve sorularınızı hazırlayın. Hizmet rehberlerimizi inceleyin; görüşmek istediğiniz konuyu İletişim sayfasından paylaşın.\n\nPrepare your goal, priorities and questions. Explore our service guides, then use the Contact page to discuss what you need.\n\nhttps://globalistihdam.mtoman.chatgpt.site\n\nGörseller temsilidir. / Photographs are illustrative.\n#Globalistihdam #Recruitment #InternationalEducation",
+    "youtubeTitle": "Three ways to prepare a useful enquiry | Globalistihdam",
+    "youtubeDescription": "Define your goal, prepare the context and bring your questions. This short guide helps you prepare before contacting Globalistihdam.\n\nHedefinizi belirleyin, bilgilerinizi hazırlayın ve sorularınızı netleştirin.\n\nExplore the website: https://globalistihdam.mtoman.chatgpt.site\n\nPhotographs are illustrative. This is general preparation guidance, not an offer of employment, admission, a visa or an investment return.\n#Shorts #Globalistihdam"
+  },
+  "youtubeMadeForKids": false
+}
