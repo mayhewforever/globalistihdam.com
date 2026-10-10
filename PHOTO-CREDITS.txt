@@ -115,3 +115,5 @@ Photo: alex ohan · Toronto
 Source: https://www.pexels.com/photo/the-toronto-skyline-11819103/
 License: https://www.pexels.com/license/
 Changes: Resized/recompressed. Netherlands image cropped to landscape.
+
+Robotics hero: /robotics-hero.png. AI-generated illustration created for Globalistihdam, 29 September 2026. Generic concept only; does not depict a real deployment, commercial model or partnership.

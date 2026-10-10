@@ -1,50 +1,7 @@
-# Globalistihdam Recruitment & Investment Agency
+# Globalistihdam public website
 
-**[Open the public website](https://globalistihdam.mtoman.chatgpt.site)** · [GitHub project](https://github.com/mayhewforever/globalistihdam.com)
+Bilingual public marketing pages generated from the same source as the application website. Deploy this directory at a domain root or at /globalistihdam.com/. Contact, About, Services, country guides and robotics routes all have physical HTML entries.
 
-Professional bilingual static marketing website for recruitment, education and business advisory. The public pages support a domain root or the optional GitHub Pages project path `/globalistihdam.com/`.
+GitHub Pages: Settings → Pages → Deploy from a branch → main → / (root). For Apache/cPanel use the separately generated out/cpanel directory, which includes exact-route server rules.
 
-Applications, administration and robotics services link to the existing separate site at `https://global-istihdam.mtoman.chatgpt.site`. This repository does not contain application records, credentials or server code. Submitting and tracking an application requires the separate portal to be available and the visitor to complete its sign-in process.
-
-News panels cover recruitment, international education, investment and robotics. They read the public `news/latest.json` feed from this repository, with a dated bundled fallback. Routine news updates change that data file without rebuilding either website. See [the daily update procedure](docs/daily-news-update.md) and [initial source verification](docs/news-source-verification-2026-10-10.md).
-
-WhatsApp uses separate international and Türkiye contact lines on the application site. English buttons open the international line; Turkish buttons offer both choices. Neither number is displayed on the website; opening WhatsApp reveals the selected recipient. Contact forms remain separate and are not automatically forwarded to WhatsApp.
-
-Privacy links lead to the portal's current bilingual KVKK notice. The portal asks each applicant to acknowledge the current notice before opening a new form. This reading acknowledgement is separate from explicit consent and does not complete the company's pending legal and operational privacy arrangements.
-
-The full-colour brand mark centres Türkiye and retains the original human and orbital motifs. Shared layouts use navy, ivory and gold with restrained blue, teal, orange and green service accents. See [brand and design notes](docs/brand-design-2026-10-10.md).
-
-## Publish
-
-The current public website is deployed with Sites at `https://globalistihdam.mtoman.chatgpt.site`. Its public marketing files mirror this repository. GitHub pushes do not automatically deploy that Site; publish the updated static files through Sites after source changes. The separate application portal remains at `https://global-istihdam.mtoman.chatgpt.site`.
-
-GitHub Pages is an optional additional hosting target. To enable it:
-
-GitHub repository → **Settings → Pages → Deploy from a branch → main → / (root) → Save**.
-
-After GitHub reports a successful deployment, the expected address is `https://mayhewforever.github.io/globalistihdam.com/`. Pages was not enabled when this repair began. The repository name does not establish domain ownership and no custom domain is configured. Mailbox setup is independent of website hosting.
-
-## Verify
-
-Use Node.js 20 or later:
-
-```sh
-npm ci
-npm test
-```
-
-`npm run test:static` requires no installed dependencies. It checks public routes in Turkish and English, shell loading paths, metadata generation, local assets, language resolution and URL rewriting. The DOM tests check menus, skip navigation, form-value preservation and bilingual controls without making external submissions. They are simulated DOM tests, not visual browser tests.
-
-The static website has no build step. After changing public page content, run `node scripts/build-search-index.mjs` to regenerate local search. After changing either inline HTML bootstrap script, run `node scripts/update-security-policy.mjs` to refresh the exact script hashes in the Content Security Policy. Retain `assets/hosting-runtime.js` alongside the existing compiled component bundle. The HTML shells load the runtime and professional homepage before the component bundle, followed by site search; the homepage then loads `site.js`. Existing generated components are preserved. Future source exports must retain the static-host fixes or be reviewed before replacing these assets.
-
-## Prepared email setup
-
-See [email setup, four account specifications, signatures and bilingual acknowledgements](docs/email/README.md). These materials do not create mailboxes. Activate website email links only after the provider confirms the accounts and delivery has been tested.
-
-## Verification limits
-
-See [repair record](docs/verification.md) for completed checks and remaining deployment and authenticated-service checks.
-
-## Security scope
-
-See [security review](docs/security-review.md) for the controls and verification limits. The static site is separate from the authenticated application service. No security review can establish that a site is impossible to compromise.
+Applications, authentication, administration and WhatsApp destinations hand off to https://global-istihdam.mtoman.chatgpt.site. No private application records, credentials or server code are included.
