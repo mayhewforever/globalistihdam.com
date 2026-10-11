@@ -118,15 +118,21 @@ make_htaccess_block() {
     'RewriteRule ^ https://globalistihdam.com%{REQUEST_URI} [R=301,L,NE]' \
     '# Only the current manifest generated bundles may be requested.' \
     "$asset_rule_prefix$1$asset_rule_suffix"
-  if [[ ${2:-current} == current ]]; then
+  if [[ ${2:-current} == current || ${2:-current} == company-combined ]]; then
     printf '%s\n' \
       '# Known application and contact routes must precede legacy hosting rules.' \
       'RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$' \
       'RewriteRule ^apply/?$ https://basvuru.globalistihdam.com/portal [R=302,L,NE]' \
       'RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$' \
       'RewriteRule ^((?:portal|admin|api|auth|callback)(?:/.*)?)$ https://basvuru.globalistihdam.com/$1 [R=302,L,NE]' \
-      'RewriteRule ^(?:portal|apply|admin|api|auth|callback)(?:/|$) - [F,L]' \
-      'RewriteRule ^contact/whatsapp/(?:international|turkiye)/?$ https://wa.me/905339247519 [R=302,L,NE]'
+      'RewriteRule ^(?:portal|apply|admin|api|auth|callback)(?:/|$) - [F,L]'
+    if [[ ${2:-current} == company-combined ]]; then
+      printf '%s\n' 'RewriteRule ^contact/whatsapp/(?:international|turkiye)/?$ https://wa.me/905339247519 [R=302,L,NE]'
+    else
+      printf '%s\n' \
+        'RewriteRule ^contact/whatsapp/turkiye/?$ https://wa.me/905339247519 [R=302,L,NE]' \
+        'RewriteRule ^contact/whatsapp/international/?$ https://basvuru.globalistihdam.com/contact/whatsapp/international [R=302,L,NE]'
+    fi
   fi
   printf '%s\n' \
     '</IfModule>' \
@@ -144,8 +150,8 @@ if [[ -f "$htaccess" ]]; then
     for line in "${htaccess_lines[@]}"; do
       existing_block+=${existing_block:+$'\n'}$line
       ((managed_line_count+=1))
+      ((managed_line_count <= 19)) || die 'Existing managed HTTPS block differs; inspect it before deployment'
       [[ "$line" != '# END GLOBALISTIHDAM MANAGED HTTPS' ]] || break
-      ((managed_line_count <= 18)) || die 'Existing managed HTTPS block differs; inspect it before deployment'
     done
     if [[ "$existing_block" != "$legacy_htaccess_block" ]]; then
       existing_rule=${htaccess_lines[6]-}
@@ -158,7 +164,7 @@ if [[ -f "$htaccess" ]]; then
         previous_asset=${escaped_asset//\\./.}
         [[ "$previous_asset" =~ ^index-[A-Za-z0-9_-]+\.(js|css)$ && "$escaped_asset" == "${previous_asset//./\\.}" ]] || die 'Invalid existing generated-asset policy'
       done
-      [[ "$existing_block" == "$(make_htaccess_block "$previous_pattern")" || "$existing_block" == "$(make_htaccess_block "$previous_pattern" bundle-only)" ]] || die 'Existing managed HTTPS block differs; inspect it before deployment'
+      [[ "$existing_block" == "$(make_htaccess_block "$previous_pattern")" || "$existing_block" == "$(make_htaccess_block "$previous_pattern" company-combined)" || "$existing_block" == "$(make_htaccess_block "$previous_pattern" bundle-only)" ]] || die 'Existing managed HTTPS block differs; inspect it before deployment'
     fi
     [[ "$existing_block" != "$htaccess_block" ]] || manage_htaccess=0
   fi
@@ -173,7 +179,7 @@ if ((dry_run)); then
   for relative in "${asset_files[@]}" "${other_files[@]}"; do printf 'DEPLOY %s\n' "$relative"; done
   if ((manage_htaccess)); then printf 'UPDATE managed HTTPS, application routes and current-bundle access policy; retain unrelated .htaccess bytes\n'; fi
   printf 'DENY obsolete generated assets/index-*.js and assets/index-*.css; retain files and unrelated assets\n'
-  printf 'ROUTE application GET/HEAD requests to the company application domain; deny application writes; route WhatsApp to the company line\n'
+  printf 'ROUTE application GET/HEAD requests to the company application domain; deny application writes; route WhatsApp to the respective contact lines\n'
   for relative in "${html_files[@]}" index.html; do printf 'DEPLOY %s\n' "$relative"; done
   exit 0
 fi
