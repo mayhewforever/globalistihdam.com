@@ -120,40 +120,40 @@ Londra fotoğrafı Avrupa, İstanbul fotoğrafı Türkiye için de kullanılmakt
 SECTOR AND WORKPLACE PHOTOGRAPHS / SEKTÖR VE İŞ YERİ FOTOĞRAFLARI
 
 sector-hospitality.jpg
-Photo / Fotoğraf: Andrea Piacquadio · Hotel reception / Otel resepsiyonu
-Source / Kaynak: https://www.pexels.com/photo/hospitable-woman-standing-behind-front-desk-3771087/
+Photo / Fotoğraf: Rene Terp · Chef preparing food in a restaurant kitchen / Restoran mutfağında yemek hazırlayan aşçı
+Source / Kaynak: https://www.pexels.com/photo/chef-cooking-in-the-kitchen-2544829/
 Licence / Lisans: https://www.pexels.com/license/
-Changes / Düzenlemeler: Existing web optimisation retained; restored without further modification.
+Changes / Düzenlemeler: Proportional 1800px-wide JPEG rendition supplied by Pexels; no local cropping, recolouring, overlays or generated content.
 
 sector-manufacturing.jpg
-Photo / Fotoğraf: EqualStock IN · Textile workers / Tekstil çalışanları
-Source / Kaynak: https://www.pexels.com/photo/smiling-textile-workers-in-modern-factory-31090828/
+Photo / Fotoğraf: HONG SON · Worker operating a metalworking machine / Metal işleme makinesinde çalışan üretim personeli
+Source / Kaynak: https://www.pexels.com/photo/industrial-worker-operating-machine-in-workshop-33339847/
 Licence / Lisans: https://www.pexels.com/license/
-Changes / Düzenlemeler: Existing web optimisation retained; restored without further modification.
+Changes / Düzenlemeler: Proportional 1800px-wide JPEG rendition supplied by Pexels; no local cropping, recolouring, overlays or generated content.
 
 sector-healthcare.jpg
-Photo / Fotoğraf: RDNE Stock project · Healthcare professionals / Sağlık çalışanları
-Source / Kaynak: https://www.pexels.com/photo/doctors-and-nurses-in-a-hospital-6129507/
+Photo / Fotoğraf: Cedric Fauntleroy · Healthcare professional using a tablet during a consultation / Görüşme sırasında tablet kullanan sağlık çalışanı
+Source / Kaynak: https://www.pexels.com/photo/a-doctor-talking-to-a-patient-while-holding-a-tablet-4266936/
 Licence / Lisans: https://www.pexels.com/license/
-Changes / Düzenlemeler: Existing web optimisation retained; restored without further modification.
+Changes / Düzenlemeler: Proportional 1800px-wide JPEG rendition supplied by Pexels; no local cropping, recolouring, overlays or generated content.
 
 sector-education.jpg
-Photo / Fotoğraf: Kampus Production · Students in a lecture / Ders sırasında öğrenciler
-Source / Kaynak: https://www.pexels.com/photo/multiethnic-students-listening-lecturer-in-university-5940842/
+Photo / Fotoğraf: RDNE Stock project · Teacher discussing a lesson with students / Öğrencilerle ders üzerine konuşan öğretmen
+Source / Kaynak: https://www.pexels.com/photo/a-teacher-talking-to-the-two-students-8419197/
 Licence / Lisans: https://www.pexels.com/license/
-Changes / Düzenlemeler: Existing web optimisation retained; restored without further modification.
+Changes / Düzenlemeler: Proportional 1800px-wide JPEG rendition supplied by Pexels; no local cropping, recolouring, overlays or generated content.
 
 sector-care.jpg
-Photo / Fotoğraf: Jsme MILA · Caregiver and an older woman / Bakım görevlisi ve yaşlı bir kadın
-Source / Kaynak: https://www.pexels.com/photo/elderly-caregiver-shaking-hands-with-senior-woman-29372534/
+Photo / Fotoğraf: Jsme MILA · Carer helping an older woman with her hair at home / Evde yaşlı bir kadının saç bakımına yardımcı olan bakım çalışanı
+Source / Kaynak: https://www.pexels.com/photo/caregiver-assisting-elderly-woman-in-home-setting-29372536/
 Licence / Lisans: https://www.pexels.com/license/
-Changes / Düzenlemeler: Existing web optimisation retained; restored without further modification.
+Changes / Düzenlemeler: Proportional 1800px-wide JPEG rendition supplied by Pexels; no local cropping, recolouring, overlays or generated content.
 
 energy-team.jpg
-Photo / Fotoğraf: Gustavo Fring · Workers inspecting solar panels / Güneş panellerini kontrol eden çalışanlar
-Source / Kaynak: https://www.pexels.com/photo/electricians-inspecting-the-solar-panels-4254166/
+Photo / Fotoğraf: Los Muertos Crew · Technician fastening a rooftop solar panel / Çatıdaki güneş panelinin bağlantısını sabitleyen teknisyen
+Source / Kaynak: https://www.pexels.com/photo/solar-technician-installing-solar-panel-8853503/
 Licence / Lisans: https://www.pexels.com/license/
-Changes / Düzenlemeler: Existing web optimisation retained; restored without further modification.
+Changes / Düzenlemeler: Proportional 1800px-wide JPEG rendition supplied by Pexels; no local cropping, recolouring, overlays or generated content.
 
 recruitment-interview.jpg
 Photo / Fotoğraf: Sora Shimazaki · Job interview / İş görüşmesi
