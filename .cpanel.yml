@@ -1,0 +1,4 @@
+---
+deployment:
+  tasks:
+    - /bin/bash /home/globalis/repositories/globalistihdam-live/scripts/deploy-cpanel.sh --target /home/globalis/public_html --backup-root /home/globalis/backups
