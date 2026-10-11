@@ -1,39 +1,396 @@
 Globalistihdam — Image credits / Görsel kaynakları
-11 October 2026 / 11 Ekim 2026
+Updated / Güncelleme: 11 October 2026 / 11 Ekim 2026
 
-The 26 illustrations listed below were created with AI for Globalistihdam on 11 October 2026. City scenes are artistic montages inspired by the named destinations, rather than documentary photographs. People, campus, workplace and robotics scenes are illustrative; they do not depict identified staff, clients, named universities, actual facilities, products, deployments or partnerships. No affiliation or endorsement is implied.
+Photographs are credited below with their source and licence. Their use does not imply that the people, universities, employers or robot manufacturers shown are affiliated with or endorse Globalistihdam.
+Fotoğrafların kaynak ve lisans bilgileri aşağıda yer almaktadır. Görsellerdeki kişi, üniversite, işveren veya robot üreticileriyle Globalistihdam arasında bir kurumsal bağlantı ya da iş ortaklığı olduğu iddia edilmez.
 
-Aşağıdaki 26 görsel, 11 Ekim 2026 tarihinde Globalistihdam için yapay zekâ ile oluşturulmuştur. Şehir görselleri, belirtilen destinasyonlardan esinlenen sanatsal montajlardır; belgesel fotoğraf değildir. İnsan, kampüs, iş yeri ve robotik sahneleri temsilidir; belirli çalışanları, müşterileri, üniversiteleri, gerçek tesisleri, ürünleri, uygulamaları veya iş ortaklıklarını göstermez. Herhangi bir kurumsal bağlantı veya onay ima edilmez.
+COUNTRY AND CITY PHOTOGRAPHS / ÜLKE VE ŞEHİR FOTOĞRAFLARI
 
-DESTINATION MONTAGES / DESTİNASYON MONTAJLARI — 17 illustrations / görsel
-country-united-arab-emirates.jpg — Dubai
-country-saudi-arabia.jpg — Riyadh / Riyad
-country-qatar.jpg — Doha
-country-bahrain.jpg — Manama
-country-oman.jpg — Muscat / Maskat
-country-kuwait.jpg — Kuwait City / Kuveyt
-country-azerbaijan.jpg — Baku / Bakü
-country-north-cyprus.jpg — Kyrenia / Girne
-country-china.jpg — Shanghai / Şanghay
-country-germany.jpg — Berlin
-country-united-kingdom.jpg — London / Londra
-country-france.jpg — Paris
-country-netherlands.jpg — Amsterdam
-country-ireland.jpg — Dublin
-country-spain.jpg — Barcelona / Barselona
-country-usa.jpg — New York
-country-canada.jpg — Toronto
+country-united-arab-emirates.jpg
+Photo / Fotoğraf: Piotr Chrobot · Dubai
+Source / Kaynak: https://unsplash.com/photos/dubai-skyline-at-low-sun-6oUsyeYXgTg
+Licence / Lisans: https://unsplash.com/license
+Changes / Düzenlemeler: Resized proportionally and recompressed to JPEG quality 85; no cropping, compositing, recolouring or generated content.
 
-SERVICE AND SECTOR ILLUSTRATIONS / HİZMET VE SEKTÖR GÖRSELLERİ — 9 illustrations / görsel
-energy-team.jpg — Energy professionals / Enerji sektörü profesyonelleri
-students-campus.jpg — International student life / Uluslararası öğrenci yaşamı
-investment-istanbul.jpg — Istanbul city montage / İstanbul şehir montajı
-robotics-hero.png — Industrial humanoid robotics concept / Endüstriyel insansı robot konsepti
-sector-care.jpg — Care services / Bakım hizmetleri
-sector-education.jpg — Education / Eğitim
-sector-healthcare.jpg — Healthcare / Sağlık
-sector-hospitality.jpg — Hospitality / Konaklama
-sector-manufacturing.jpg — Manufacturing / Üretim
+country-saudi-arabia.jpg
+Photo / Fotoğraf: B.alotaby · Riyadh
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:Riyadh_Skyline.jpg
+Licence / Lisans: https://creativecommons.org/licenses/by-sa/4.0/
+Changes / Düzenlemeler: Resized proportionally and recompressed to JPEG quality 85; no cropping, compositing, recolouring or generated content.
 
-The London montage is also used for Europe; the Istanbul montage is also used for Türkiye.
-Londra montajı Avrupa, İstanbul montajı ise Türkiye için de kullanılmaktadır.
+country-qatar.jpg
+Photo / Fotoğraf: Zairon · Doha
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:Doha_Dhow_Harbour_Skyline_View_at_Night_01.jpg
+Licence / Lisans: https://creativecommons.org/licenses/by/4.0/
+Changes / Düzenlemeler: Resized proportionally and recompressed to JPEG quality 85; no cropping, compositing, recolouring or generated content.
+
+country-bahrain.jpg
+Photo / Fotoğraf: Charles-Adrien Fournier · Manama
+Source / Kaynak: https://unsplash.com/photos/city-buildings-beside-body-of-water-under-blue-sky-lDxs85UO7lU
+Licence / Lisans: https://unsplash.com/license
+Changes / Düzenlemeler: Resized proportionally and recompressed to JPEG quality 85; no cropping, compositing, recolouring or generated content.
+
+country-oman.jpg
+Photo / Fotoğraf: Izeberg007 · Muscat
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_coastline_of_Muttrah.jpg
+Licence / Lisans: https://creativecommons.org/publicdomain/zero/1.0/
+Changes / Düzenlemeler: Resized proportionally and recompressed to JPEG quality 85; no cropping, compositing, recolouring or generated content.
+
+country-kuwait.jpg
+Photo / Fotoğraf: Zairon · Kuwait City
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:Kuwait_City_Skyline_1.jpg
+Licence / Lisans: https://creativecommons.org/licenses/by/4.0/
+Changes / Düzenlemeler: Resized proportionally and recompressed to JPEG quality 85; no cropping, compositing, recolouring or generated content.
+
+country-azerbaijan.jpg
+Photo / Fotoğraf: Zulfugar Karimov · Baku
+Source / Kaynak: https://unsplash.com/photos/baku-azerbaijans-skyline-with-its-iconic-flame-towers-jGYf5ojb1xk
+Licence / Lisans: https://unsplash.com/license
+Changes / Düzenlemeler: Resized proportionally and recompressed to JPEG quality 85; no cropping, compositing, recolouring or generated content.
+
+country-north-cyprus.jpg
+Photo / Fotoğraf: CthreeA Cyprus · Kyrenia
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:Kyrenia_Harbour_(27735388841).jpg
+Licence / Lisans: https://creativecommons.org/licenses/by/2.0/
+Changes / Düzenlemeler: Resized proportionally and recompressed to JPEG quality 85; no cropping, compositing, recolouring or generated content.
+
+country-china.jpg
+Photo / Fotoğraf: Alejo Meza · Shanghai
+Source / Kaynak: https://unsplash.com/photos/shanghai-china-H23f-2byY_E
+Licence / Lisans: https://unsplash.com/license
+Changes / Düzenlemeler: Resized proportionally and recompressed to JPEG quality 85; no cropping, compositing, recolouring or generated content.
+
+country-germany.jpg
+Photo / Fotoğraf: detait · Berlin
+Source / Kaynak: https://www.pexels.com/photo/the-brandenburg-gate-in-berlin-germany-25053929/
+Licence / Lisans: https://www.pexels.com/license/
+Changes / Düzenlemeler: Resized and recompressed.
+
+country-united-kingdom.jpg
+Photo / Fotoğraf: Johannes Plenio · London
+Source / Kaynak: https://www.pexels.com/photo/tower-bridge-beside-calm-body-of-water-at-daytime-1227808/
+Licence / Lisans: https://www.pexels.com/license/
+Changes / Düzenlemeler: Resized and recompressed.
+
+country-france.jpg
+Photo / Fotoğraf: Maximilian Orlowsky · Paris
+Source / Kaynak: https://www.pexels.com/photo/aerial-view-of-paris-with-eiffel-tower-30133212/
+Licence / Lisans: https://www.pexels.com/license/
+Changes / Düzenlemeler: Resized and recompressed.
+
+country-netherlands.jpg
+Photo / Fotoğraf: Matheus Bertelli · Amsterdam
+Source / Kaynak: https://www.pexels.com/photo/water-canal-in-a-city-18999308/
+Licence / Lisans: https://www.pexels.com/license/
+Changes / Düzenlemeler: Resized and recompressed. Cropped to landscape.
+
+country-ireland.jpg
+Photo / Fotoğraf: Selim Karadayı · Dublin
+Source / Kaynak: https://www.pexels.com/photo/dublin-28377925/
+Licence / Lisans: https://www.pexels.com/license/
+Changes / Düzenlemeler: Resized and recompressed.
+
+country-spain.jpg
+Photo / Fotoğraf: Travel Photographer · Madrid
+Source / Kaynak: https://www.pexels.com/photo/gran-via-in-madrid-on-a-sunny-day-35417806/
+Licence / Lisans: https://www.pexels.com/license/
+Changes / Düzenlemeler: Resized and recompressed.
+
+country-usa.jpg
+Photo / Fotoğraf: Trev W. Adams · New York
+Source / Kaynak: https://www.pexels.com/photo/new-york-city-skyline-12589406/
+Licence / Lisans: https://www.pexels.com/license/
+Changes / Düzenlemeler: Resized and recompressed.
+
+country-canada.jpg
+Photo / Fotoğraf: alex ohan · Toronto
+Source / Kaynak: https://www.pexels.com/photo/the-toronto-skyline-11819103/
+Licence / Lisans: https://www.pexels.com/license/
+Changes / Düzenlemeler: Resized and recompressed.
+
+investment-istanbul.jpg
+Photo / Fotoğraf: Adem Kömürcü · Istanbul waterfront / İstanbul Boğazı
+Source / Kaynak: https://www.pexels.com/photo/panoramic-view-of-istanbul-skyline-across-bosphorus-36835126/
+Licence / Lisans: https://www.pexels.com/license/
+Changes / Düzenlemeler: Web-optimised photograph, restored without further modification.
+
+The London photograph is also used for Europe; the Istanbul photograph is also used for Türkiye. City photographs on university pages show the destination, not the named university campus.
+Londra fotoğrafı Avrupa, İstanbul fotoğrafı Türkiye için de kullanılmaktadır. Üniversite sayfalarındaki şehir fotoğrafları ilgili şehri gösterir; adı geçen üniversitenin kampüsünü göstermez.
+
+SECTOR AND WORKPLACE PHOTOGRAPHS / SEKTÖR VE İŞ YERİ FOTOĞRAFLARI
+
+sector-hospitality.jpg
+Photo / Fotoğraf: Andrea Piacquadio · Hotel reception / Otel resepsiyonu
+Source / Kaynak: https://www.pexels.com/photo/hospitable-woman-standing-behind-front-desk-3771087/
+Licence / Lisans: https://www.pexels.com/license/
+Changes / Düzenlemeler: Existing web optimisation retained; restored without further modification.
+
+sector-manufacturing.jpg
+Photo / Fotoğraf: EqualStock IN · Textile workers / Tekstil çalışanları
+Source / Kaynak: https://www.pexels.com/photo/smiling-textile-workers-in-modern-factory-31090828/
+Licence / Lisans: https://www.pexels.com/license/
+Changes / Düzenlemeler: Existing web optimisation retained; restored without further modification.
+
+sector-healthcare.jpg
+Photo / Fotoğraf: RDNE Stock project · Healthcare professionals / Sağlık çalışanları
+Source / Kaynak: https://www.pexels.com/photo/doctors-and-nurses-in-a-hospital-6129507/
+Licence / Lisans: https://www.pexels.com/license/
+Changes / Düzenlemeler: Existing web optimisation retained; restored without further modification.
+
+sector-education.jpg
+Photo / Fotoğraf: Kampus Production · Students in a lecture / Ders sırasında öğrenciler
+Source / Kaynak: https://www.pexels.com/photo/multiethnic-students-listening-lecturer-in-university-5940842/
+Licence / Lisans: https://www.pexels.com/license/
+Changes / Düzenlemeler: Existing web optimisation retained; restored without further modification.
+
+sector-care.jpg
+Photo / Fotoğraf: Jsme MILA · Caregiver and an older woman / Bakım görevlisi ve yaşlı bir kadın
+Source / Kaynak: https://www.pexels.com/photo/elderly-caregiver-shaking-hands-with-senior-woman-29372534/
+Licence / Lisans: https://www.pexels.com/license/
+Changes / Düzenlemeler: Existing web optimisation retained; restored without further modification.
+
+energy-team.jpg
+Photo / Fotoğraf: Gustavo Fring · Workers inspecting solar panels / Güneş panellerini kontrol eden çalışanlar
+Source / Kaynak: https://www.pexels.com/photo/electricians-inspecting-the-solar-panels-4254166/
+Licence / Lisans: https://www.pexels.com/license/
+Changes / Düzenlemeler: Existing web optimisation retained; restored without further modification.
+
+recruitment-interview.jpg
+Photo / Fotoğraf: Sora Shimazaki · Job interview / İş görüşmesi
+Source / Kaynak: https://www.pexels.com/photo/professional-man-interviewing-an-applicant-5668863/
+Licence / Lisans: https://www.pexels.com/license/
+Changes / Düzenlemeler: Proportional 1800px-wide JPEG rendition supplied by Pexels; no cropping, compositing, recolouring or generated content.
+The people shown are not presented as Globalistihdam employees or candidates.
+Fotoğraftaki kişiler Globalistihdam çalışanı veya adayı olarak sunulmaz.
+
+HUMANOID ROBOT PHOTOGRAPH / İNSANSI ROBOT FOTOĞRAFI
+
+robotics-hero.png
+iCub research robot at CRIS iCub Production Lab, Italian Institute of Technology, Genoa, 14 June 2022.
+İtalya Teknoloji Enstitüsü, Cenova’daki CRIS iCub Production Lab’da iCub araştırma robotu, 14 Haziran 2022.
+Photo / Fotoğraf: © European Union / Piero Cruciatti
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:P058324-463960.jpg
+Original European Commission record / Avrupa Komisyonu kaydı: https://audiovisual.ec.europa.eu/en/media/photo/P-058324/00-18
+Licence / Lisans: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+Changes / Düzenlemeler: Original 4500×3000 JPEG proportionally resized to 1800×1200 and converted to losslessly compressed PNG; no cropping, retouching, filters or AI generation.
+This research-robot photograph does not document a Globalistihdam deployment or partnership.
+Bu araştırma robotu fotoğrafı, Globalistihdam’a ait bir uygulamayı veya iş ortaklığını göstermez.
+
+UNIVERSITY CAMPUS PHOTOGRAPHS / ÜNİVERSİTE KAMPÜS FOTOĞRAFLARI
+
+21 institution-specific campus photographs. The Boğaziçi photograph is also used as the education hero; this is the same photograph, not an additional source.
+21 üniversiteye ait kampüs fotoğrafı. Boğaziçi fotoğrafı eğitim sayfasının ana görselinde de kullanılmaktadır; bu kullanım ayrı bir fotoğraf kaynağı değildir.
+
+universities/bogazici-university.jpg
+students-campus.jpg
+Boğaziçi University · South Campus, Istanbul
+Photo / Fotoğraf: Ks2754
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:Bo%C4%9Fazi%C3%A7i_University_South_Campus_Detail.jpg
+Licence / Lisans: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+Photo date / Fotoğraf tarihi: 2019-11-06
+Changes / Düzenlemeler: Resized proportionally to a maximum of 1800 pixels and JPEG compressed at quality 88; CSS display crop.
+
+universities/middle-east-technical-university.jpg
+Middle East Technical University · Ankara campus
+Photo / Fotoğraf: Foora
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:METU_Campus.jpg
+Licence / Lisans: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+Photo date / Fotoğraf tarihi: 2020-04-01
+Changes / Düzenlemeler: Resized proportionally to a maximum of 1800 pixels and JPEG compressed at quality 88; CSS display crop.
+
+universities/koc-university.jpg
+Koç University · Portal of Knowledge, Istanbul
+Photo / Fotoğraf: Khutuck; perspective correction by Finavon
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:Ko%C3%A7_%C3%9Cniversitesi_Ana_Kamp%C3%BCs_Bilim_Kap%C4%B1s%C4%B1.JPG
+Licence / Lisans: CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0/
+Photo date / Fotoğraf tarihi: 2008-02-22
+Changes / Düzenlemeler: Resized proportionally to a maximum of 1800 pixels and JPEG compressed at quality 88; CSS display crop. Source file includes perspective correction by Finavon.
+
+universities/eastern-mediterranean.jpg
+Eastern Mediterranean University · Famagusta, North Cyprus
+Photo / Fotoğraf: Mosbatho
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:Eastern_Mediterranean_University,_Famagusta.jpg
+Licence / Lisans: CC BY 4.0
+https://creativecommons.org/licenses/by/4.0
+Photo date / Fotoğraf tarihi: 2022-09
+Changes / Düzenlemeler: Downloaded Wikimedia Commons proportional thumbnail; no further cropping, recolouring, compositing or generated content. CSS display crop.
+
+universities/girne-american.jpg
+Girne American University · Karaoğlanoğlu, Kyrenia, North Cyprus
+Photo / Fotoğraf: Girne Amerikan Universitesi Digital Marketing
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:Girne_Amerikan_%C3%9Cniversitesi_Kamp%C3%BCs.JPG
+Licence / Lisans: CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0
+Photo date / Fotoğraf tarihi: 2013-10-08 16:32:04
+Changes / Düzenlemeler: Downloaded Wikimedia Commons proportional thumbnail; no further cropping, recolouring, compositing or generated content. CSS display crop.
+
+universities/european-university-lefke.jpg
+European University of Lefke · Lefke, North Cyprus
+Photo / Fotoğraf: Monoskolaggi
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:LEFKE_AVRUPA.jpg
+Licence / Lisans: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0
+Photo date / Fotoğraf tarihi: 2021-07-02
+Changes / Düzenlemeler: Downloaded Wikimedia Commons proportional thumbnail; no further cropping, recolouring, compositing or generated content. CSS display crop.
+
+universities/metu-north-cyprus.jpg
+Middle East Technical University, Northern Cyprus Campus · Kalkanlı, North Cyprus
+Photo / Fotoğraf: ToprakM
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:ODT%C3%9C_KKK_Bilim_A%C4%9Fac%C4%B1.jpg
+Licence / Lisans: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0
+Photo date / Fotoğraf tarihi: 2022-04-26 15:55:11
+Changes / Düzenlemeler: Downloaded Wikimedia Commons proportional thumbnail; no further cropping, recolouring, compositing or generated content. CSS display crop.
+
+universities/cyprus-international.jpg
+Cyprus International University · Haspolat, Nicosia, North Cyprus
+Photo / Fotoğraf: CiElephant
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:CIU_Campus.jpg
+Licence / Lisans: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0
+Photo date / Fotoğraf tarihi: 2019-05-19 20:03:09
+Changes / Düzenlemeler: Downloaded Wikimedia Commons proportional thumbnail; no further cropping, recolouring, compositing or generated content. CSS display crop.
+
+universities/near-east.jpg
+Near East University, Faculty of Law · Nicosia, North Cyprus
+Photo / Fotoğraf: Orhanozkilic
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:Yak%C4%B1n_Do%C4%9Fu_%C3%9Cniversitesi_Hukuk_Fak%C3%BCltesi.JPG
+Licence / Lisans: CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0
+Photo date / Fotoğraf tarihi: 2011-08-27 08:33:05
+Changes / Düzenlemeler: Downloaded Wikimedia Commons proportional thumbnail; no further cropping, recolouring, compositing or generated content. CSS display crop.
+
+universities/xian-jiaotong-liverpool.jpg
+Xi’an Jiaotong-Liverpool University · Xi’an Jiaotong–Liverpool University, Central Building, Suzhou
+Photo / Fotoğraf: SCJiang
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:Central_Building_of_XJTLU.jpg
+Licence / Lisans: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+Photo date / Fotoğraf tarihi: 2019-03-07
+Changes / Düzenlemeler: Proportional downsize and JPEG recompression only; no crop, tint, composite, AI generation or content alteration. CSS display crop.
+
+universities/zhejiang.jpg
+Zhejiang University · Zhejiang University, Zijingang campus, Hangzhou
+Photo / Fotoğraf: Windmemories
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:20231123_Zijingang_Campus_of_Zhejiang_University_01.jpg
+Licence / Lisans: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+Photo date / Fotoğraf tarihi: 2023-11-23
+Changes / Düzenlemeler: Proportional downsize and JPEG recompression only; no crop, tint, composite, AI generation or content alteration. CSS display crop.
+
+universities/ada-university.jpg
+ADA University · ADA University Library, Baku
+Photo / Fotoğraf: ADA University
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:ADA_University_Library_building.jpg
+Licence / Lisans: CC BY 3.0
+https://creativecommons.org/licenses/by/3.0/
+Photo date / Fotoğraf tarihi: 2020-04-18 (EXIF); Commons description dated 2025-01-23
+Changes / Düzenlemeler: Proportional downsize and JPEG recompression only; no crop, tint, composite, AI generation or content alteration. CSS display crop.
+
+universities/baku-engineering-university.jpg
+Baku Engineering University · Baku Engineering University, Khyrdalan
+Photo / Fotoğraf: Aykhan Zayedzadeh
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:Baku_Engineering_University_in_2026_01.jpg
+Licence / Lisans: CC BY 4.0
+https://creativecommons.org/licenses/by/4.0/
+Photo date / Fotoğraf tarihi: 2026-06-23
+Changes / Düzenlemeler: Proportional downsize and JPEG recompression only; no crop, tint, composite, AI generation or content alteration. CSS display crop.
+
+universities/university-of-europe.jpg
+University of Europe for Applied Sciences · University of Europe for Applied Sciences, Hamburg campus
+Photo / Fotoğraf: Musa Bandey
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:Campus_hamburg.jpg
+Licence / Lisans: CC0 1.0
+https://creativecommons.org/publicdomain/zero/1.0/
+Photo date / Fotoğraf tarihi: 2026-05-01
+Changes / Düzenlemeler: Proportional downsize and JPEG recompression only; no crop, tint, composite, AI generation or content alteration. CSS display crop.
+
+universities/constructor-university.jpg
+Constructor University · Constructor University campus, Bremen (photographed as Jacobs University)
+Photo / Fotoğraf: Dr. Bernd Gross
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:Jacobs_University_Bremen_01.JPG
+Licence / Lisans: CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0/
+Photo date / Fotoğraf tarihi: 2014-03-28
+Changes / Düzenlemeler: Proportional downsize and JPEG recompression only; no crop, tint, composite, AI generation or content alteration. CSS display crop.
+
+universities/portsmouth.jpg
+University of Portsmouth · University of Portsmouth, North Campus, Portsmouth, United Kingdom
+Photo / Fotoğraf: Tim Sheerman-Chase
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:University_of_Portsmouth,_North_Campus.jpg
+Licence / Lisans: CC BY 2.0
+https://creativecommons.org/licenses/by/2.0/
+Photo date / Fotoğraf tarihi: 2022-08-14
+Changes / Düzenlemeler: Resized proportionally and JPEG-compressed; natural colours retained; no content edits. CSS display crop.
+
+universities/coventry-university.jpg
+Coventry University · Coventry University campus viewed from HDTI Building, Coventry, United Kingdom
+Photo / Fotoğraf: Oscar Taylor
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:Coventry_University_campus_from_HDTI_Building_-_geograph.org.uk_-_8160652.jpg
+Licence / Lisans: CC BY-SA 2.0
+https://creativecommons.org/licenses/by-sa/2.0/
+Photo date / Fotoğraf tarihi: 2025-09-11
+Changes / Düzenlemeler: Resized proportionally and JPEG-compressed; natural colours retained; no content edits. CSS display crop.
+
+universities/university-of-hertfordshire.jpg
+University of Hertfordshire · University of Hertfordshire, de Havilland Campus, Hatfield, United Kingdom
+Photo / Fotoğraf: GualdimG
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:University_of_Hertfordshire_de_Havilland_Campus,_Hatfield_05.jpg
+Licence / Lisans: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+Photo date / Fotoğraf tarihi: 2024-01-06
+Changes / Düzenlemeler: Resized proportionally and JPEG-compressed; natural colours retained; no content edits. CSS display crop.
+
+universities/york-university.jpg
+York University · York University, Keele Campus, Toronto, Canada
+Photo / Fotoğraf: The City of Toronto / Jose San Juan
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:Toronto-_York_University_aerial_(10056435426).jpg
+Licence / Lisans: CC BY 2.0
+https://creativecommons.org/licenses/by/2.0/
+Photo date / Fotoğraf tarihi: 2010-09-17
+Changes / Düzenlemeler: Resized proportionally and JPEG-compressed; natural colours retained; no content edits. CSS display crop.
+
+universities/oregon-state-university.jpg
+Oregon State University · Oregon State University campus, Corvallis, Oregon, United States
+Photo / Fotoğraf: Gary Halvorson, Oregon State Archives
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:Oregon_State_University,_Corvallis_-_DPLA_-_ff518f4b26074538afeee57692441b7b.jpg
+Licence / Lisans: CC BY 4.0
+https://creativecommons.org/licenses/by/4.0/
+Photo date / Fotoğraf tarihi: 2012-05-13
+Changes / Düzenlemeler: Resized proportionally and JPEG-compressed; natural colours retained; no content edits. CSS display crop.
+
+universities/university-of-south-florida.jpg
+University of South Florida · Marshall Student Center, University of South Florida, Tampa, United States
+Photo / Fotoğraf: FightingRaven531
+Source / Kaynak: https://commons.wikimedia.org/wiki/File:Marshallstudentcenter4_usf_tampa.jpg
+Licence / Lisans: CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0/
+Photo date / Fotoğraf tarihi: 2013-02-15
+Changes / Düzenlemeler: Resized proportionally and JPEG-compressed; natural colours retained; no content edits. CSS display crop.
+
+Use of these photographs does not imply endorsement or partnership by the institutions shown.
+Fotoğrafların kullanılması, ilgili üniversitelerin onayı veya üniversitelerle iş ortaklığı anlamına gelmez.
+
+HOMEPAGE SLIDE ARTWORK / ANA SAYFA SLAYT GÖRSELLERİ
+
+The following five homepage slides remain AI-generated promotional artwork for Globalistihdam. They are illustrative designs, not documentary photographs.
+Aşağıdaki beş ana sayfa slaytı, Globalistihdam için yapay zekâyla hazırlanmış tanıtım tasarımlarıdır; gerçek olayları belgeleyen fotoğraflar değildir.
+
+globalistihdam-slide-overview.webp
+globalistihdam-slide-recruitment.webp
+globalistihdam-slide-education.webp
+globalistihdam-slide-investment.webp
+globalistihdam-slide-robotics.webp
+
+BRAND IDENTITY / KURUMSAL KİMLİK
+
+Globalistihdam logos, symbols and branded backgrounds are retained company identity graphics, separate from the photographs listed above.
+Globalistihdam logoları, simgeleri ve markalı arka planlar, yukarıdaki fotoğraflardan ayrı kurumsal kimlik görselleridir.
+
+Active brand graphics / Kullanılan marka görselleri:
+global-istihdam-symbol-turkiye-v4.png
+brand-banner-turkiye-v4.png

@@ -66,6 +66,7 @@ while IFS= read -r line || [[ -n "$line" ]]; do
     assets/index-*.js|assets/index-*.css|.nojekyll|PHOTO-CREDITS.txt|robots.txt|sitemap.xml|social.json|robotics.json|news/latest.json|index.html|404.html) ;;
     portal/index.html|apply/index.html|contact/whatsapp/international/index.html|contact/whatsapp/turkiye/index.html) ;;
     about/index.html|contact/index.html|contact/whatsapp/index.html|countries/index.html|education/*/index.html|education/index.html|insights/index.html|investment/*/index.html|investment/index.html|privacy/index.html|robotics/*/index.html|robotics/index.html|sectors/*/index.html|sectors/index.html|services/index.html|universities/*/index.html) ;;
+    universities/*.jpg) [[ "$relative" =~ ^universities/[a-z0-9-]+\.jpg$ ]] || die "Unexpected campus image: $relative" ;;
     *.jpg|*.jpeg|*.png|*.webp|*.svg) [[ "$relative" != */* ]] || die "Unexpected nested image: $relative" ;;
     *) die "Non-public file refused: $relative" ;;
   esac

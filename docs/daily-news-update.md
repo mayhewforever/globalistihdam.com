@@ -19,6 +19,12 @@ This is the unattended update procedure for Globalistihdam's public news panels.
 5. Write original Turkish and English headlines and summaries, at most 35 words per summary. Keep figures, attribution and uncertainty consistent between languages. Each card links to the original source. Do not copy long passages, reuse source images, or include personal data.
 6. Publication dates must be `YYYY-MM-DD`, actually stated by the source and no later than today's date in `Europe/Istanbul`. `checkedAt` records when a category was researched successfully, not a fabricated publication date. Update the root `checkedAt` only after all four categories were successfully reviewed.
 
+### Turkish editorial tone
+
+Use natural, concise, professional Turkish suited to business news. Lead with the concrete development, organisation and business relevance. Prefer established Turkish terminology and direct sentences; avoid literal translations, artificial slogans, promotional promises and excessive jargon. Keep headlines informative and summaries factual.
+
+Describe the event, scope and commercial implications without teaching the reader what to do. Avoid repeated instructions such as “inceleyin”, “keşfedin”, “öğrenin” or “şu adımları izleyin” in news summaries. Preserve distinctions between announced plans, estimates and completed actions, including all material qualifications. The tone change must not alter facts, figures, dates, attribution, uncertainty or the meaning shared with the English version. The existing 35-word summary limit remains in force.
+
 ## Data contract and validation
 
 Keep `schemaVersion: 1` and the four keys in `sections`. Each section is `{checkedAt, items}`. Each item has `id`, `publishedOn`, `publisher`, `url`, `title: {tr,en}` and `summary: {tr,en}`. IDs are stable lowercase ASCII words separated by hyphens; do not reuse an ID for a different story.
