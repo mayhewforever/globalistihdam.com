@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "timezone": "Europe/Istanbul",
   "channelId": "UCDsoaujCJYj1Be6rkjM_94Q",
   "instagram": "globalistihdam",
@@ -29,7 +29,22 @@
       "title": "Globalistihdam introduction",
       "video": "social/2026-10-10/globalistihdam-introduction.mp4",
       "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7114390&openWithPostUuid=-196726760734700917"
+    },
+    {
+      "id": 393125646,
+      "uuid": "2295921224989757241",
+      "network": "youtube",
+      "status": "ERROR",
+      "publicationDate": {
+        "dateTime": "2026-10-11T09:46:00",
+        "timezone": "Europe/Istanbul"
+      },
+      "title": "Globalistihdam | İstihdam · Eğitim · Yatırım · Robotik",
+      "video": "social/2026-10-11/Globalistihdam_Bilingual_Slideshow.mp4",
+      "mediaUrl": "https://static.metricool.com/planner/202610/7114390-file-7475053479854753301.mp4",
+      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7114390&openWithPostUuid=2295921224989757241",
+      "error": "You have reached your Metricool account limit.",
+      "publicationConfirmed": false
     }
   ]
 }
-
