@@ -4,7 +4,5 @@ Disallow: /portal
 Disallow: /admin
 Disallow: /api/
 Disallow: /auth/
-Disallow: /signin-with-chatgpt
-Disallow: /signout-with-chatgpt
 Disallow: /callback
 Sitemap: https://globalistihdam.com/sitemap.xml

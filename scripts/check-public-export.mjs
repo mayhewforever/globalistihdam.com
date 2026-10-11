@@ -22,7 +22,7 @@ for(const base of ['','/globalistihdam.com']) for(const lang of ['tr','en']) {
   const win=new Window({url:'https://example.test'+base+route+'?lang='+lang+'&campaign=test',settings:{disableJavaScriptFileLoading:true,disableCSSFileLoading:true,enableJavaScriptEvaluation:true,suppressInsecureJavaScriptEnvironmentWarning:true}});
   const errors=[],requests=[];
   win.console.error=(...parts)=>errors.push(parts.join(' '));
-  win.fetch=async input=>{requests.push(String(input));if(String(input)==='https://raw.githubusercontent.com/mayhewforever/globalistihdam.com/main/news/latest.json')return new Response(await fs.readFile(root+'/news/latest.json','utf8'),{headers:{'content-type':'application/json'}});assert.equal(String(input),base+'/social.json');return {ok:true,json:async()=>social}};
+  win.fetch=async input=>{requests.push(String(input));if(String(input)===base+'/news/latest.json')return new Response(await fs.readFile(root+'/news/latest.json','utf8'),{headers:{'content-type':'application/json'}});assert.equal(String(input),base+'/social.json');return {ok:true,json:async()=>social}};
   win.document.head.innerHTML='<meta name="description" content=""><link rel="canonical" href=""><meta name="robots" content="">';
   win.document.body.innerHTML='<div id="root"></div>';
   win.HTMLElement.prototype.scrollIntoView=function(){};win.scrollTo=()=>{};win.HTMLElement.prototype.scrollBy=function(){};
@@ -44,7 +44,7 @@ for(const base of ['','/globalistihdam.com']) for(const lang of ['tr','en']) {
   assert.ok(language.getAttribute('href').startsWith(base+'/'));checks++;
   assert.equal(new URL(language.href).searchParams.get('campaign'),'test');checks++;
   const form=win.document.querySelector('form[action]');
-  if(form) {assert.ok(form.action.startsWith('https://global-istihdam.mtoman.chatgpt.site/portal'));checks++;}
+  if(form) {assert.ok(form.action.startsWith('https://basvuru.globalistihdam.com/portal'));checks++;}
   assert.deepEqual(errors,[],route);checks++;
   assert.ok(requests.includes(base+'/social.json'));checks++;
   await win.happyDOM.close();
