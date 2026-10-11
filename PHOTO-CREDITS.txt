@@ -375,22 +375,25 @@ Changes / Düzenlemeler: Resized proportionally and JPEG-compressed; natural col
 Use of these photographs does not imply endorsement or partnership by the institutions shown.
 Fotoğrafların kullanılması, ilgili üniversitelerin onayı veya üniversitelerle iş ortaklığı anlamına gelmez.
 
-HOMEPAGE SLIDE ARTWORK / ANA SAYFA SLAYT GÖRSELLERİ
+HOMEPAGE SLIDE PHOTOGRAPHS / ANA SAYFA SLAYT FOTOĞRAFLARI
 
-The following five homepage slides remain AI-generated promotional artwork for Globalistihdam. They are illustrative designs, not documentary photographs.
-Aşağıdaki beş ana sayfa slaytı, Globalistihdam için yapay zekâyla hazırlanmış tanıtım tasarımlarıdır; gerçek olayları belgeleyen fotoğraflar değildir.
+The five homepage slides use the real photographs listed below, displayed separately from the HTML typography and graphic layout. No generated people, campus, city or robot images are used in these slides. Photographs retain their natural colours and are cropped responsively with CSS, without stretching or editing their content. Full attribution and original licences are recorded in the relevant entries above; those licences continue to apply to the photographs.
+Beş ana sayfa slaytında aşağıdaki gerçek fotoğraflar kullanılmaktadır. Metinler ve grafik düzen fotoğraflardan ayrı HTML/CSS katmanlarıdır. Slaytlarda yapay olarak oluşturulmuş insan, kampüs, şehir veya robot görseli bulunmaz. Fotoğrafların doğal renkleri korunur; içeriği değiştirilmeden ve esnetilmeden ekrana göre CSS ile kadrajlanır. Kaynak ve lisans bilgileri yukarıdaki ilgili kayıtlarda yer alır; fotoğraflar kendi lisansları kapsamında kullanılmaktadır.
 
-globalistihdam-slide-overview.webp
-globalistihdam-slide-recruitment.webp
-globalistihdam-slide-education.webp
-globalistihdam-slide-investment.webp
-globalistihdam-slide-robotics.webp
+Overview / Genel Bakış: investment-istanbul.jpg
+Recruitment / İstihdam: recruitment-interview.jpg
+Education / Eğitim: universities/zhejiang.jpg — Windmemories, CC BY-SA 4.0
+Investment / Yatırım: country-united-arab-emirates.jpg
+Robotics / Robotik: robotics-hero.png — © European Union / Piero Cruciatti, CC BY 4.0
+
+The former globalistihdam-slide-*.webp illustrations are retired and are no longer used in the slideshow.
+Önceki globalistihdam-slide-*.webp tanıtım tasarımları artık slayt gösterisinde kullanılmamaktadır.
 
 BRAND IDENTITY / KURUMSAL KİMLİK
 
 Globalistihdam logos, symbols and branded backgrounds are retained company identity graphics, separate from the photographs listed above.
 Globalistihdam logoları, simgeleri ve markalı arka planlar, yukarıdaki fotoğraflardan ayrı kurumsal kimlik görselleridir.
 
-Active brand graphics / Kullanılan marka görselleri:
+Retained brand graphics / Korunan marka görselleri:
 global-istihdam-symbol-turkiye-v4.png
 brand-banner-turkiye-v4.png
