@@ -1,8 +1,8 @@
 {
   "publicOrigin": "https://globalistihdam.com",
   "applicationOrigin": "https://basvuru.globalistihdam.com",
-  "sourceCommit": "25e0dd1827312e743d7474267dc5cb31f2b49770",
-  "builtAt": "2026-10-11T13:18:55.928Z",
+  "sourceCommit": "4935389fd93b4a760eee7cdf255f14f5e2e2dcb5",
+  "builtAt": "2026-10-11T13:40:20.780Z",
   "publicSnapshot": {
     "checkedOn": "2026-10-10",
     "basis": "Live public-content tables checked: no robotics or social overrides."
@@ -10,14 +10,9 @@
   "routeCount": 94,
   "files": [
     {
-      "path": ".nojekyll",
-      "bytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
       "path": "404.html",
       "bytes": 939,
-      "sha256": "b8adcf08edea949db3d64077d71a491b15785627931b857319e88f06023ff433"
+      "sha256": "2528985b1d2330b5e3f89471e6b7b264af0b112da1e88c2a3eda7d8be55a5912"
     },
     {
       "path": "PHOTO-CREDITS.txt",
@@ -27,20 +22,20 @@
     {
       "path": "about/index.html",
       "bytes": 2155,
-      "sha256": "a6adfe2c7d30b76a907a9edfceabd48187e968b49d487d20a751a3095164e3d1"
+      "sha256": "9c822ad541ec73c9d88e2e76951107690c14493e0fd8eb29ddc0e11ea9fc8e54"
     },
     {
       "path": "apply/index.html",
       "bytes": 904,
-      "sha256": "fe8261ba34228bf65b37e9e14b429a806ec81c766d9222d68364ede970cfcf33"
+      "sha256": "eb1d1cf4296b389cf8b3fbc1a02d84b9bc75c1ef764a26466402f75cb60f747e"
     },
     {
-      "path": "assets/index-4D3D9ean.css",
-      "bytes": 403828,
-      "sha256": "4a1ca36fe85f0ed95c8b5a8382b35c467fee4c75c7cb92845d72593ce3fb8784"
+      "path": "assets/index-NBG0Bh6-.css",
+      "bytes": 403925,
+      "sha256": "cfa318bae5a90a8b25e9d8941253817c0d657d639dff3952db6deb95d7ee6b7e"
     },
     {
-      "path": "assets/index-Y_ajPX66.js",
+      "path": "assets/index-XMOqcGaP.js",
       "bytes": 858373,
       "sha256": "4899a0ef014280ca9a06e14ad4a1aebf080b85aee4705259c7cfdb1861a67e6e"
     },
@@ -57,27 +52,27 @@
     {
       "path": "contact/index.html",
       "bytes": 2135,
-      "sha256": "3434c7b10578a78ca2012d88d8a0e65f6300a977ddc5c83a94a8288ecef864d7"
+      "sha256": "e9e7d9dd8df768cfe541880c3df066dfe43cdfbf9a2744cc078e430c29dc2d45"
     },
     {
       "path": "contact/whatsapp/index.html",
       "bytes": 2215,
-      "sha256": "a0a7f34d1fcfd9100ff02db07a06418b4db9988b82a9bc733163158a6d509b1d"
+      "sha256": "e79292f1a66136ae06771bc273b59f6c09c6460cbe9b532a0e915477e1846399"
     },
     {
       "path": "contact/whatsapp/international/index.html",
       "bytes": 904,
-      "sha256": "fe8261ba34228bf65b37e9e14b429a806ec81c766d9222d68364ede970cfcf33"
+      "sha256": "eb1d1cf4296b389cf8b3fbc1a02d84b9bc75c1ef764a26466402f75cb60f747e"
     },
     {
       "path": "contact/whatsapp/turkiye/index.html",
       "bytes": 904,
-      "sha256": "fe8261ba34228bf65b37e9e14b429a806ec81c766d9222d68364ede970cfcf33"
+      "sha256": "eb1d1cf4296b389cf8b3fbc1a02d84b9bc75c1ef764a26466402f75cb60f747e"
     },
     {
       "path": "countries/index.html",
       "bytes": 2133,
-      "sha256": "c8e5ffbdacae8489437090cad77e3956da368c1d7ca4b93042c29838b98801c6"
+      "sha256": "e6bf1dc32bd5999de1c39a9394ffead237f79cb4b32d575b7ea09b99338d0f46"
     },
     {
       "path": "country-azerbaijan.jpg",
@@ -167,47 +162,47 @@
     {
       "path": "education/azerbaijan/index.html",
       "bytes": 2235,
-      "sha256": "3c92750480a35b1ebff8f700d32ced465621080b167e202268013aa23b66c6c9"
+      "sha256": "a56dfbec6e459c59c43c58c52103269a481590db8a1c9994e70c6ba207a77406"
     },
     {
       "path": "education/canada/index.html",
       "bytes": 2207,
-      "sha256": "cb424eea480f55b3ab37f93f5edd12c3d0aa065d22f6f37979bdb5d594cc78ed"
+      "sha256": "886c4fcc63a907c72d95d8d52e55a5667a95b23c5578f41f6f9aed907858050b"
     },
     {
       "path": "education/china/index.html",
       "bytes": 2379,
-      "sha256": "b5bb292393bfd43ca6d623ecd87bc46288481ecf22d040da419b10b06a2a1dd4"
+      "sha256": "bd48ed6bd2e5d4b5c58a3bfea11878f0bbe1c54d3d7a58b941bce6d70d4a0c7a"
     },
     {
       "path": "education/europe/index.html",
       "bytes": 2329,
-      "sha256": "0b707f42c9ae78b3a80444346595b64fde1bff14b1c8116350a3da396b028299"
+      "sha256": "1c2e63c4981058b36cc72ffb47641e04ccb97565bea153eff8ebc3200f10dff5"
     },
     {
       "path": "education/germany/index.html",
       "bytes": 2207,
-      "sha256": "8a142225cc2807eba031826c03fdf4f6af1105228db75a78147212649cfbea4d"
+      "sha256": "f86313c67aaccb0870ca8fad3b673d342d0acf9fe6272a45b80f5fd8a53fc35a"
     },
     {
       "path": "education/index.html",
       "bytes": 2171,
-      "sha256": "083b847796656548e252043c65b925883522c863b165ee4417a5922f6884e137"
+      "sha256": "120935bcaa33bf62642399291e6fa7b5d9998b94085956179075e9b1bf6c65d4"
     },
     {
       "path": "education/north-cyprus/index.html",
       "bytes": 2299,
-      "sha256": "32b5a5e75467f4421c79e0020ce68b2b09d339039af24cf34de75868ceb8e62b"
+      "sha256": "567c7486228f0b21cbc472408120e5d6d65ffa231257a3dd9f6f56b36310b590"
     },
     {
       "path": "education/turkiye/index.html",
       "bytes": 2361,
-      "sha256": "3544fc47bf426be633ed9dc6fd81a026ecc0d9cfd4f33b05626559ac30011806"
+      "sha256": "780a7e62c08ec305e3bbb9ea04220f5be258250c6ac9f3525e0faae2fbb624c5"
     },
     {
       "path": "education/usa/index.html",
       "bytes": 2207,
-      "sha256": "273ba4e156445f38eab9e91f6c4fff18687e025f6ceebbb24edbe524c3cfd4f0"
+      "sha256": "c8af544a5e6b1a28979dcec40b5bc7f7118302a2d0c40d3a17fab0bf1eed3f99"
     },
     {
       "path": "energy-team.jpg",
@@ -277,102 +272,102 @@
     {
       "path": "index.html",
       "bytes": 2187,
-      "sha256": "51f8c7177da11a86e5dbef0f496dd729340af1594d363bea7ff2856f655a054b"
+      "sha256": "5408a650402e5aa39205b49e227497278b05846c5ea7752cf1e767be74d9dbfc"
     },
     {
       "path": "insights/index.html",
       "bytes": 2161,
-      "sha256": "458f63347c29d44dda0a52c8f5d217a981ad5a9b75edd0e37471ca3066b76964"
+      "sha256": "4b78dd249de318219c6bec00fae9b6449e42564b82172d035011051aeef7ceb6"
+    },
+    {
+      "path": "investment/bahrain/index.html",
+      "bytes": 2379,
+      "sha256": "470ff994df6c754d418d3680d0c1ff4a08fddb953c19aab0bc851cf0ebba3e7a"
+    },
+    {
+      "path": "investment/canada/index.html",
+      "bytes": 2397,
+      "sha256": "a4a0a2b3e3ae41611cd664d1fbea5d25b6c029f348a6854ac2ab2d1f2d26df24"
+    },
+    {
+      "path": "investment/china/index.html",
+      "bytes": 2427,
+      "sha256": "fd62a7964df851835c0fe7440fc20b46138a17a22b92ad0cb7ed418aca9f4b34"
+    },
+    {
+      "path": "investment/france/index.html",
+      "bytes": 2327,
+      "sha256": "07115fe21db6c009aa52ad000306f262cb12075660818b228d2d8777017c46ae"
+    },
+    {
+      "path": "investment/germany/index.html",
+      "bytes": 2353,
+      "sha256": "9079e4864fe5e9b38ca722a24c908cbebb39e27da8c5d81c2587bca18670e184"
+    },
+    {
+      "path": "investment/index.html",
+      "bytes": 2175,
+      "sha256": "77d18a0a12bcc7cab895e935ae1cc70920f0294c1827f108ae9cb8cb06624c04"
+    },
+    {
+      "path": "investment/ireland/index.html",
+      "bytes": 2299,
+      "sha256": "d3a576d87f02c30c481078125a9a25540a96ea294826064fcad28bc3097d27c4"
+    },
+    {
+      "path": "investment/kuwait/index.html",
+      "bytes": 2357,
+      "sha256": "4633dc83e84aaac501d57df310e7f5599b50aeb24ab86db1b18214a24c7f097a"
+    },
+    {
+      "path": "investment/netherlands/index.html",
+      "bytes": 2387,
+      "sha256": "e6ca79f4b7c21213af2af94935ddce4540f76242df7fbce4c34ead0226373a07"
+    },
+    {
+      "path": "investment/oman/index.html",
+      "bytes": 2339,
+      "sha256": "1d8b041ef39a2a054716938798a18a537d5a8935da1808a3d8868faf37bf6730"
+    },
+    {
+      "path": "investment/qatar/index.html",
+      "bytes": 2375,
+      "sha256": "cb54b9a18ea328cc9cf9462bd8f71d88af54e2abd9b15c20be950b18b2ab0daf"
+    },
+    {
+      "path": "investment/saudi-arabia/index.html",
+      "bytes": 2351,
+      "sha256": "577c77d1ae7a7e304eab10348347fa8d82064a8b6b68eaaef7fbe3b670ffabe0"
+    },
+    {
+      "path": "investment/spain/index.html",
+      "bytes": 2323,
+      "sha256": "38321bd2bd6c831ff811dcb83cabeb8a2aef662eac229adb1ab2c49902e8b2a7"
+    },
+    {
+      "path": "investment/turkiye/index.html",
+      "bytes": 2441,
+      "sha256": "d3bb6e57842f3305b2f0a7aa2158c77196745680d848eee08f52ce20018744f5"
+    },
+    {
+      "path": "investment/united-arab-emirates/index.html",
+      "bytes": 2449,
+      "sha256": "1361070fedfa78a5d0136d43b0330b12adc81f4d7923ffbdc9fd8074469d7fff"
+    },
+    {
+      "path": "investment/united-kingdom/index.html",
+      "bytes": 2381,
+      "sha256": "d6995391dc7aa2b785d718386a626559b2715d298d62502e80335e9028aa1bd3"
+    },
+    {
+      "path": "investment/usa/index.html",
+      "bytes": 2403,
+      "sha256": "7db32c44bd75629a8ed515bd037c40ec1a310488ce47231b44b544c781cfae46"
     },
     {
       "path": "investment-istanbul.jpg",
       "bytes": 617485,
       "sha256": "b67c0d2ab329f594e32d6cb3445e7d29426f446ad47f963b1bc13124d17500ef"
-    },
-    {
-      "path": "investment/bahrain/index.html",
-      "bytes": 2379,
-      "sha256": "363f23e4a4fe74bfddc37941220ccf3984e6e0717f8b67a5f571f34e28480a66"
-    },
-    {
-      "path": "investment/canada/index.html",
-      "bytes": 2397,
-      "sha256": "fae41cd3c09432576dfac21f27bfd8a9135ad51d7d3a01adfd238378d9846aaf"
-    },
-    {
-      "path": "investment/china/index.html",
-      "bytes": 2427,
-      "sha256": "28e51e2ea61833b9a80e06a8e00898b081007e0494d9b8e44bc0fb3c877efdf7"
-    },
-    {
-      "path": "investment/france/index.html",
-      "bytes": 2327,
-      "sha256": "e7c317eff4558800101665ba4ed3343eaff7293946ae3da2bc24a698c020b89c"
-    },
-    {
-      "path": "investment/germany/index.html",
-      "bytes": 2353,
-      "sha256": "1ef32ceb63968c0ae9499a7afd4515447a675a1b7601d517932b42ad9bac9ce9"
-    },
-    {
-      "path": "investment/index.html",
-      "bytes": 2175,
-      "sha256": "6bce2afb7e2b7a72061e78d556bc3c2688b5595285ce24aecabbb4d3bc879d31"
-    },
-    {
-      "path": "investment/ireland/index.html",
-      "bytes": 2299,
-      "sha256": "3a46c5eb45a4e64d7a76f0099cca5889b90176f60843b66cb551a1b94309abd6"
-    },
-    {
-      "path": "investment/kuwait/index.html",
-      "bytes": 2357,
-      "sha256": "5462fbe165e17c1572b6591df1f4ee1856540ffba2d58c131cb94b3050162e6d"
-    },
-    {
-      "path": "investment/netherlands/index.html",
-      "bytes": 2387,
-      "sha256": "1bdd0790aefecb4701a467b10e3a2feb7b0541a275e222934c36124c50e9de79"
-    },
-    {
-      "path": "investment/oman/index.html",
-      "bytes": 2339,
-      "sha256": "ae567fe3fe88dbc9ac9cd1171cdbfe21b648488551565de4cf23680cc7de2678"
-    },
-    {
-      "path": "investment/qatar/index.html",
-      "bytes": 2375,
-      "sha256": "999e6363688e67a2745b536db15b8bf288cbea67e6fc452ed5662bcb658204c9"
-    },
-    {
-      "path": "investment/saudi-arabia/index.html",
-      "bytes": 2351,
-      "sha256": "69a0e2d36ed177806b300b7635c5eff0a88ce5ee750609a51b468e72240470c5"
-    },
-    {
-      "path": "investment/spain/index.html",
-      "bytes": 2323,
-      "sha256": "1fafbac5dd8772a4a6d6b28860f4271cc2fcecb6b00549b7839ac2b1974e68ef"
-    },
-    {
-      "path": "investment/turkiye/index.html",
-      "bytes": 2441,
-      "sha256": "04aa6cf25187788485c4024e0b7b9992270427370da100ed8080b5a9a12319a9"
-    },
-    {
-      "path": "investment/united-arab-emirates/index.html",
-      "bytes": 2449,
-      "sha256": "4172951971066f1caf98acd962945ad098327dbf7f9c43072af76fbbfec40ac6"
-    },
-    {
-      "path": "investment/united-kingdom/index.html",
-      "bytes": 2381,
-      "sha256": "155e1a80c9dc597ea56b57769b8712025fd1a5a9b88f1a8d2c28b91aa4cc782e"
-    },
-    {
-      "path": "investment/usa/index.html",
-      "bytes": 2403,
-      "sha256": "52792dbce9b82075c1cb4e36e641ed16273ea705b0fc6d065f281db3bd0b9174"
     },
     {
       "path": "news/latest.json",
@@ -382,12 +377,32 @@
     {
       "path": "portal/index.html",
       "bytes": 904,
-      "sha256": "fe8261ba34228bf65b37e9e14b429a806ec81c766d9222d68364ede970cfcf33"
+      "sha256": "eb1d1cf4296b389cf8b3fbc1a02d84b9bc75c1ef764a26466402f75cb60f747e"
     },
     {
       "path": "privacy/index.html",
       "bytes": 2179,
-      "sha256": "826e552bf42ac9a499a0a6bfa5db20b3057d436c737c44a61c1eac151be7cb85"
+      "sha256": "c58b8f92272352ef2f057d3c33e720aa0997224cb712aa522c9180a77baa02a4"
+    },
+    {
+      "path": "robotics/china/index.html",
+      "bytes": 2395,
+      "sha256": "f0b08a44633ed9f7ac202fc40d25f43ed036d7aee099bbb852cb3ae80f630ac1"
+    },
+    {
+      "path": "robotics/index.html",
+      "bytes": 2225,
+      "sha256": "0de75babcf3480fbfa34f51c1344b5d1e068200f94a158434aee625203a5c413"
+    },
+    {
+      "path": "robotics/saudi-arabia/index.html",
+      "bytes": 2447,
+      "sha256": "2b3fb5bd01dbbf3c621fdea9969dee114d8631d9443796c067b7c7c56ef08a8b"
+    },
+    {
+      "path": "robotics/turkiye/index.html",
+      "bytes": 2331,
+      "sha256": "426b1f10de7639ea36acf707137212ea5709f90872bf8739db207a220a88b9c1"
     },
     {
       "path": "robotics-hero.png",
@@ -398,26 +413,6 @@
       "path": "robotics.json",
       "bytes": 14761,
       "sha256": "7cd51de4e689e7d6972513e8c1b0cf2e69524f1b312bbd5851c886872b397015"
-    },
-    {
-      "path": "robotics/china/index.html",
-      "bytes": 2395,
-      "sha256": "10536f031525033b2cb6735aa322ce133240c8e81ceabd731474318f924d2570"
-    },
-    {
-      "path": "robotics/index.html",
-      "bytes": 2225,
-      "sha256": "e682693a8f8b7f2eb0b7ac635c0a91e88ce5bc0afe23aeec28b9266e243c8999"
-    },
-    {
-      "path": "robotics/saudi-arabia/index.html",
-      "bytes": 2447,
-      "sha256": "626fb410507722ebe7460956a7901e42237e780ff9f05e7fceb55a7df58e8b8a"
-    },
-    {
-      "path": "robotics/turkiye/index.html",
-      "bytes": 2331,
-      "sha256": "7fd88ba28998a6a17a95b543b87da7f343086f30f959947380f77e305fd762de"
     },
     {
       "path": "robots.txt",
@@ -452,42 +447,42 @@
     {
       "path": "sectors/care/index.html",
       "bytes": 2441,
-      "sha256": "8744a82d59a58ea1689925bec8ebd1fb101d80cc2c5f462c21048c0069b4df2e"
+      "sha256": "eda7be1c4befd0e07d22667f54c6baa00354c86389b90965c72e05c64ac6084e"
     },
     {
       "path": "sectors/education/index.html",
       "bytes": 2379,
-      "sha256": "fba7f4bf03edc073d8340bc49b4df8e5b8aef415895bab0c532026892195fd94"
+      "sha256": "c1e7b5d182f8df75a6237782976ae32b084a3787aff34eccc3e6d269494ef7f8"
     },
     {
       "path": "sectors/energy/index.html",
       "bytes": 2423,
-      "sha256": "674f51f52016d80101ff8b26abb0eddddfbf23220fea20c5dcf210ec8cb01287"
+      "sha256": "702ee920afe68cff48ec4bc9caab5d7221b41f14ab56c51be172fff449f5a083"
     },
     {
       "path": "sectors/healthcare/index.html",
       "bytes": 2377,
-      "sha256": "90e1c587bd3e75c1541bea8557964598a3df52d544fed9c24bf7fff113788288"
+      "sha256": "5da892836a8b8b2feb61f928c811ee8f9b04e4e8623eefecba5903515c52c5ae"
     },
     {
       "path": "sectors/hospitality/index.html",
       "bytes": 2389,
-      "sha256": "191eef46a5830e5ee81790132fbdb7fb9b82b5d08785ade415c929a1686f5500"
+      "sha256": "f68cb7cec3e5bcc7785515eb85a976739211d609410547801bb4953e66578a23"
     },
     {
       "path": "sectors/index.html",
       "bytes": 2149,
-      "sha256": "b3e5dca6b649761e4cfc34586785ca922169c78d5c22a95cdb2000a2108a482d"
+      "sha256": "f4d3e2e6b1e3781ecfd508569cc0925a6639d88e426949e02037b7a917a282a4"
     },
     {
       "path": "sectors/manufacturing/index.html",
       "bytes": 2331,
-      "sha256": "edfec11ca22ea9f0a4d746791b8c914bc5711464f31dde6a84a9473576d620b9"
+      "sha256": "8a67ce0f6c494d7a09f68adb9a4af8ed8f6c4acea8f1d688c1f4d317edc08222"
     },
     {
       "path": "services/index.html",
       "bytes": 2181,
-      "sha256": "864a6210d565226fba127324b19f5e3702e3467b004e1e0c8c05394453584609"
+      "sha256": "9dff15f959f72552dcf6e73115c420d1e98c653120232b8410ca402c13f84e20"
     },
     {
       "path": "sitemap.xml",
@@ -507,232 +502,237 @@
     {
       "path": "universities/ada-kent/index.html",
       "bytes": 2355,
-      "sha256": "e5a3f577b4a426cfd880073620583003d29bd14ee5c7467279955addbd8c5b22"
+      "sha256": "af5a43f0af5ecc8ebcb5b3ace3f9b31367b6d7b1ff27e48cbf9e344855deef85"
     },
     {
       "path": "universities/ada-university/index.html",
       "bytes": 2433,
-      "sha256": "19ada31ffbfecd00391178ceac407635fe095afa12d756f29db0a8ad2b679da0"
+      "sha256": "64c7de573e83eefcfe74012d44697498f42280e9078cc94f6b71073cd313caea"
     },
     {
       "path": "universities/akdeniz-karpaz/index.html",
       "bytes": 2419,
-      "sha256": "8b6d05b5b1c137723a62a6144ba547482a2a95b07d86ce2ab01b11c86addd22a"
+      "sha256": "92c8528126ab45ebb32647bdd859f667ca6b965fc66f372c6dd76cbb31095311"
     },
     {
       "path": "universities/altinbas-cyprus/index.html",
       "bytes": 2403,
-      "sha256": "0e74161648d41cbd71e5a266bbb8c30424e9f28f1e49eabd9703ac4fb8fb2797"
+      "sha256": "da284e01ac4036b1f5b050a535924e46c2f20961b1edd51c4dd0871f3cf2fbdc"
     },
     {
       "path": "universities/american-university-cyprus/index.html",
       "bytes": 2505,
-      "sha256": "4cc0a40ef4c542df9c4263ff7767ee1305799d2b66424efb66518ce72f867aac"
+      "sha256": "73088d90150a0522a09f008df5df71b9d39c1dd14c55e52a4feff2339d92ca73"
     },
     {
       "path": "universities/anadolu-nicosia/index.html",
       "bytes": 2533,
-      "sha256": "35ad365e73405ddf1bddfb602eb49a7c7a944151ff4b9c179dc043312e26bfb1"
+      "sha256": "d82d92aadc0c0e70596c43f5835191d01e36083ead685e290a350bde992dd236"
     },
     {
       "path": "universities/arizona-state/index.html",
       "bytes": 2477,
-      "sha256": "ed83e70ff5f400531949128a0323e519452d640d7ef51d4366b52859a5bca8ea"
+      "sha256": "5e350894e3b30074ab76a27f875da5ea47d3f7b3fd085306b4d308a965517658"
     },
     {
       "path": "universities/arucad/index.html",
       "bytes": 2439,
-      "sha256": "a56acc5da566bbb85d3d16784470d8e67047a945e8372c026504bd14f2b5e12a"
+      "sha256": "240067eb93892bdbf7e7e439d88303f6726583ca97e84d6a305246aa9241c1c2"
     },
     {
       "path": "universities/asbu-north-cyprus/index.html",
       "bytes": 2487,
-      "sha256": "23142fa323c76388be82ee74d5ededfe70492982268831fb9240ca0d099b137d"
+      "sha256": "d99f746af4533816d8192e732dcb21cc51252660cbbf16f46063d443018b580c"
     },
     {
       "path": "universities/bahcesehir-cyprus/index.html",
       "bytes": 2507,
-      "sha256": "c1253980b8ac8b806d420afc9a0fac646c7545fbf48729deae682023241a0ffc"
+      "sha256": "aad4504f1593f847b8062823a9a6d297fe7d7944b556e4c16a56f839dad7baaf"
     },
     {
       "path": "universities/baku-engineering-university/index.html",
       "bytes": 2431,
-      "sha256": "87c2fdf56c073808d44b1aa15a579ab7b0ca4ab94dbc45d316ce2961ecf3c29c"
+      "sha256": "c6aea28d2c93c432b8e2900bdb15fbd6ba0a8ac0a9b385ee30c1537599eea684"
     },
     {
       "path": "universities/bogazici-university/index.html",
       "bytes": 2583,
-      "sha256": "39659f2769da9f571cdab2d495137ac0a89d424e13fef2fd4ed7d7fc6a194e4f"
+      "sha256": "79e3c2c2d68d9fba9a87177e16cc26046c77d54d103142574be49adfeb3b570a"
     },
     {
       "path": "universities/constructor-university/index.html",
       "bytes": 2469,
-      "sha256": "69ecdfb4f4ce0fcf8c5bd853dae9e4e93d49da0fdc89c0d21508ffcb0992b180"
+      "sha256": "14f43478dfecc7319500d314b557d408acf34d9ccd045bc2d9bf5df779203ce5"
     },
     {
       "path": "universities/coventry-university/index.html",
       "bytes": 2275,
-      "sha256": "a7897556b0c780e567065449a74766e853185d633cd633d86374533af4b762bd"
+      "sha256": "a383f9761bfe3dd3ae3ea498cc4b62036086b74aa2d05aa3853e18922efe9365"
     },
     {
       "path": "universities/cyprus-aydin/index.html",
       "bytes": 2497,
-      "sha256": "84b7f5257018091497e6262b2a102e2de01c332e48111b3c6a6d88d0f5f22f92"
+      "sha256": "97a8f8fdbc3ebb5f29030fb7d9530cad23a5a5576d5d97711e4462070179c123"
     },
     {
       "path": "universities/cyprus-health-social-sciences/index.html",
       "bytes": 2511,
-      "sha256": "984859dfa1fa276ad566b4fcc570a2bddfc92c542f7a111cdea41a24abe86f8d"
+      "sha256": "c2fedd31098d589694bb731718b33320cd66370c1fc72f97b5efa55dcc3c6fd7"
     },
     {
       "path": "universities/cyprus-international/index.html",
       "bytes": 2543,
-      "sha256": "080faf89de02003028d16302b3e7419c9f12beef90aae3c623b132b781a0e2c1"
+      "sha256": "b291392773cb162b9b869464897ccd06b97cd50690fd81d1b6c9d0bc40a1e4bc"
     },
     {
       "path": "universities/cyprus-west/index.html",
       "bytes": 2485,
-      "sha256": "787368e51c8a7c48defd4ead737c0574649af31c0e958e0eae7d0a283d30febf"
+      "sha256": "668df9d8d4e3df9f4595babf68488072bb89ffc17ed5c065ee8ed64b533011a3"
     },
     {
       "path": "universities/eastern-mediterranean/index.html",
       "bytes": 2411,
-      "sha256": "ad091035cbc2f0a0ce91e3ea56c7fa4f003417a84e2bad1adc60891da7d877fe"
+      "sha256": "8fc34b40427fcb78cb18dd14680c84ad342d4c74eb349b8487349c641df8fded"
     },
     {
       "path": "universities/european-leadership/index.html",
       "bytes": 2415,
-      "sha256": "1706a1b47ccc829309da48d87cdfc41b8194f5adc5ba841c8d9d2c59da6975b0"
+      "sha256": "e4f23fe6adc2821b8ab8b088a0a5f4d7cea82e8e4b296b7ada36ffe41e98cf95"
     },
     {
       "path": "universities/european-university-lefke/index.html",
       "bytes": 2503,
-      "sha256": "ffe8bcb3909ed84ca91bb2d8677fbb97af8fa2d21dc478836c52e71a6820be51"
+      "sha256": "cc1a6fb0f02b737e213c0d0085d36d80c834fd296b3c818021c194f262905c30"
     },
     {
       "path": "universities/final-international-university/index.html",
       "bytes": 2645,
-      "sha256": "77f195a378db439ea19662ae3a63bd7bdc90a3e92284e1c7e8cc05d5300f52d9"
+      "sha256": "a4e4e3362f63ad30570f01ac32187827f0e188cf4b23383f8c4def6f2284cd51"
     },
     {
       "path": "universities/girne-american/index.html",
       "bytes": 2403,
-      "sha256": "2e53ed23d404ade075923f773c37f97897065370b48e8d107617d778a6a7c992"
+      "sha256": "fd68d624f4564308c2f39a01b4674800515a63e33c45ceedd2e7cc65cf51bdb0"
     },
     {
       "path": "universities/international-alasia/index.html",
       "bytes": 2491,
-      "sha256": "001f25573a1dfcd7a5350467bb56e89a8c1a6c7dc38fd3e5e0c9dc77d2b3ac4c"
+      "sha256": "e033913376cc6cc4c93e1f5fd8e802cd00a60e01795dc38818271c35f3a6bcf6"
     },
     {
       "path": "universities/itu-north-cyprus/index.html",
       "bytes": 2491,
-      "sha256": "6aa39228aa846714d789c24b8f64a0d6d13a399b1b8cc8ee7aa0f2a715b8fbbc"
+      "sha256": "4bce1fdc12df46a5b59dd89c9b172e3e3a2f5858d3addce38a0f7a470c7367ed"
     },
     {
       "path": "universities/khazar-university/index.html",
       "bytes": 2447,
-      "sha256": "e9046fa83359a0b868b010790bcaa4c99fd6e3c191cd2173ef3b9642a8342922"
+      "sha256": "327f87210d8cb93da8a591e2b348976a3d0316cbf9eff17d26120f7c97778e9d"
     },
     {
       "path": "universities/koc-university/index.html",
       "bytes": 2591,
-      "sha256": "96522b7717059b89013721b1ee1198078f56f68853ca206201c0083c6d58cbfb"
+      "sha256": "01817b8aa49b0cb13e1903774872bf8fdf3fea72830d483e7ac382e314d6f752"
     },
     {
       "path": "universities/manitoba/index.html",
       "bytes": 2449,
-      "sha256": "cb0e6bfae2f9d2db3f84fb7d8b9049b51a3f88ecfec65ab7abb45df587bacf8b"
+      "sha256": "f27e836ededc6148448e0994c23e4a09f521a70efdfa16ac0c589a9b86d8663a"
     },
     {
       "path": "universities/metu-north-cyprus/index.html",
       "bytes": 2423,
-      "sha256": "21ac819966f20eb0eb87cfd3c81fdd56f1d8723e2ef5a73f68fee3fae205b998"
+      "sha256": "db800d9b68006e9cfaa688f24e37aeb88b79e8fb989eb9b02c62432af8f3d577"
     },
     {
       "path": "universities/middle-east-technical-university/index.html",
       "bytes": 2577,
-      "sha256": "b380e4f64389c7d062c4383010ab26d779b2431e804d47eb2cfdd9364bab129f"
+      "sha256": "314e9679009362f0ec92a49fe118df414bf6fe13eb384717e111974a3d450c32"
     },
     {
       "path": "universities/near-east/index.html",
       "bytes": 2349,
-      "sha256": "b00a8258c62d3d80a5ebf5d9a264c0f32062891d5cc3786b16221e38c37d5c90"
+      "sha256": "e4fb4b6c16de2a94666af75650498d941222c31c56a9a8e110fd15f46ddfd77e"
     },
     {
       "path": "universities/nottingham-ningbo/index.html",
       "bytes": 2511,
-      "sha256": "884e60af110ec7215185c9601bd8bd662172ff33c36480fb40d93748bdfcc14d"
+      "sha256": "a465e87c95f1f5e72fdeba89388ded82b07b4708ab49f5e9c65e137f947aff29"
     },
     {
       "path": "universities/onbes-kasim/index.html",
       "bytes": 2373,
-      "sha256": "ac1ae52d44235c2e67edf8065ea367016c4417a42de3d7eee36c62c38fe257d0"
+      "sha256": "a51fd98c1ec7d598c5cebe87e75285853541a62807d1033169f3c6dfdc96707b"
     },
     {
       "path": "universities/oregon-state-university/index.html",
       "bytes": 2363,
-      "sha256": "d7b948fd5b2a0bb13966059ea076b3210bac13ba8599f0ebb5c7e1e42932bf72"
+      "sha256": "c60cfc480a032396c18305065950cb8e13af19728b87b1b9edfe536f68211413"
     },
     {
       "path": "universities/portsmouth/index.html",
       "bytes": 2421,
-      "sha256": "b8f9ea4120d171b8795d5225179c2b1ce8eeb355d7c559acf5d23514a102cb42"
+      "sha256": "d66a0e94ba327dd2c09f421e22526d4ec53fecae0317db1ee549434eb0b5e4ba"
     },
     {
       "path": "universities/rauf-denktas/index.html",
       "bytes": 2397,
-      "sha256": "3ede7eabae04636a84d442d1e1c27c24c41b0bcbc0371d130c5bdf6cbaaa4952"
+      "sha256": "4e54dddd28515d29e1b4aed7b0ef7ecbb1000ccf16f90fe82d5e1518fb9b9f57"
     },
     {
       "path": "universities/rhine-waal-university-of-applied-sciences/index.html",
       "bytes": 2523,
-      "sha256": "5ac1065eaa0269ffabcae19abdc7d06d202b5b483a10879004ab9e2ba1a65941"
+      "sha256": "3e3fb406113108a594f629d9aad12c50fbf8f03a3a4d520964fe3123e0ade22c"
     },
     {
       "path": "universities/university-of-calgary/index.html",
       "bytes": 2311,
-      "sha256": "8fe83c652a56e12d7dc2a74a265936ecc7bcdaef55e0c84673f35502ca535cc7"
+      "sha256": "b1fa0d842cb751663b66d5952ee2c84e882b46e9b98ba7f87b192561b30bedf2"
     },
     {
       "path": "universities/university-of-europe/index.html",
       "bytes": 2467,
-      "sha256": "04bc8b9a221a9e6d20e9db0eecac0e76906ced71123f9c3bbfcea5fd1ab71ebb"
+      "sha256": "2996af2c6e7d82f3965762eb45716e591efdd2fa82e0c5afb4c2c2b7dbfa42f8"
     },
     {
       "path": "universities/university-of-hertfordshire/index.html",
       "bytes": 2329,
-      "sha256": "d541502c072f4ddd75c150b6f2d71f3567fa405f2075e9fc0643d7c44e8ee3f5"
+      "sha256": "11a213a5b8464a08a4c9ff97e78b4681943a08dec1066a87a473a95aa168a681"
     },
     {
       "path": "universities/university-of-kyrenia/index.html",
       "bytes": 2381,
-      "sha256": "51c505b813f00bc802df70a9a6de87c9ef9ca85416a52e12fc012436c74a051c"
+      "sha256": "050cf0739a369e85ecf0ef28b34a0e241bb3386d67a4c6e77d4e1aee3f072411"
     },
     {
       "path": "universities/university-of-south-florida/index.html",
       "bytes": 2423,
-      "sha256": "632f910874c9f8fb2abc79d75f2412ae8ac981ec741b7d8eb0ee07ac7ac52bf5"
+      "sha256": "1a5a9ec9347b7cb3dfea3ce19594360e16fecf1cc3d74a0387635b51b46aa067"
     },
     {
       "path": "universities/xian-jiaotong-liverpool/index.html",
       "bytes": 2509,
-      "sha256": "99f8d374de67f5a3febf61657b15c338197550c83cd41df50f6136ffdf5b7758"
+      "sha256": "9cff1430554c686db11a15901caf7227aa0066f9b79cc52684e0f884f881b7e3"
     },
     {
       "path": "universities/york-university/index.html",
       "bytes": 2297,
-      "sha256": "733ef7378aafc305da437d83e2305f135a999d9fc51afc6dc1500710cfe6b513"
+      "sha256": "dac7389f07166ef0bbd3cc4ab99de6c2bbfbdd4e041db6f3e54991099c7c8610"
     },
     {
       "path": "universities/zhejiang/index.html",
       "bytes": 2493,
-      "sha256": "81da3ef40cb5dca4f653ea03748d1bf937a591673887680be7cc0e45403fa6c4"
+      "sha256": "f8aa212552055e2eba3ccc7d08ff1c9300450bc708a6de62a2fa20d40b74c8e0"
     },
     {
       "path": "window.svg",
       "bytes": 386,
       "sha256": "decf1cf7bb22b5c99c4857cfcd5718ce5465c4454166317589c83fc73df74b66"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     }
   ]
 }
