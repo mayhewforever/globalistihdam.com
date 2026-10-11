@@ -377,14 +377,16 @@ Fotoğrafların kullanılması, ilgili üniversitelerin onayı veya üniversitel
 
 HOMEPAGE SLIDE PHOTOGRAPHS / ANA SAYFA SLAYT FOTOĞRAFLARI
 
-The five homepage slides use the real photographs listed below, displayed separately from the HTML typography and graphic layout. No generated people, campus, city or robot images are used in these slides. Photographs retain their natural colours and are cropped responsively with CSS, without stretching or editing their content. Full attribution and original licences are recorded in the relevant entries above; those licences continue to apply to the photographs.
-Beş ana sayfa slaytında aşağıdaki gerçek fotoğraflar kullanılmaktadır. Metinler ve grafik düzen fotoğraflardan ayrı HTML/CSS katmanlarıdır. Slaytlarda yapay olarak oluşturulmuş insan, kampüs, şehir veya robot görseli bulunmaz. Fotoğrafların doğal renkleri korunur; içeriği değiştirilmeden ve esnetilmeden ekrana göre CSS ile kadrajlanır. Kaynak ve lisans bilgileri yukarıdaki ilgili kayıtlarda yer alır; fotoğraflar kendi lisansları kapsamında kullanılmaktadır.
+The six homepage slides use the real photographs listed below, displayed separately from the HTML typography and graphic layout. No generated people, campus, city or robot images are used in these slides. Photographs retain their natural colours and are cropped responsively with CSS, without stretching or editing their content. Full attribution and original licences are recorded in the relevant entries above; those licences continue to apply to the photographs.
+Altı ana sayfa slaytında aşağıdaki gerçek fotoğraflar kullanılmaktadır. Metinler ve grafik düzen fotoğraflardan ayrı HTML/CSS katmanlarıdır. Slaytlarda yapay olarak oluşturulmuş insan, kampüs, şehir veya robot görseli bulunmaz. Fotoğrafların doğal renkleri korunur; içeriği değiştirilmeden ve esnetilmeden ekrana göre CSS ile kadrajlanır. Kaynak ve lisans bilgileri yukarıdaki ilgili kayıtlarda yer alır; fotoğraflar kendi lisansları kapsamında kullanılmaktadır.
 
 Overview / Genel Bakış: investment-istanbul.jpg
 Recruitment / İstihdam: recruitment-interview.jpg
 Education / Eğitim: universities/zhejiang.jpg — Windmemories, CC BY-SA 4.0
 Investment / Yatırım: country-united-arab-emirates.jpg
 Robotics / Robotik: robotics-hero.png — © European Union / Piero Cruciatti, CC BY 4.0
+
+6. iskur — recruitment-interview.jpg — Sora Shimazaki / Pexels; official ÖİB logo overlaid as a separate HTML image.
 
 The former globalistihdam-slide-*.webp illustrations are retired and are no longer used in the slideshow.
 Önceki globalistihdam-slide-*.webp tanıtım tasarımları artık slayt gösterisinde kullanılmamaktadır.
@@ -397,3 +399,10 @@ Globalistihdam logoları, simgeleri ve markalı arka planlar, yukarıdaki fotoğ
 Retained brand graphics / Korunan marka görselleri:
 global-istihdam-symbol-turkiye-v4.png
 brand-banner-turkiye-v4.png
+
+OFFICIAL INSTITUTIONAL MARK
+iskur-oib-logo.png — Official ordinary Özel İstihdam Bürosu logo (not ÖİB+).
+Source: Türkiye İş Kurumu, Özel İstihdam Büroları Genelgesi (2016/1), Appendix 8, printed page 47.
+https://www.iskur.gov.tr/medya/n2se30ro/ozel-istihdam-burolari-genelgesi.pdf
+Original embedded image extracted; blank white margins trimmed. No redraw, recolouring or AI processing.
+Displayed on the sixth homepage slide and institutional information sections. Sixth slide photograph: recruitment-interview.jpg (Sora Shimazaki), credited above.
