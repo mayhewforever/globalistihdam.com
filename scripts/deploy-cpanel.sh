@@ -63,7 +63,8 @@ while IFS= read -r line || [[ -n "$line" ]]; do
   [[ ! ${seen[$relative]+present} ]] || die "Duplicate public path: $relative"
   seen[$relative]=1
   case "$relative" in
-    assets/index-*.js|assets/index-*.css|.nojekyll|PHOTO-CREDITS.txt|robots.txt|sitemap.xml|social.json|robotics.json|index.html|404.html) ;;
+    assets/index-*.js|assets/index-*.css|.nojekyll|PHOTO-CREDITS.txt|robots.txt|sitemap.xml|social.json|robotics.json|news/latest.json|index.html|404.html) ;;
+    portal/index.html|apply/index.html|contact/whatsapp/international/index.html|contact/whatsapp/turkiye/index.html) ;;
     about/index.html|contact/index.html|contact/whatsapp/index.html|countries/index.html|education/*/index.html|education/index.html|insights/index.html|investment/*/index.html|investment/index.html|privacy/index.html|robotics/*/index.html|robotics/index.html|sectors/*/index.html|sectors/index.html|services/index.html|universities/*/index.html) ;;
     *.jpg|*.jpeg|*.png|*.webp|*.svg) [[ "$relative" != */* ]] || die "Unexpected nested image: $relative" ;;
     *) die "Non-public file refused: $relative" ;;
